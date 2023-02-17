@@ -162,7 +162,7 @@
       var tagJson = {{ product.tags|json }}; 
       
       for(var i = 0; i < tagJson.length; i++){
- 
+      console.log(tagJson[i])
       if (tagJson[i].indexOf("discount_20_sustainablekit") !== -1 || tagJson[i].indexOf("underscrub") !== -1 ) {
       	$('.image_outer > img').attr('src', "https://cdn.shopify.com/s/files/1/2490/1254/products/embo_tree_Kauai_MAV-01.jpg?v=1669226980");
         $('.print_yourDesign_popup').show();
