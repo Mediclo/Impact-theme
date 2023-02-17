@@ -110,7 +110,7 @@ Color swatch specific parameters:
 
     {%- if href -%}
       <a href="{{ href }}" class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}" data-color-name="{{ value }}"
-        data-src="{{ value | handle | append: '.png' | file_img_url: '48x48', crop: 'center' }}">
+        data-src="{{ value | handle | append: '.png' | file_img_url: '48x48', crop: 'center' }}" data-value="{{ swatch_value }}" >
         <span class="sr-only">{{ value }}</span>
       </a>
     {%- else -%}
