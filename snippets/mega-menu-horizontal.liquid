@@ -1,0 +1,229 @@
+{%- if link.links.size > 0 -%}
+  <style>
+    @media screen and (min-width: 1150px) {
+      #mega-menu-{{ mega_menu_block.id }} {
+        --mega-menu-nav-column-max-width: {% if mega_menu_block.settings.submenu_style == 'bold_text' %}{% if link.links.size <= 2 %}240px{% else %}200px{% endif %}{% else %}{% if link.links.size <= 2 %}180px{% else %}160px{% endif %}{% endif %};
+        --mega-menu-justify-content: {% if link.links.size == 0 or mega_menu_block.settings.layout == 'horizontal_center' and mega_menu_block.settings.stretch_promo == false %}center{% else %}space-between{% endif %};
+        --mega-menu-nav-gap: {% if mega_menu_block.settings.stretch_promo %}var(--spacing-12){% else %}var(--spacing-8){% endif %};
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      #mega-menu-{{ mega_menu_block.id }} {
+        --mega-menu-nav-column-max-width: {% if mega_menu_block.settings.submenu_style == 'bold_text' %}{% if link.links.size == 1 %}260px{% elsif link.links.size == 2 %}240px{% else %}210px{% endif %}{% else %}{% if link.links.size == 1 %}220px{% elsif link.links.size == 2 %}200px{% else %}180px{% endif %}{% endif %};
+        --mega-menu-nav-gap: {% if mega_menu_block.settings.layout == 'horizontal_center' %}var(--spacing-12){% else %}var(--spacing-16){% endif %};
+      }
+    }
+
+    @media screen and (min-width: 1600px) {
+      #mega-menu-{{ mega_menu_block.id }} {
+        --mega-menu-nav-gap: var(--spacing-16);
+      }
+    }
+
+    @media screen and (min-width: 1800px) {
+      #mega-menu-{{ mega_menu_block.id }} {
+        --mega-menu-nav-gap: var(--spacing-20);
+      }
+    }
+  </style>
+{%- endif -%}
+
+<div id="mega-menu-{{ mega_menu_block.id }}" class="mega-menu {% if link.links.size == 0 %}justify-center{% endif %}">
+  {%- if link.links.size > 0 -%}
+    <ul class="mega-menu__nav" role="list">
+      {%- for sub_link in link.links -%}
+        <li class="v-stack gap-4 justify-items-start">
+          <a {% if sub_link.url != '#' %}href="{{ sub_link.url }}"{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}h5{% endif %}" {% if sub_link.current %}aria-current="page"{% endif %}
+            <span {% if sub_link.url != '#' %}class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}link-faded{% else %}reversed-link hover:show{% endif %}"{% endif %}>
+              {{- sub_link.title -}}
+            </span>
+          </a>
+
+          {%- if sub_link.levels > 0 -%}
+            <ul class="v-stack gap-2 justify-items-start" role="list">
+              {%- for sub_sub_link in sub_link.links -%}
+                <li>
+                  {% if sub_sub_link.title == "Black" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/black_ebfdf973-f8d3-4ccc-a723-39ca40c1b80c.png?v=1675121861" alt="Black" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Black</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Stone Blue" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/stone_blue_6febbab0-789a-4d47-84f8-d0e5e674b9f2.png?v=1676070340" alt="Stone_blue" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Stone Blue</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Rose Pink" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/rose_pink.png?v=1675123096" alt="Rose_pink" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Rose Pink</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Mauve" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/mauve_cf809243-a839-44f0-8284-efd160e6aed9.png?v=1675123240" alt="Mauve" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Mauve</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Island Blue" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/island_blue_05dc6c27-84ae-49b5-9f25-61325a9231df.png?v=1675123429" alt="Island_blue" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Island Blue</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Indigo Navy" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/indigo_navy.png?v=1675123571" alt="Indigo_navy" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Indigo Navy</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Spruce Green" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce_green.png?v=1675124787" alt="Spruce_green" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Spruce Green</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Hunter Green" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/hunter_green.png?v=1675124570" alt="Hunter_green" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Hunter Green</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Olive Green" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/olive_green_70768ec3-9b85-4407-b820-3e30599e8986.png?v=1675124982" alt="Olive_green" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Olive Green</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Sage Green" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/sage_green.png?v=1675125104" alt="Sage_green" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Sage Green</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Ceil Blue" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/ceil_blue.png?v=1675125308" alt="Ceil_blue" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Ceil Blue</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Caribbean Blue" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/caribbean_blue.png?v=1675125622" alt="Caribbean_blue" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Caribbean Blue</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Burgundy" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/burgundy_1b50e816-ab82-4775-9554-0327ec5b6abf.png?v=1675125763" alt="Burgundy" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Burgundy</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Paradise Green" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/paradise_green_7ee8a8d4-68e8-456d-b33d-c6035b4b2212.png?v=1675125913" alt="Paradise_green" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Paradise Green</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Navy" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/navy_06304705-791a-4ab2-a1f2-5a96be792f11.png?v=1675126074" alt="Navy" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Navy</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Moonlight Navy" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/moonlight_navy.png?v=1675191271" alt="Moonlight-navy" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Moonlight Navy</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Lavender" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/lavender_8ca0712c-5980-4528-95ab-6be118897977.png?v=1675126192" alt="Lavender" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Lavender</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "White" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/white_c4d87f5a-19b2-4580-9ee5-a38be5c366ab.png?v=1675198330" alt="White" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> White</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Heather Grey" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/heather_grey_f5314cff-9cae-45bd-b058-50a692cb7f46.png?v=1675200909" alt="Heather_grey" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Heather Grey</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Steel Grey" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/steel_grey.png?v=1675200909" alt="Steel_grey" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Steel Grey</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Fire Red" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/fire_red.png?v=1675201178" alt="Fire Red" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Fire Red</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Sunflower" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/sunflower_42781728-b9a0-46e5-9fc7-c802f14249bf.png?v=1676072531" alt="Sunflower" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Sunflower</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Surgical Green" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/surgical_green.png?v=1675201509" alt="Surgical_green" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Surgical Green</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Royal Blue" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/royal_blue_6235c6a6-573b-494c-bbd1-fca880330279.png?v=1675201747" alt="Royal_blue" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Royal Blue</span></span>
+                      </a>
+                    {% elsif sub_sub_link.title == "Coffee" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/coffee.png?v=1675713731" alt="Coffee" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Coffee <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/new_coffee.png?v=1675800023" alt="Coffee" width="35" height="35" style="display: inline-block; margin-bottom: 7px; "/></span></span>
+                      </a>
+                     {% elsif sub_sub_link.title == "Plant Based" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/Tree.png?v=1675790942" alt="Tree" width="27" height="27" style="display: inline-block; margin-bottom: 4px; margin-right: 6px" /> {{- sub_sub_link.title -}}</span></span>
+                      </a>
+                      {% elsif sub_sub_link.title == "Recycled Bottle" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/Bottle.png?v=1675791136" alt="Bottle" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 8px; margin-left: 3px;" /> {{- sub_sub_link.title -}}</span></span>
+                      </a>
+                      {% elsif sub_sub_link.title == "NEW ARRIVALS" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><strong>{{- sub_sub_link.title -}}</strong></span></span>
+                      </a>
+                      {% elsif sub_sub_link.title == "BEST SELLERS" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><strong>{{- sub_sub_link.title -}}</strong></span></span>
+                      </a>
+                      {% elsif sub_sub_link.title == "MATCHING SETS" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><strong>{{- sub_sub_link.title -}}</strong></span></span>
+                      </a>
+                      {% elsif sub_sub_link.title == "SALE" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link" style="color: red;"><strong>{{- sub_sub_link.title -}}</strong></span></span>
+                      </a>
+                  {% else %}
+                  <a href="{{ sub_sub_link.url }}" class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}h5{% else %}link-faded{% endif %}">
+                    <span {% if mega_menu_block.settings.submenu_style == 'bold_text' %}class="reversed-link hover:show"{% endif %}>{{- sub_sub_link.title -}}</span>
+                  </a>
+                  {% endif %}
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  {% liquid
+    # To maximize space, we force a carousel mode depending on the actual content
+
+    assign promo_item_count = 0
+    assign use_carousel_fallback_until = ''
+
+    for i in (1..3)
+      assign image_setting = 'image_' | append: i
+
+      if mega_menu_block.settings[image_setting] != blank
+        assign promo_item_count = promo_item_count | plus: 1
+      endif
+    endfor
+
+    if mega_menu_block.settings.product != blank
+      assign promo_item_count = promo_item_count | plus: 1
+    endif
+
+    if link.links.size > 0 and promo_item_count == 4 or mega_menu_block.settings.promo_content_layout == 'carousel'
+      assign force_carousel_mode = true
+    else
+      if link.links.size == 2
+        if promo_item_count == 3 and mega_menu_block.settings.layout == 'grid'
+          assign use_carousel_fallback_until = 'xl'
+        endif
+      elsif link.links.size >= 3 and promo_item_count == 3
+        if use_promo_collage
+          assign use_carousel_fallback_until = 'xl'
+        else
+          assign use_carousel_fallback_until = '2xl'
+        endif
+      endif
+    endif
+  %}
+
+  {%- if force_carousel_mode -%}
+    {%- render 'navigation-promo-block', mega_menu_block: mega_menu_block, force_carousel_mode: force_carousel_mode -%}
+  {% else %}
+    {%- if use_carousel_fallback_until != '' -%}
+      {%- render 'navigation-promo-block', navigation_layout: navigation_layout, mega_menu_block: mega_menu_block, link_col: link.links.size, is_navigation_drawer: false, use_carousel_fallback_until: use_carousel_fallback_until -%}
+    {%- endif -%}
+
+    {%- render 'navigation-promo-block', navigation_layout: navigation_layout, mega_menu_block: mega_menu_block, link_col: link.links.size, is_navigation_drawer: false, hide_promo_until: use_carousel_fallback_until -%}
+  {%- endif -%}
+</div>

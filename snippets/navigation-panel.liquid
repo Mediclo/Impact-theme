@@ -1,0 +1,629 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+MEGA MENU PANEL
+----------------------------------------------------------------------------------------------------------------------
+
+This component is used to show the different links in different panel for the menu drawer
+
+********************************************
+Supported variables
+********************************************
+
+* main_menu: the menu to show for the primary menu
+* secondary_menu: the secondary menu (shown on mobile)
+* mega_menu_block: use when mega menu is set to drawer
+* is_mega_menu: set to true if mega menu is set to drawer
+* layout
+{%- endcomment -%}
+
+<div class="panel-list__wrapper">
+  <div class="panel">
+    <div class="panel__wrapper" {% if mega_menu_block.settings.promo_content_layout == 'grid' or mega_menu_block.settings.promo_content_layout == 'collage' %}style="--panel-wrapper-justify-content: flex-start"{% endif %}>
+      <div class="panel__scroller v-stack gap-8">
+        {%- if is_mega_menu -%}
+          <button is="close-button" aria-label="{{ 'general.accessibility.close' | t | escape }}" {%- if section.settings.opening_from == 'bottom' -%}class="sm-max:hidden"{%- endif -%}>
+            {%- render 'icon' with 'close', width: 19, height: 19 -%}
+          </button>
+        {%- endif -%}
+
+        <ul class="v-stack gap-4">
+          {%- for link in main_menu.links -%}
+            {%- unless is_mega_menu -%}
+              {% liquid
+                assign link_title_downcase = link.title | downcase
+                assign mega_menu_block = ''
+                assign is_image_shown = false
+
+                for block in section.blocks
+                  assign menu_item_downcase = block.settings.menu_item | strip | downcase
+
+                  if menu_item_downcase == link_title_downcase
+                    assign mega_menu_block = block
+
+                  if block.settings.drawer_link_image == 'show'
+                    assign is_image_shown = true
+                    break
+                  endif
+
+                    break
+                  endif
+                endfor %}
+
+            {%- else -%}
+              {%- assign is_image_shown = false -%}
+
+              {%- if mega_menu_block.settings.drawer_link_image == 'show' -%}
+                {%- assign is_image_shown = true -%}
+              {%- endif -%}
+
+            {%- endunless -%}
+
+            <li class="h3 sm:h4">
+              {%- if link.links.size > 0 or mega_menu_block != '' and is_mega_menu == false -%}
+                <button class="text-with-icon w-full group justify-between" aria-expanded="false" data-panel="1-{% increment level_1 %}">
+                  <span>{{ link.title }}</span>
+                  <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
+                </button>
+              {%- else -%}
+                <a href="{{ link.url }}" class="group block w-full">
+                  <span><span class="reversed-link">{{ link.title }}</span></span>
+                </a>
+              {%- endif -%}
+            </li>
+
+            {%- if link.links.size > 0 or mega_menu_block != '' and is_mega_menu == false -%}
+              {%- capture link_level_2 -%}
+                {{- link_level_2 -}}
+
+                <div class="panel__wrapper" {% if mega_menu_block.settings.promo_content_layout == 'grid' or mega_menu_block.settings.promo_content_layout == 'collage' %}style="--panel-wrapper-justify-content: flex-start"{% endif %} hidden>
+                  <ul class="v-stack {% if is_mega_menu and is_image_shown == 'show' %}gap-3{% else %}gap-4{% endif %}">
+                    <li class="{% if layout != 'drawer' %}lg:hidden{% endif %}">
+                      <button class="text-with-icon h6 text-subdued" data-panel="0">
+                        {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ link.title }}
+                      </button>
+                    </li>
+
+                    {%- if link.links.size > 0 -%}
+                      {%- for sub_link in link.links -%}
+                        <li class="h3 {% if is_mega_menu %}sm:h5{% else %}sm:h4{% endif %}">
+                          {%- if sub_link.links.size > 0 -%}
+                            <button class="text-with-icon w-full justify-between" aria-expanded="false" data-panel="2-{% increment level_2 %}">
+                              <span>{{ sub_link.title }}</span>
+                              <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
+                            </button>
+                          {%- else -%}
+                            <a class="group {% if is_image_shown and is_mega_menu %}h-stack gap-4{% else %}block w-full{% endif %}" href="{{ sub_link.url }}">
+                              {%- if is_image_shown and sub_link.object != blank and is_mega_menu -%}
+                                {%- assign sub_link_image = '' -%}
+
+                                {%- case sub_link.type -%}
+                                  {%- when 'collection_link' -%}
+                                    {%- assign sub_link_image = sub_link.object.products.first.featured_media -%}
+
+                                  {%- when 'product_link' -%}
+                                    {%- assign sub_link_image = sub_link.object.featured_media -%}
+
+                                  {%- when 'blog_link' -%}
+                                    {%- assign sub_link_image = sub_link.object.articles.first.image -%}
+
+                                  {%- when 'article_link' -%}
+                                    {%- assign sub_link_image = sub_link.object.image -%}
+                                {%- endcase -%}
+
+                                {%- if sub_link_image != '' -%}
+                                  {{- sub_link_image | image_url: width: 120 | image_tag: loading: 'lazy', sizes: '60px', widths: '120', class: 'panel-link__image rounded' -}}
+                                {%- endif -%}
+                              {%- endif -%}
+
+                              <span><span class="reversed-link">{{ sub_link.title }}</span></span>
+                            </a>
+                          {%- endif -%}
+                        </li>
+
+                        {%- if sub_link.links.size > 0 -%}
+                          {%- capture link_level_3 -%}
+                            {{- link_level_3 -}}
+
+                            <div class="panel__wrapper" hidden>
+                              <ul class="v-stack {% if is_image_shown %}gap-3{% else %}gap-4{% endif %}">
+                                <li class="text-with-icon {% if layout != 'drawer' %}lg:hidden{% endif %}">
+                                  <button class="text-with-icon h6 text-subdued" data-panel="1">
+                                    {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ sub_link.title }}
+                                  </button>
+                                </li>
+
+                                {%- for sub_sub_link in sub_link.links -%}
+                                  <li class="{% if mobile_opening == 'left' %}h3{% else %}h5{% endif %} sm:h5">
+
+                                  {% if sub_sub_link.title == "Black" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/black_ebfdf973-f8d3-4ccc-a723-39ca40c1b80c.png?v=1675121861" alt="Black" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Black</span></span>
+                                    </a>
+                                  {% elsif sub_sub_link.title == "Stone Blue" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/stone_blue.png?v=1675122977" alt="Stone_blue" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Stone Blue</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Rose Pink" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/rose_pink.png?v=1675123096" alt="Rose_pink" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Rose Pink</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Coffee" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/coffee.png?v=1675713731" alt="Coffee" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Coffee</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Sunflower" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/sunflower_42781728-b9a0-46e5-9fc7-c802f14249bf.png?v=1676072531" alt="Sunflower" width="15" height="15" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> Sunflower</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Olive Green" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/olive_green_70768ec3-9b85-4407-b820-3e30599e8986.png?v=1675124982" alt="Olive_green" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Olive Green</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Sage Green" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/sage_green.png?v=1675125104" alt="Sage_green" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Sage Green</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Navy" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/navy_06304705-791a-4ab2-a1f2-5a96be792f11.png?v=1675126074" alt="Navy" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Navy</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Burgundy" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/burgundy_1b50e816-ab82-4775-9554-0327ec5b6abf.png?v=1675125763" alt="Burgundy" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Burgundy</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Mauve" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/mauve_cf809243-a839-44f0-8284-efd160e6aed9.png?v=1675123240" alt="Mauve" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Mauve</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Caribbean Blue" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/caribbean_blue.png?v=1675125622" alt="Caribbean_blue" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Caribbean Blue</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Hunter Green" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/hunter_green.png?v=1675124570" alt="Hunter_green" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> Hunter Green</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Plant Based" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/Tree.png?v=1675790942" alt="Tree" width="20" height="20" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" />{{ sub_sub_link.title }}</span></span>
+                                    </a>
+                                 {% elsif sub_sub_link.title == "Recycled Bottle" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/Bottle.png?v=1675791136" alt="Bottle" width="15" height="15" style="display: inline-block; margin-bottom: 5px; margin-right: 5px" /> {{ sub_sub_link.title }}</span></span>
+                                    </a>
+                                  {% elsif sub_sub_link.title == "SALE" %}
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link" style="color: red;">{{ sub_sub_link.title }}</span></span>
+                                    </a>
+                                 {% else %}
+                                        <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
+                                          {%- when 'collection_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+
+                                          {%- when 'product_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+
+                                          {%- when 'blog_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+
+                                          {%- when 'article_link' -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
+
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                                        {%- endif -%}
+                                      {%- endif -%}      
+                                      <span><span class="reversed-link">{{ sub_sub_link.title }}</span></span>
+                                    </a>
+                                  {% endif %}
+                                  </li>
+                                {%- endfor -%}
+                              </ul>
+                            </div>
+                          {%- endcapture -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+                    {%- endif -%}
+                  </ul>
+
+                  {%- unless is_mega_menu -%}
+                    {%- if mega_menu_block != '' -%}
+                      {%- render 'navigation-promo-block', navigation_layout: layout, mega_menu_block: mega_menu_block, is_navigation_drawer: true, link_col: link.links.size -%}
+                    {%- endif -%}
+                  {%- endunless -%}
+                </div>
+              {%- endcapture -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+
+        {%- if secondary_menu != blank -%}
+          <ul class="v-stack gap-3">
+            {%- for link in secondary_menu.links -%}
+              <li>
+                <a href="{{ link.url }}" class="h6 group"><span><span class="reversed-link">{{ link.title }}</span></span></a>
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </div>
+
+      {%- if is_mega_menu -%}
+        {%- render 'navigation-promo-block', navigation_layout: layout, mega_menu_block: mega_menu_block, is_navigation_drawer: true, link_col: link.links.size -%}
+      {%- else -%}
+        {%- comment -%}
+        ----------------------------------------------------------------------------------------------------------------
+        SOCIAL MEDIA + LOCALIZATION
+        ----------------------------------------------------------------------------------------------------------------
+        {%- endcomment -%}
+
+        {%- if section.settings.show_social_media -%}
+          {%- capture social_media -%}{%- render 'social-media' -%}{%- endcapture -%}
+        {%- endif -%}
+
+        {%- if show_country_selector and localization.available_countries.size > 1 -%}
+          {%- assign country_selector = true -%}
+        {%- endif -%}
+
+        {%- if show_locale_selector and localization.available_languages.size > 1 -%}
+          {%- assign locale_selector = true -%}
+        {%- endif -%}
+
+        {%- if social_media != blank or country_selector or locale_selector or shop.customer_accounts_enabled -%}
+          <div class="panel-footer v-stack gap-5">
+            {{- social_media -}}
+
+            {%- if country_selector or locale_selector or shop.customer_accounts_enabled -%}
+              <div class="panel-footer__localization-wrapper h-stack gap-6 border-t md:hidden">
+                {%- if country_selector -%}
+                  {%- render 'localization-selector', type: 'country', show_country_name: show_country_name, show_country_flag: show_country_flag -%}
+                {%- endif -%}
+
+                {%- if locale_selector -%}
+                  {%- render 'localization-selector', type: 'locale' -%}
+                {%- endif -%}
+
+                {%- if shop.customer_accounts_enabled -%}
+                  <a href="{{ routes.account_url }}" class="panel-footer__account-link bold text-sm">{{- 'header.general.account' | t -}}</a>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  </div>
+
+  {%- if link_level_2 != blank -%}
+    <div class="panel gap-8">
+      {{ link_level_2 }}
+    </div>
+  {%- endif -%}
+
+  {%- if link_level_3 != blank %}
+    <div class="panel">
+      {{ link_level_3 }}
+    </div>
+  {%- endif -%}
+</div>

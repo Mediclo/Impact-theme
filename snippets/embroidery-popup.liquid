@@ -1,0 +1,441 @@
+<div class="print_yourDesign_popup">
+  <div class="modal_inner">
+    <div class="popup_start">
+      <h2 class="popup_title">Personalize your Embroidery</h2>
+      <div class="popup_twoBlocks">
+        <div class="image_outer">
+          <img src="{{ section.settings.pop_image | img_url: '' }}" class="img-fluid" />
+          <p class="embroidery_example_text"></p>
+          <div class="image_dynamic_text">
+            <div class="name_text"></div>
+            <div class="hospital_name_text"></div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_twoBlocks">
+        <div class="name_placeOption">
+          <label class="popup_labels">Name Placement</label>
+          <div class="name_placeButtons active">
+            <input value="Left Chest" type="radio" class="radio_buttons" name="chest[left_right]" checked />
+            <span>Left Chest</span>
+          </div>
+          <div class="name_placeButtons">
+            <input value="Right Chest" type="radio" class="radio_buttons" name="chest[left_right]"/>
+            <span>Right Chest</span>
+          </div>
+        </div>
+        <div class="name_input_fieldOuter">
+          <label class="popup_labels">My Name</label>
+          <div class="input_fieldsOuter">
+            <input name="name" type="text" class="popup_input_fields" placeholder="First Line" id="customer_name" maxlength = "20" />
+            <span class="word_limit"><span>0</span>/20</span>
+          </div>
+          <div class="input_fieldsOuter second_line">
+            <input name="hospital_name" type="text" class="popup_input_fields" placeholder="Second Line (optional)" id="hospital_name" maxlength = "20" />
+            <span class="word_limit"><span>0</span>/20</span>
+          </div>
+        </div>
+        <div class="name_color_outer">
+          <label class="popup_labels">Name COlor</label>
+          <div class="radio_fieldsOuter">
+            <input value="white" type="radio" name="color" class="color_radio_buttons" Checked />
+            <span class="make_radio_button white"></span>
+          </div>
+          <div class="radio_fieldsOuter">
+            <input value="Black" type="radio" name="color" class="color_radio_buttons" />
+            <span class="make_radio_button black"></span>
+          </div>
+        </div>
+        <div class="font_style">
+          <label class="popup_labels">Font</label>
+          <div class="font_style_buttons">
+            <input value="Block" type="radio" name="fonts" class="fonts_input" checked /> 
+            <span class="block_fonts">Block</span>
+          </div>
+          <div class="font_style_buttons">
+            <input value="Script" type="radio" name="fonts" class="fonts_input" /> 
+            <span class="block_fonts">Script</span>
+          </div>
+          <div class="font_style_buttons">
+            <input value="Times" type="radio" name="fonts" class="fonts_input" /> 
+            <span class="block_fonts">Times</span>
+          </div>
+        </div>
+        <div class="popup_buttons_outer">
+          <a href="#reset" id="reset_button" class="print_popup_buttons" name="reset_button">Reset</a>
+          <a href="#add" id="add_button" class="print_popup_buttons" name="add_button">Add to cart</a>
+        </div>
+      </div>
+      <a href="#close_popup" class="close_button fas fa-times"></a>
+    </div>
+  </div>
+  <a href="#close_popup" class="close_background"></a>
+</div>
+
+{% assign product_price = all_products["embroidery"].price | money %}
+
+<script>
+ 
+  $(document).ready(function(){  
+
+    $('.custom_printButton').show(); 
+  
+    $('[href="#close_popup"]').on('click', function(e){
+      e.preventDefault();
+      $('.print_yourDesign_popup').hide();
+    });
+    
+    //  ********** Set the Embroidery Button color ************* //
+  
+      var mediaJson = {{ product.media|json }};
+
+      if (mediaJson[0].alt == "Mauve") {
+         $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #C6747D;}</style>');
+         $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+     }  else if (mediaJson[0].alt == "Stone Blue") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #96BABC;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Coffee Brown") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #422200;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Hunter Green") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #247052;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Rose Pink") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #FF99AF;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Indigo Navy") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #4A4F69;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Olive Green") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #747B66;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Sage Green") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #B6D1B1;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Ceil Blue") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #9DBDED;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Navy") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #20294B;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Lavender") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #B27B9A;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Black") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #060506;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Burgundy") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #7B2E3D;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Spruce Green") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #446250;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Sunflower") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #D57B13;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Fire Red") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #D42537;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Paradise Green") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #98BB37;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Heather Grey") {
+        $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #656564;}</style>');
+        $('.open_modal_popup').append('<style> .open_modal_popup {color: #fff;}</style>');
+      }
+  
+
+    
+    /*--------Open Popup----------*/
+
+    
+    $('body').on('click', '.open_modal_popup', function(event) {
+      event.preventDefault();
+      
+      var product_images = {{ product.media|json }};
+      
+      var tagJson = {{ product.tags|json }}; 
+      
+      for(var i = 0; i < tagJson.length; i++){
+ 
+      if (tagJson[i].indexOf("discount_20_sustainablekit") !== -1 || tagJson[i].indexOf("underscrub") !== -1 ) {
+      	$('.image_outer > img').attr('src', "https://cdn.shopify.com/s/files/1/2490/1254/products/embo_tree_Kauai_MAV-01.jpg?v=1669226980");
+        $('.print_yourDesign_popup').show();
+        $('.embroidery_example_text').html('<p style="display: block; font-size: 12px; color: red; font-weight: 600;">Embroidery example. The actual product may differ from the image above. </p>');    
+      }}
+      
+      var getVar = $('.variant-picker__option-values input:checked').eq(1).val();
+      
+      
+      var newArr = [];
+      $(product_images).each(function(){
+        if (this.alt !== "" && this.alt !== null) {
+          newArr.push(this);
+        }
+      });
+      $(newArr).each(function(){
+        var get_alt = this.alt;
+        if(get_alt.indexOf('popup:'+getVar) !== -1){
+          $('.image_outer > img').attr('src', this.preview_image.src);
+          $('.print_yourDesign_popup').show();
+        }
+      });
+    });
+
+	/*-----------Reset Button----------*/
+    
+    $('[name="reset_button"]').on('click', function(clr){
+      clr.preventDefault();
+      $('.popup_input_fields').val('');
+      $('[name="chest[left_right]"][value="Left Chest"]').prop("checked",true);
+      $('[name="fonts"][value="block"]').prop("checked",true);
+      $('.image_dynamic_text div').text('');
+    });
+
+    /*----------Input keyup---------*/
+    
+  var name_line = "";
+  var second_lin= "";
+    
+  $('.popup_input_fields').on('input', function(){
+      var count = $(this).val().length;
+      $(this).next().find('span').text(count);
+      var get_attr = $(this).attr('name');
+      if(get_attr == 'name'){
+      $('.name_text').text($(this).val());	
+      name_line = $(this).val();
+      }
+      else if(get_attr == 'hospital_name'){
+        $('.hospital_name_text').text($(this).val());	
+        second_lin = $(this).val();   
+      }
+
+      var getcolor = $('[name="color"]:checked').val();
+      $('.image_dynamic_text').css('color', getcolor);
+
+
+      var getfonts = $('[name="fonts"]:checked').val();
+      if(getfonts == 'Block'){
+        $('.image_dynamic_text').css('font-family', "Arial");
+        $('.image_dynamic_text').attr('data-font', "Block");
+
+      }else if(getfonts == 'Script'){
+        $('.image_dynamic_text').css('font-family', "Brush Script MT");
+        $('.image_dynamic_text').attr('data-font', "Script");
+
+      }else if(getfonts == 'Times'){
+        $('.image_dynamic_text').css('font-family', "Times New Roman");
+        $('.image_dynamic_text').attr('data-font', "Times");
+
+      }
+    });
+
+    
+    /*-------Color----------*/
+    
+    $('[name="color"]').on('click', function(){
+      var getColor = $(this).val();
+      $('.image_dynamic_text').css('color', getColor);
+    });
+    
+    /*----------Fonts--------*/
+
+    $('[name="fonts"]').on('click', function(){
+      var getfonts = $(this).val();
+
+      if(getfonts == 'Block'){
+        $('.image_dynamic_text').css('font-family', "Arial");
+        $('.image_outer .image_dynamic_text').css('font-size', '12px');
+        $('.image_dynamic_text').attr('data-font', "Block");
+
+      }else if(getfonts == 'Script'){
+        $('.image_dynamic_text').css('font-family', "Brush Script MT");
+        $('.image_outer .image_dynamic_text').css('font-size', '12px');
+        $('.image_dynamic_text').attr('data-font', "Script");
+
+      }else if(getfonts == 'Times'){
+        $('.image_dynamic_text').css('font-family', "Times New Roman");
+        $('.image_outer .image_dynamic_text').css('font-size', '12px');
+        $('.image_dynamic_text').attr('data-font', "Times");
+
+      }
+    });
+
+    /*-----------Chest Button----------*/
+    
+    $('[name="chest[left_right]"]').on('click', function(){
+      var getChest = $(this).val();
+
+      if(getChest == 'Right Chest'){
+        $('.image_dynamic_text').css('left', '21%');
+
+      }else if(getChest == 'Left Chest') {
+        $('.image_dynamic_text').css('left', '78.5%');
+      }
+    });
+
+    var product_price = {{ product_price | json }};
+
+    
+      $('[name="add_button"]').on('click', function(e){
+      e.preventDefault();
+        
+      $('.custom_printButton').html('<div class="add_embroidery_button"><div class="check_box">\
+        <label for="add_embroidery">Add Embroidery</label>\
+        </div><div class="price_with_edit_button"><div class="price_text">'+product_price+'</div>\
+        <div class="delete_button">REMOVE FROM CART</div></div></div>');
+     
+      var chestVAl = $('[name="chest[left_right]"]:checked').val();
+      var colorVal = $('[name="color"]:checked').val();
+      var fonts = $('[name="fonts"]:checked').val();
+
+      $('.print_design_details').attr('data', 'added');
+        
+    
+      $('.print_design_details').css('display', 'flex');
+      $('.print_design_details').html('<div class="design_picture"> <div class="add_text"><div>'+name_line+'</div><div class="second_line_imge">'+second_lin+'</div></div></div>\
+        <div class="design_details">\
+        <div id="first_line" data-val="'+name_line+'"><strong>First Line:'+name_line+'</strong></div>\
+        <div id="second_line" data-val="'+second_lin+'"><strong>Second Line: '+second_lin+'</strong></div>\
+        <div id="font" data-val="'+fonts+'">Font: '+fonts+'</div>\
+        <div id="text_color" data-val="'+colorVal+'">Text color: '+colorVal+'</div>\
+        <div id="text_placement" data-val="'+chestVAl+'">Text Placement: '+chestVAl+'</div>\
+        </div><div class="warning_text"> <p>Embroidered items may take an additional week to ship. Discounts do not apply and all embroidered items are final sale. Please be sure that your customizations are correct prior to checking out.</p></div>'
+                                     );
+        
+      var getfonts = $('[name="fonts"]:checked').val();
+      if(getfonts == 'Block'){
+        $('.design_picture').css('font-family', "Arial");
+      }else if(getfonts == 'Script'){
+        $('.design_picture .add_text').css('font-family', "Brush Script MT");
+      }else if(getfonts == 'Times'){
+        $('.design_picture').css('font-family', "Times New Roman");
+      }
+     
+      $('.design_picture').css('color', colorVal);
+        var selectBox = $('.variant-picker__option-values input:checked').eq(1).val();
+     
+      $('.color-swatch').each(function(){        
+        var color_img = $(this).attr('data-color-name');
+        
+        if(color_img.indexOf(selectBox) > -1) {
+          var imgSrc = $(this).attr('data-src');
+          $('.design_picture').css('background-image', 'url('+imgSrc+')');
+          $('.design_picture').attr('data-src', imgSrc);
+          $('.print_yourDesign_popup').hide();
+        } else {
+          $('.design_picture').css('background-color', $(this).val());
+          $('.print_yourDesign_popup').hide();
+        }
+      });  
+
+      var tagJson = {{ product.tags|json }}; 
+      var product_title = {{ product.title|json }};
+      
+      for(var i = 0; i < tagJson.length; i++){
+      if (tagJson[i].indexOf("discount_20_sustainablekit") !== -1) {
+      	$('.design_picture').css('background-image', 'url("https://cdn.shopify.com/s/files/1/2490/1254/files/marek-szturc-2s3fI3M1lO0-unsplash.jpg?v=1675727351")');
+      }}
+        
+      let formData = {
+      'items': [{
+      'id': 39423679397934,
+      'quantity': 1,
+      'properties': {
+        Product: product_title,
+        First_line: name_line,
+        Second_line: second_lin,
+        Font: fonts,
+        Text_Color: colorVal,
+        Text_placement: chestVAl
+      }
+    }]
+  };
+        
+      fetch(window.Shopify.routes.root + 'cart/add.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+      })
+      .then(response => {
+        return response.json();
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });    
+        
+    });
+
+    
+    $('.color-swatch').on('click', function(){
+      var imgSrc = $(this).attr('data-src');
+      $('.design_picture').css('background-image', 'url('+imgSrc+')')                     
+      $('.open_modal_popup').css('background-image', 'url('+imgSrc+')')           
+      $('.open_modal_popup').css('color', '#fff')           
+     })
+ 
+    $('body').on('click','#edit_button', function(){
+      event.preventDefault();
+      
+      var product_images = {{ product.media|json }};
+      var getVar = $('.swatches.option--color select').val();
+      var newArr = [];
+      $(product_images).each(function(){
+        if (this.alt !== "" && this.alt !== null) {
+          newArr.push(this);
+        }
+      });
+      
+      $(newArr).each(function(){
+        var get_alt = this.alt;
+        if(get_alt.indexOf('popup:'+getVar) !== -1){
+          $('.image_outer > img').attr('src', this.preview_image.src);
+          $('.print_yourDesign_popup').show();
+        }
+      });
+    });
+
+    $('body').on('click','.delete_button', function(){
+      jQuery.post(window.Shopify.routes.root + 'cart/update.js', {
+        updates: {
+          39423679397934: 0,
+        }
+      });
+      
+      $('.custom_printButton').html('<button class="open_modal_popup"> Add Embroidery</button>');
+      $('.print_design_details').html('');
+      $('.print_design_details').attr('data', 'removed');
+      $('.print_design_details').hide();
+
+      $('.popup_input_fields').val('');
+      $('[name="chest[left_right]"][value="Left Chest"]').prop("checked",true);
+      $('[name="fonts"][value="block"]').prop("checked",true);
+      $('.image_dynamic_text div').text('');
+
+    });
+ });
+  
+  
+  $(document).ready(function(){
+    $('[data-es-handle="slide-reviews"] .easyslider-header-text').html('<i class="fa fa-star"></i>\
+    <i class="fa fa-star"></i><i class="fa fa-star"></i>\
+    <i class="fa fa-star"></i><i class="fa fa-star"></i>');
+    var totalRev = $('#judgeme_product_reviews .jdgm-rev-widg').attr('data-number-of-reviews');
+    $('[data-es-handle="slide-reviews"] .easyslider-anchor').append('<div class="custom_reviewText">'+totalRev+' Reviews<div>');
+     
+    
+    
+    /*------Size Chart-----*/
+    
+    $('body').on('click', '.custom_sizeChat_page', function(event){
+      event.preventDefault();
+      $('.best-fit-size-chart button.scr-open-size-chart').trigger('click');
+    });
+    
+  });
+
+
+</script>
