@@ -1042,9 +1042,9 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .button--secondary {
-  --button-background: var(--button-background-secondary) / var(--button-background-opacity, 1);
+/*   --button-background: var(--button-background-secondary) / var(--button-background-opacity, 1);
   --button-text-color: var(--button-text-secondary);
-  --button-outline-color: var(--button-background-secondary);
+  --button-outline-color: var(--button-background-secondary); */
 }
 
 .button--subdued {
