@@ -324,8 +324,13 @@
      
       $('.color-swatch').each(function(){        
         var color_img = $(this).attr('data-color-name');
-        
-        if(color_img.indexOf(selectBox) > -1) {
+
+        if (selectBox == "XXS" && color_img.indexOf(selectBox2) > -1) {
+          var imgSrc = $(this).attr('data-src');
+          $('.design_picture').css('background-image', 'url('+imgSrc+')');
+          $('.design_picture').attr('data-src', imgSrc);
+          $('.print_yourDesign_popup').hide();
+        } else if(color_img.indexOf(selectBox) > -1) {
           var imgSrc = $(this).attr('data-src');
           $('.design_picture').css('background-image', 'url('+imgSrc+')');
           $('.design_picture').attr('data-src', imgSrc);
