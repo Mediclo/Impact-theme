@@ -177,7 +177,7 @@
       $(newArr).each(function(){
         const get_alt = this.alt;
         
-        if(get_alt.indexOf('popup:'+getVar) !== -1){  
+        if(get_alt.indexOf('popup:'+getVar) !== -1 || get_alt.indexOf('popup:'+getVar2 !== -1)){  
           
           $('.image_outer > img').attr('src', this.preview_image.src);
           $('.print_yourDesign_popup').show();
