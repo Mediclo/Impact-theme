@@ -373,7 +373,9 @@
     $('.color-swatch').on('click', function(){
       var imgSrc = $(this).attr('data-src');
       $('.design_picture').css('background-image', 'url('+imgSrc+')')                     
-      $('.open_modal_popup').css('background-image', 'url('+imgSrc+')')           
+      $('.open_modal_popup').css('background-image', 'url('+imgSrc+')')    
+
+      console.log(imgSrc)
       $('.open_modal_popup').css('color', '#fff')           
      })
  
