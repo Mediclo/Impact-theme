@@ -69,7 +69,7 @@ Color swatch specific parameters:
   {%- when 'media' -%}
     {%- if media != blank -%}
       {%- if href -%}
-        <a href="{{ href }}" class="media-swatch {% if size == 'sm' %}media-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if bordered %}border{% endif %}">
+        <a href="{{ href }}" class="media-swatch {% if size == 'sm' %}media-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if bordered %}border{% endif %} ">
           <span class="sr-only"> {{ value }}</span>
           {{- media | image_url: width: media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-cover' -}}
         </a>
@@ -109,7 +109,8 @@ Color swatch specific parameters:
     {%- assign value_downcase = value | downcase -%}
 
     {%- if href -%}
-      <a href="{{ href }}" class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}">
+      <a href="{{ href }}" class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}" data-color-name="{{ value }}"
+        data-src="{{ value | handle | append: '.png' | file_img_url: '48x48', crop: 'center' }}">
         <span class="sr-only">{{ value }}</span>
       </a>
     {%- else -%}
