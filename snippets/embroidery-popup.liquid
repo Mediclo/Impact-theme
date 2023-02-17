@@ -152,7 +152,6 @@
     
     $('body').on('click', '.open_modal_popup', function(event) {
       event.preventDefault();
-      console.log("clicked")
       
       var product_images = {{ product.media|json }};
       
@@ -177,6 +176,7 @@
       });
       $(newArr).each(function(){
         var get_alt = this.alt;
+        console.log(get_alt);
         if(get_alt.indexOf('popup:'+getVar) !== -1){
           $('.image_outer > img').attr('src', this.preview_image.src);
           $('.print_yourDesign_popup').show();
