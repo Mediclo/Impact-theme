@@ -176,11 +176,10 @@
       });
       $(newArr).each(function(){
         const get_alt = this.alt;
-       console.log(get_alt);
+        console.log(getVar)
         
-        if(get_alt.indexOf('popup:'+getVar) !== -1){
-
-          console.log(get_alt.indexOf('popup:'+getVar))    
+        if(get_alt.indexOf('popup:'+getVar) !== -1){  
+          
           $('.image_outer > img').attr('src', this.preview_image.src);
           $('.print_yourDesign_popup').show();
         }
