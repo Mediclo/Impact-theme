@@ -152,6 +152,7 @@
     
     $('body').on('click', '.open_modal_popup', function(event) {
       event.preventDefault();
+      console.log("clicked")
       
       var product_images = {{ product.media|json }};
       
