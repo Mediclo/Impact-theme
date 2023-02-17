@@ -88,8 +88,10 @@
     //  ********** Set the Embroidery Button color ************* //
   
       var mediaJson = {{ product.media|json }};
-
+        console.log(mediaJson[0]).alt
+    
       if (mediaJson[0].alt == "Mauve") {
+        
           console.log("Hi")
         
          $('.open_modal_popup').append('<style> .open_modal_popup {background-color: #C6747D;}</style>');
