@@ -301,7 +301,7 @@
       $('.print_design_details').css('display', 'flex');
       $('.print_design_details').html('<div class="design_picture"> <div class="add_text"><div>'+name_line+'</div><div class="second_line_imge">'+second_lin+'</div></div></div>\
         <div class="design_details">\
-        <div id="first_line" data-val="'+name_line+'"><strong>First Line:'+name_line+'</strong></div>\
+        <div id="first_line" data-val="'+name_line+'"><strong>First Line: '+name_line+'</strong></div>\
         <div id="second_line" data-val="'+second_lin+'"><strong>Second Line: '+second_lin+'</strong></div>\
         <div id="font" data-val="'+fonts+'">Font: '+fonts+'</div>\
         <div id="text_color" data-val="'+colorVal+'">Text color: '+colorVal+'</div>\
@@ -324,7 +324,6 @@
      
       $('.color-swatch').each(function(){        
         var color_img = $(this).attr('data-color-name');
-        console.log(color_img);
         
         if(color_img.indexOf(selectBox) > -1) {
           var imgSrc = $(this).attr('data-src');
