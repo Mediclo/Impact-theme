@@ -88,9 +88,6 @@
     //  ********** Set the Embroidery Button color ************* //
   
       var mediaJson = {{ product.media|json }};
-      const tagJson = {{ product.tags|json }};
-
-      console.log(tagJson);
 
       for(var i = 0; i < mediaJson.length; i++){ 
         console.log(mediaJson[i].alt)
