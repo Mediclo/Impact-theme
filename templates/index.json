@@ -82,6 +82,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_15427_4X5_ae57bb4c-3f0d-438d-9574-bcf204650495.jpg",
             "subheading": "",
             "title": "Burgundy",
             "url": "",
@@ -96,6 +97,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_2089_1x1_225264ab-ae9b-4044-86b0-39dd073a1bbc.jpg",
             "subheading": "",
             "title": "Grey",
             "url": "",
@@ -110,6 +112,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_14801.jpg",
             "subheading": "",
             "title": "Coffee Brown",
             "url": "",
@@ -124,11 +127,27 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Krit_sag_creven_sable_detail-12_crop_fixed.jpg",
             "subheading": "",
             "title": "Navy",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "7948df66-eb97-4ad9-a0be-b8d7c17ef133": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/MEDICLO_crevan_stone_blue_top_2.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -139,7 +158,8 @@
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-0",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-1",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2",
-        "346a189f-60ed-457c-add4-bd8484b83f5c"
+        "346a189f-60ed-457c-add4-bd8484b83f5c",
+        "7948df66-eb97-4ad9-a0be-b8d7c17ef133"
       ],
       "settings": {
         "full_width": false,
