@@ -4246,7 +4246,7 @@ tfoot td {
   gap: var(--spacing-3);
   height: var(--input-height);
   border-radius: var(--rounded-button);
-/*   background: rgb(var(--input-background, var(--background))) no-repeat; */
+  background: rgb(var(--input-background, var(--background))) no-repeat;
   border-width: 1px;
   border: 1px solid #ccc;
   padding-inline-start: var(--spacing-5);
