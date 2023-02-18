@@ -137,13 +137,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "45262e37-b7aa-4e89-9807-ab8e75ba228e": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-0",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-1",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2",
-        "346a189f-60ed-457c-add4-bd8484b83f5c"
+        "346a189f-60ed-457c-add4-bd8484b83f5c",
+        "45262e37-b7aa-4e89-9807-ab8e75ba228e"
       ],
       "settings": {
         "full_width": false,
