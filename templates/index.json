@@ -137,34 +137,18 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "7948df66-eb97-4ad9-a0be-b8d7c17ef133": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/allec-gomes-9mZHXa-RYFk-unsplash.jpg",
-            "subheading": "",
-            "title": "Fire Red",
-            "url": "",
-            "heading_tag": "h5",
-            "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-0",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-1",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2",
-        "346a189f-60ed-457c-add4-bd8484b83f5c",
-        "7948df66-eb97-4ad9-a0be-b8d7c17ef133"
+        "346a189f-60ed-457c-add4-bd8484b83f5c"
       ],
       "settings": {
         "full_width": false,
         "stack_collections": false,
-        "collections_per_row": 4,
+        "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
         "title": "Shop by Color",
