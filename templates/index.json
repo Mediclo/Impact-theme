@@ -142,12 +142,12 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/MEDICLO_crevan_stone_blue_top_2.jpg",
+            "image": "shopify:\/\/shop_images\/allec-gomes-t3rZPFg9vYg-unsplash.jpg",
             "subheading": "",
-            "title": "",
+            "title": "Fire Red",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h5",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
