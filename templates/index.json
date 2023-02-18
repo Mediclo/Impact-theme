@@ -82,12 +82,12 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_15427_4X5_ae57bb4c-3f0d-438d-9574-bcf204650495.jpg",
+            "image": "shopify:\/\/shop_images\/allec-gomes-nwk3TCPn4ec-unsplash.jpg",
             "subheading": "",
-            "title": "",
+            "title": "Sunflower",
             "url": "",
             "heading_tag": "h5",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-start-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
