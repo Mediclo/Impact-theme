@@ -142,6 +142,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Krit_sag_creven_sable_detail-12_crop_fixed.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -149,7 +150,7 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
