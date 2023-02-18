@@ -82,12 +82,12 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/allec-gomes-nwk3TCPn4ec-unsplash.jpg",
+            "image": "shopify:\/\/shop_images\/allec-gomes-r7Ee4tSDgMY-unsplash.jpg",
             "subheading": "",
             "title": "Sunflower",
             "url": "",
             "heading_tag": "h5",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -102,7 +102,7 @@
             "title": "Paradise Green",
             "url": "",
             "heading_tag": "h5",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
