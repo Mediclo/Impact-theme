@@ -3229,6 +3229,11 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: relative;
 }
 
+.product-card__logo {
+  width: 40px;
+  height: 40px;
+}
+
 .product-card__badge-list {
   gap: var(--spacing-2);
   pointer-events: none;
