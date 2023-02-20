@@ -83,9 +83,9 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Sal_MAV_3_1_1.jpg",
+            "image": "shopify:\/\/shop_images\/shop_by_color-01.png",
             "subheading": "",
-            "title": "Mauve",
+            "title": "Green",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-end-center text-center",
@@ -98,7 +98,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_2398_4x5_1.jpg",
+            "image": "shopify:\/\/shop_images\/shop_by_color-03.png",
             "subheading": "",
             "title": "Ceil Blue",
             "url": "",
@@ -113,7 +113,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2_look13_Kate_sag_sal-4_6.jpg",
+            "image": "shopify:\/\/shop_images\/shop_by_color-04.png",
             "subheading": "",
             "title": "Sage Green",
             "url": "",
@@ -128,7 +128,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_15427_4X5_1_1.jpg",
+            "image": "shopify:\/\/shop_images\/shop_by_color-02.png",
             "subheading": "",
             "title": "Sunflower",
             "url": "",
@@ -348,7 +348,6 @@
     },
     "78587d95-c6df-479f-955a-863e81063078": {
       "type": "impact-text",
-      "disabled": true,
       "blocks": {
         "738d8a48-4db3-414f-bc38-2336f395ea03": {
           "type": "item",
@@ -558,7 +557,7 @@
         "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Krit_sag_creven_sable_detail-46_fixed_4x5_copy_2_1.jpg",
+            "image": "shopify:\/\/shop_images\/Krit_sag_creven_sable_detail-46_fixed_4x5_copy_2.jpg",
             "title": "Men's Scrub Bottom",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/shop-mens-pants",
@@ -594,6 +593,7 @@
     },
     "5fcb9f07-a7d4-4014-b55e-f4526441c581": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "new-arrival",
         "products": [
@@ -717,13 +717,13 @@
     "fc25c2d5-ab85-49ce-bf3f-f8fc5269fa3e": {
       "type": "before-after-image",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
-        "title": "",
+        "title": "Tree & Bottle Edition",
         "content": "",
         "before_image": "shopify:\/\/shop_images\/Tencel_111d2761-9c1e-40f2-bdb6-15205007a252.jpg",
         "after_image": "shopify:\/\/shop_images\/Fysel_afbf685b-8b82-4a16-b5ed-8bbac71a2e7e.jpg",
-        "expand_image": true,
+        "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
         "before_text": "Tencel™",
@@ -738,7 +738,6 @@
     },
     "588819be-1d46-487c-8ed2-f4f3e99969d2": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-0": {
           "type": "testimonial",
@@ -813,6 +812,7 @@
     },
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e": {
       "type": "image-link-blocks",
+      "disabled": true,
       "blocks": {
         "template--14491305902126__a11f96fb-ccd6-4621-b769-3ea34ad13d1e-1674861089f77c0f72-0": {
           "type": "item",
@@ -890,6 +890,7 @@
     },
     "aaf4d661-37d6-4088-a191-db3974e4d92a": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_icon": true,

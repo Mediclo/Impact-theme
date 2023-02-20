@@ -358,9 +358,9 @@
         "settings": {
           "show_section": true,
           "full_width": true,
-          "heading_tag": "h5",
+          "heading_tag": "h4",
           "text_alignment": "center",
-          "icon_spacing": "small",
+          "icon_spacing": "medium",
           "background": "",
           "background_gradient": "",
           "text_color": ""
