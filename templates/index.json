@@ -22,7 +22,7 @@
             "mobile_image": "shopify:\/\/shop_images\/coffee_mobile_8730ebff-61c3-4e6a-b0e0-2dec74f5af77.jpg",
             "content_max_width": 720,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "SUSTAINABILITY",
             "title": "MEDICLO | Spring Colors",
             "heading_tag": "h1",
