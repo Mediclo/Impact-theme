@@ -83,7 +83,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/shop_by_color-01.png",
+            "image": "shopify:\/\/shop_images\/Sal_MAV_3_1_1.jpg",
             "subheading": "",
             "title": "Mauve",
             "url": "",
@@ -98,7 +98,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/shop_by_color-03.png",
+            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_2398_4x5_1.jpg",
             "subheading": "",
             "title": "Ceil Blue",
             "url": "",
@@ -113,7 +113,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/shop_by_color-04.png",
+            "image": "shopify:\/\/shop_images\/2_look13_Kate_sag_sal-4_6.jpg",
             "subheading": "",
             "title": "Sage Green",
             "url": "",
@@ -128,7 +128,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/shop_by_color-02.png",
+            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_15427_4X5_1_1.jpg",
             "subheading": "",
             "title": "Sunflower",
             "url": "",
@@ -348,6 +348,7 @@
     },
     "78587d95-c6df-479f-955a-863e81063078": {
       "type": "impact-text",
+      "disabled": true,
       "blocks": {
         "738d8a48-4db3-414f-bc38-2336f395ea03": {
           "type": "item",
@@ -557,7 +558,7 @@
         "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Krit_sag_creven_sable_detail-46_fixed_4x5_copy_2.jpg",
+            "image": "shopify:\/\/shop_images\/Krit_sag_creven_sable_detail-46_fixed_4x5_copy_2_1.jpg",
             "title": "Men's Scrub Bottom",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/shop-mens-pants",
