@@ -3237,8 +3237,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: absolute; 
   top: 8px; 
   left: 8px;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 .product-card__image {
