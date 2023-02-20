@@ -74,7 +74,7 @@
               <div class="text-with-icons__text-wrapper">
                 <div class="prose">
                   {%- if block.settings.title != blank -%}
-                    <p class="{{ section.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                    <p class="{{ section.settings.heading_tag }}"><div style="font-size: 14px;">{{ block.settings.title | escape }}</div></p>
                   {%- endif -%}
 
                  {{- block.settings.content -}}
