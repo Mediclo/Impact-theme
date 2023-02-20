@@ -3230,12 +3230,15 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__container {
-   position: relative;
+  position: relative;
 }
+
 .product-card__logo {
-   position: absolute; 
-   bottom:0; 
-   left:0;
+  position: absolute; 
+  top:0; 
+  left:0;
+  width: 35px;
+  height: 35px;
 }
 
 .product-card__image {
