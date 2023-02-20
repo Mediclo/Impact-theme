@@ -739,6 +739,7 @@
     },
     "588819be-1d46-487c-8ed2-f4f3e99969d2": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-0": {
           "type": "testimonial",
@@ -813,7 +814,6 @@
     },
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e": {
       "type": "image-link-blocks",
-      "disabled": true,
       "blocks": {
         "template--14491305902126__a11f96fb-ccd6-4621-b769-3ea34ad13d1e-1674861089f77c0f72-0": {
           "type": "item",
@@ -891,7 +891,6 @@
     },
     "aaf4d661-37d6-4088-a191-db3974e4d92a": {
       "type": "newsletter",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "show_icon": true,
