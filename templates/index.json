@@ -98,7 +98,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_15898_4x5_1.jpg",
+            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_2398_4x5_1.jpg",
             "subheading": "",
             "title": "Ceil Blue",
             "url": "",
@@ -165,7 +165,7 @@
       "settings": {
         "full_width": false,
         "stack_collections": false,
-        "collections_per_row": 4,
+        "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
         "title": "Shop by Color",
