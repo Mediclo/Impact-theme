@@ -724,7 +724,7 @@
         "content": "",
         "before_image": "shopify:\/\/shop_images\/Tencel_111d2761-9c1e-40f2-bdb6-15205007a252.jpg",
         "after_image": "shopify:\/\/shop_images\/Fysel_afbf685b-8b82-4a16-b5ed-8bbac71a2e7e.jpg",
-        "expand_image": false,
+        "expand_image": true,
         "text_position": "center",
         "before_after_text_position": "top",
         "before_text": "Tencel™",
