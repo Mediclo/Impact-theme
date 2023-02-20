@@ -3235,11 +3235,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-card__logo {
   position: absolute; 
-  top:0; 
-  left:0;
+  top:5; 
+  left:5;
   width: 35px;
   height: 35px;
-  padding: 10px;
 }
 
 .product-card__image {
