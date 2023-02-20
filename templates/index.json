@@ -718,7 +718,7 @@
     "fc25c2d5-ab85-49ce-bf3f-f8fc5269fa3e": {
       "type": "before-after-image",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "subheading": "",
         "title": "Tree & Bottle Edition",
         "content": "",
