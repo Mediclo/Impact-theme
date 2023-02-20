@@ -18,7 +18,7 @@
         "template--14491305902126__e23ce236-bde8-45d5-9fe4-01ff32255dfd-16752755058e33bf78-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_2039_1.jpg",
+            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_2040_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/coffee_mobile_8730ebff-61c3-4e6a-b0e0-2dec74f5af77.jpg",
             "content_max_width": 720,
             "mobile_text_position": "place-self-center text-center",
@@ -32,7 +32,7 @@
             "button_background": "#8e6759",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 15,
+            "overlay_opacity": 10,
             "background": "",
             "background_gradient": ""
           }
