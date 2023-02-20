@@ -294,6 +294,7 @@
         "blocks": {
           "free-shipping": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-earth",
               "mobile_icon_width": 24,
@@ -307,6 +308,7 @@
           },
           "discount": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-box",
               "mobile_icon_width": 24,
@@ -320,6 +322,7 @@
           },
           "payment": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-leaf",
               "mobile_icon_width": 24,
@@ -333,6 +336,7 @@
           },
           "customer-support": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-customer-support",
               "mobile_icon_width": 24,
