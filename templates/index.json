@@ -402,7 +402,7 @@
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
-        "heading_gradient": "linear-gradient(179deg, rgba(70, 50, 50, 1), rgba(247, 144, 144, 1) 99%)",
+        "heading_gradient": "linear-gradient(179deg, rgba(0, 0, 0, 1), rgba(191, 191, 191, 1) 99%)",
         "text_color": "#717171",
         "button_background": "",
         "button_text_color": ""
