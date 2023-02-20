@@ -3230,24 +3230,21 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__container {
-  position: relative;
-  top: 0;
-  left: 0;
+    position: relative;
 }
 .product-card__logo {
-  position: relative;
-  top: 0;
-  left: 0;
-  border: 1px red solid;
-  width: 35px;
-  height: 35px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
 }
 .product-card__image {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  border: 1px green solid;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
 }
+
 
 .product-card__badge-list {
   gap: var(--spacing-2);
