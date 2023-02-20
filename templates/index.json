@@ -348,6 +348,7 @@
     },
     "78587d95-c6df-479f-955a-863e81063078": {
       "type": "impact-text",
+      "disabled": true,
       "blocks": {
         "738d8a48-4db3-414f-bc38-2336f395ea03": {
           "type": "item",
