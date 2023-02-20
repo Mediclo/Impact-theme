@@ -3235,15 +3235,13 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   left: 0;
 }
 .product-card__logo {
-  position: relative;
-  top: 0;
-  left: 0;
-  border: 1px red solid;
-  width: 35px;
-  height: 35px;
+   position: absolute; 
+   bottom:0; 
+   left:0;
 }
-.product-card__image {
 
+.product-card__image {
+  display: block;
 }
 
 .image {
