@@ -18,11 +18,11 @@
         "template--14491305902126__e23ce236-bde8-45d5-9fe4-01ff32255dfd-16752755058e33bf78-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coffee_web_1616d98b-ee20-40a7-a52a-7524001278b7.jpg",
+            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_1445_1_2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/coffee_mobile_8730ebff-61c3-4e6a-b0e0-2dec74f5af77.jpg",
-            "content_max_width": 760,
+            "content_max_width": 720,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "RETURN OF",
             "title": "Coffee Brown",
             "heading_tag": "h0",
@@ -31,14 +31,15 @@
             "text_color": "#8e5c49",
             "button_background": "#8e6759",
             "button_text_color": "#ffffff",
-            "overlay_color": "#8e5c49",
-            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
             "background": "",
             "background_gradient": ""
           }
         },
         "template--14491305902126__e23ce236-bde8-45d5-9fe4-01ff32255dfd-16752755058e33bf78-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/valentine_s_day_web.jpg",
             "content_max_width": 780,
