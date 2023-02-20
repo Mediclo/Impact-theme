@@ -503,8 +503,8 @@
         "scrolling_speed": 4,
         "background": "",
         "background_gradient": "",
-        "text_color": "#a8b49c",
-        "text_gradient": ""
+        "text_color": "#000000",
+        "text_gradient": "linear-gradient(180deg, rgba(24, 23, 24, 1), rgba(180, 180, 180, 1) 100%)"
       }
     },
     "910239c9-5c40-4d45-90da-58a85c3e8bee": {
