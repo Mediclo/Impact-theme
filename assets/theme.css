@@ -3247,6 +3247,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 @media screen and (max-width: 500px) {
   .product-card__logo {
+    top: 4px; 
+    left: 4px;
     width: 15px;
     height: 15px;
   }
