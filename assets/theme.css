@@ -3229,9 +3229,24 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: relative;
 }
 
+.product-card__container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
 .product-card__logo {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
   width: 35px;
   height: 35px;
+}
+.product-card__image {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 1px green solid;
 }
 
 .product-card__badge-list {
