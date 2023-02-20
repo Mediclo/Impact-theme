@@ -109,21 +109,6 @@
             "overlay_opacity": 0
           }
         },
-        "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/LVD_Sal_2_1_1.jpg",
-            "subheading": "",
-            "title": "Lavender",
-            "url": "",
-            "heading_tag": "h5",
-            "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "346a189f-60ed-457c-add4-bd8484b83f5c": {
           "type": "collection",
           "settings": {
@@ -143,9 +128,24 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/crevan_blk_side.jpg",
+            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_15427_4X5_1_1.jpg",
             "subheading": "",
-            "title": "Black",
+            "title": "Sunflower",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/LVD_Sal_2_1_1.jpg",
+            "subheading": "",
+            "title": "Lavender",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-end-center text-center",
@@ -158,9 +158,9 @@
       "block_order": [
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-0",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-1",
-        "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2",
         "346a189f-60ed-457c-add4-bd8484b83f5c",
-        "45262e37-b7aa-4e89-9807-ab8e75ba228e"
+        "45262e37-b7aa-4e89-9807-ab8e75ba228e",
+        "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2"
       ],
       "settings": {
         "full_width": false,
