@@ -67,8 +67,9 @@ Supported variables
     <div class="product-card__figure">
       <div class="product-card__container">
         <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/product-card_logo.png?v=1676919526" class="product-card__logo">
-        
-        <a href="{{ product.url }}" class="product-card__image">
+      </div>
+    
+      <a href="{{ product.url }}" class="product-card__image">
         {%- capture sizes -%}
           {%- if stacked -%}
             (max-width: 699px) calc(100vw / {{ section.settings.products_per_row_mobile }} - 40px), (max-width: 999px) calc(100vw / {{ 3 | at_most: section.settings.products_per_row_desktop }} - 64px), calc(min(100vw - 96px, {{ settings.page_width }}px) / {{ section.settings.products_per_row_desktop }} - (24px / {{ section.settings.products_per_row_desktop }} * {{ section.settings.products_per_row_desktop | minus: 1 }}))
@@ -85,7 +86,6 @@ Supported variables
           {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
         {%- endif -%}
       </a>
-      </div>
 
       {%- if show_quick_buy and product.available -%}
         <div class="product-card__quick-buy">
