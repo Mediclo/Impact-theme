@@ -82,8 +82,14 @@ only way to do it on Shopify right now.
               {%- assign preload = false -%}
             {%- endif -%}
             <div>
-          
+
+            {% if product.title contains "FYSEL®" %}
+<!--              <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/recycled-bottle-logo.png?v=1676921174" class="product-card__logo"> -->
+            <p>FYSEL</p>
+            {% else %}
+            <p>TREE</p>
             {%- render 'media', media: media, sizes: sizes, preload: preload, autoplay: section.settings.enable_video_autoplay, loop: section.settings.enable_video_looping, group: 'product' -%}
+            {% endif %}
             </div>
 
             {%- if section.settings.enable_image_zoom and section.settings.desktop_media_layout contains 'grid' and media.media_type == 'image' -%}
