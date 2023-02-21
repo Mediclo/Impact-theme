@@ -141,14 +141,13 @@
                       {%- endif -%}
 
                       <div id="block-{{ section.id }}-{{ block.id }}" {% render 'surface', class: 'product-list__promo group', text_color: block.settings.text_color %} {{ block.shopify_attributes }}> 
-                        <span>TEST</span>
                         <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media h-full rounded-sm" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
                           {%- case block.type -%}
                             {%- when 'promotion_image' -%}
                               {%- if block.settings.image != blank -%}
                                 {%- capture image_class -%}zoom-image {% if block.settings.mobile_image != blank %}hidden sm:block{% endif %}{%- endcapture -%}
                                 {%- capture sizes -%}(max-width: 699px) 100vw, {{ 400 | times: block.settings.column_span }}px{%- endcapture -%}
-                                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600', class: image_class -}}
+<!--                                 {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600', class: image_class -}} -->
                               {%- endif -%}
 
                               {%- if block.settings.mobile_image != blank -%}
