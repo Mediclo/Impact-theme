@@ -7082,8 +7082,8 @@ split-lines {
 }
 
 @media screen and (max-width: 500px) {
-  .image_subheading {
-    font-size: 10px;
+  #image_subheading {
+    font-size: 14px;
   }
 }
 
