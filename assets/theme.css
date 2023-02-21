@@ -7077,7 +7077,7 @@ split-lines {
   }
 }
 
-.image_subheading {
+#image_subheading {
   color: #fff;
   text-shadow: #000 1px 0 5px;
 }
