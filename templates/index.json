@@ -743,7 +743,7 @@
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-0": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/white_c4d87f5a-19b2-4580-9ee5-a38be5c366ab.png",
+            "image": "shopify:\/\/shop_images\/2021-08-18_MEDICLO_15427_4X5_1_1.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
@@ -755,7 +755,7 @@
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-1": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/white_c4d87f5a-19b2-4580-9ee5-a38be5c366ab.png",
+            "image": "shopify:\/\/shop_images\/Mauve_sal_029_4x5_1_1.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
@@ -767,7 +767,7 @@
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-2": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/white_c4d87f5a-19b2-4580-9ee5-a38be5c366ab.png",
+            "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_2398_4x5_1.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
@@ -775,24 +775,12 @@
             "title": "I love it.",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
           }
-        },
-        "1bb3bfca-9a91-405e-acd0-5311814bc579": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
-          }
         }
       },
       "block_order": [
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-0",
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-1",
-        "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-2",
-        "1bb3bfca-9a91-405e-acd0-5311814bc579"
+        "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-2"
       ],
       "settings": {
         "full_width": true,
