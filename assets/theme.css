@@ -7083,12 +7083,16 @@ split-lines {
 
 @media screen and (max-width: 500px) {
   #image_subheading {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #image_rich-text {
   display: none;
 }
+
+  .image_class {
+    height: 100px;
+  }
 }
 
 .image-link-blocks {
