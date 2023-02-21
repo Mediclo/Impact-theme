@@ -3243,10 +3243,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-gallery__logo {
   position: absolute; 
-  top: 50px; 
-  left: 50px;
-  width: 50px;
-  height: 50px;
+  top: 30px; 
+  left: 30px;
+  width: 60px;
+  height: 60px;
 }
 
 .product-card__image {
