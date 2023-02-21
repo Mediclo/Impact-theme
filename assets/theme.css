@@ -7085,6 +7085,10 @@ split-lines {
   #image_subheading {
     font-size: 14px;
   }
+
+  #image_rich-text {
+  font-size: 12px;
+}
 }
 
 .image-link-blocks {
