@@ -8773,6 +8773,11 @@ split-lines {
   background-color: #fff;
 }
 
+
+@media screen and (max-width: 700px) {
+  padding: 0px;
+}
+
 @media screen and (min-width: 700px) {
   .main-search-form .search-input {
     width: 490px;
