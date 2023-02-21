@@ -4569,7 +4569,7 @@ custom-cursor {
   font-size: 22px;
 
   #custom-liquid-image-4 {
-    display: none;
+    display: none !important;
   }
 
   #custom-liquid-image-5 {
