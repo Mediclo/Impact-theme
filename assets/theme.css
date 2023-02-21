@@ -7077,6 +7077,10 @@ split-lines {
   }
 }
 
+.image_subheading {
+  
+}
+
 .image-link-blocks {
   grid: var(--image-link-blocks-grid);
   gap: var(--spacing-2);
