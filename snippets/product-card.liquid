@@ -67,11 +67,13 @@ Supported variables
     <div class="product-card__figure">
       <div class="product-card__container">
 
-        {% if collection.url contains "womens-tree-scrub-top" or collection.url contains "womens-tree-scrub-pants" or collection.url contains "tree-edition-mens-tops" or collection.url contains "tree-edition-mens-bottoms" %}
-        <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/product-card_logo.png?v=1676919526" class="product-card__logo">
-        {% elsif collection.url contains "bottle-edition-womens-tops" or collection.url contains "bottle-edition-womens-bottoms" or collection.url contains "bottle-edition-mens-tops" or collection.url contains "bottle-edition-mens-bottoms" %}
+        {% if product.title contains "fysel"%}
         <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/recycled-bottle-logo.png?v=1676921174" class="product-card__logo">
+        {% else %}
+        <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/product-card_logo.png?v=1676919526" class="product-card__logo">
+<!--         {% elsif collection.url contains "bottle-edition-womens-tops" or collection.url contains "bottle-edition-womens-bottoms" or collection.url contains "bottle-edition-mens-tops" or collection.url contains "bottle-edition-mens-bottoms" %} -->
         {% endif %}
+    
         
         <a href="{{ product.url }}" class="product-card__image">
         {%- capture sizes -%}
