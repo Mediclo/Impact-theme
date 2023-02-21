@@ -3269,8 +3269,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   }
 }
 
-
-
 .product-card__badge-list {
   gap: var(--spacing-2);
   pointer-events: none;
