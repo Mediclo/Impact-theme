@@ -7089,10 +7089,6 @@ split-lines {
   #image_rich-text {
   display: none;
 }
-
-  #image-overlay {
-    height: 100px;
-  }
 }
 
 .image-link-blocks {
