@@ -4567,6 +4567,22 @@ custom-cursor {
 @media screen and (max-width: 500px) {
  .custom-liquid-container h2 {
   font-size: 22px;
+
+  #custom-liquid-image-4 {
+    display: none
+  }
+
+  #custom-liquid-image-5 {
+    display: none
+  }
+
+  #custom-liquid-image-6 {
+    display: none
+  }
+
+  #custom-liquid-image-7 {
+    display: none
+  }
 }
 
 .custom-liquid-image-container{
