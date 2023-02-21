@@ -7090,7 +7090,7 @@ split-lines {
   display: none;
 }
 
-  .image_class {
+  #image-overlay {
     height: 100px;
   }
 }
