@@ -348,7 +348,6 @@
     },
     "78587d95-c6df-479f-955a-863e81063078": {
       "type": "impact-text",
-      "disabled": true,
       "blocks": {
         "738d8a48-4db3-414f-bc38-2336f395ea03": {
           "type": "item",
@@ -740,7 +739,6 @@
     },
     "588819be-1d46-487c-8ed2-f4f3e99969d2": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "template--14491305902126__588819be-1d46-487c-8ed2-f4f3e99969d2-16748605806268a343-0": {
           "type": "testimonial",
@@ -815,6 +813,7 @@
     },
     "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
           "type": "subheading",
@@ -856,6 +855,7 @@
     },
     "da7ecf07-565f-443c-9760-9c6bd4732ca6": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-0": {
           "type": "subheading",
@@ -975,6 +975,7 @@
     },
     "aaf4d661-37d6-4088-a191-db3974e4d92a": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_icon": true,
