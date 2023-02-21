@@ -4574,7 +4574,7 @@ custom-cursor {
   }
 
    #custom-liquid-text-4, #custom-liquid-text-5, #custom-liquid-text-6, #custom-liquid-text-7  {
-    display: none;
+    display: none !important;
   }
 }
 
