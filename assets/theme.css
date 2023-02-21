@@ -4566,7 +4566,7 @@ custom-cursor {
 
 @media screen and (max-width: 500px) {
  .custom-liquid-container h2 {
-  font-size: 22px;
+  font-size: 20px;
  }
   #custom-liquid-image-4, #custom-liquid-image-5, #custom-liquid-image-6, #custom-liquid-image-7, #custom-liquid-image-11, #custom-liquid-image-12, #custom-liquid-image-16  {
     display: none !important;
