@@ -40,7 +40,7 @@
             {%- case block.type -%}
               {%- when 'subheading' -%}
                 {%- if block.settings.text != blank -%}
-                  <p class="bold" style="letter-spacing: 1.4px;" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                  <p class="bold" class="image_subheading" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
                 {%- endif -%}
 
               {%- when 'heading' -%}
@@ -52,8 +52,7 @@
 
               {%- when 'richtext' -%}
                 {%- if block.settings.content != blank -%}   
-
-                  <div style="font-size: 18px; width: 70%;" {{ block.shopify_attributes }}>
+                  <div class="image_rich-text" {{ block.shopify_attributes }}>
                     {{- block.settings.content -}}
                   </div>
                 {%- endif -%}
