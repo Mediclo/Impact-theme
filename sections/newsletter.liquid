@@ -30,7 +30,9 @@
           <h2 class="h2">{{ section.settings.title }}</h2>
         {%- endif -%}
 
+        <div id="newsletter_content">
         {{- section.settings.content -}}
+        </div>
       </div>
     {%- endif -%}
 
@@ -56,7 +58,7 @@
       {%- endif -%}
 
       {%- if section.settings.subtext != blank -%}
-<!--         <p class="text-xs text-subdued" id="newsletter_p">{{ section.settings.subtext | escape }}</p> -->
+        <p class="text-xs text-subdued" id="newsletter_p">{{ section.settings.subtext | escape }}</p>
       {%- endif -%}
     {%- endform -%}
   </div>
