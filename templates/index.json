@@ -887,12 +887,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0231_1.jpg",
+        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0231_2_1.jpg",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-end sm:text-end",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 20
+        "overlay_opacity": 15
       }
     },
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e": {
