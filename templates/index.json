@@ -813,6 +813,47 @@
         "testimonial_card_text_color": ""
       }
     },
+    "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "TENCEL™ | Plant Based Scrubs"
+          }
+        },
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Show that you care for the team and the Earth by dressing the part. Be united in comfort, style, and sustainability.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0",
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1",
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0736_3.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
     "da7ecf07-565f-443c-9760-9c6bd4732ca6": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -852,47 +893,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 20
-      }
-    },
-    "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "TEAM ORDERS | 20+ SETS"
-          }
-        },
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        },
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Show that you care for the team and the Earth by dressing the part. Be united in comfort, style, and sustainability.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0",
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1",
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0736_3.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 15
       }
     },
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e": {
@@ -1146,8 +1146,8 @@
     "4874b797-4917-4b28-9020-5c68ba6e7cc6",
     "fc25c2d5-ab85-49ce-bf3f-f8fc5269fa3e",
     "588819be-1d46-487c-8ed2-f4f3e99969d2",
-    "da7ecf07-565f-443c-9760-9c6bd4732ca6",
     "e91fe2af-cb0d-4012-aa47-b2872b9a8984",
+    "da7ecf07-565f-443c-9760-9c6bd4732ca6",
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e",
     "aaf4d661-37d6-4088-a191-db3974e4d92a",
     "d566eeaf-be05-4dcf-b7c7-4fc42a404336",
