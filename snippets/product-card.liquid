@@ -67,14 +67,16 @@ Supported variables
     <div class="product-card__figure">
       <div class="product-card__container">
 
-        {% if product.title contains "fysel"%}
-        <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/recycled-bottle-logo.png?v=1676921174" class="product-card__logo">
-        {% else %}
+<!--         {% if product.title contains "fysel" or collection.url contains "womens-tree-scrub-pants" or collection.url contains "tree-edition-mens-tops" or collection.url contains "tree-edition-mens-bottoms" %}
         <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/product-card_logo.png?v=1676919526" class="product-card__logo">
-<!--         {% elsif collection.url contains "bottle-edition-womens-tops" or collection.url contains "bottle-edition-womens-bottoms" or collection.url contains "bottle-edition-mens-tops" or collection.url contains "bottle-edition-mens-bottoms" %} -->
-        {% endif %}
-    
-        
+        {% elsif collection.url contains "bottle-edition-womens-tops" or collection.url contains "bottle-edition-womens-bottoms" or collection.url contains "bottle-edition-mens-tops" or collection.url contains "bottle-edition-mens-bottoms" %}
+        <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/recycled-bottle-logo.png?v=1676921174" class="product-card__logo">
+        {% endif %} -->
+
+        {% if product.title contains "fysel" %}
+        <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/product-card_logo.png?v=1676919526" class="product-card__logo">
+        {% else %}
+          
         <a href="{{ product.url }}" class="product-card__image">
         {%- capture sizes -%}
           {%- if stacked -%}
@@ -92,6 +94,7 @@ Supported variables
           {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
         {%- endif -%}
         </a>
+        {% endif %}
       </div>
 
       {%- if show_quick_buy and product.available -%}
