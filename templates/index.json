@@ -688,6 +688,7 @@
         },
         "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Made from a one-of-a-kind fabric that was carefully crafted to make sure it is eco-conscious but also functional.<\/p>"
           }
@@ -729,6 +730,7 @@
         },
         "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-2": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>This collection is made to keep up with those who have busy lifestyles and need easy-care medical apparel.<\/p>"
           }
