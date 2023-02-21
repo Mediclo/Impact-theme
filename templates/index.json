@@ -851,7 +851,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 20
       }
     },
     "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
