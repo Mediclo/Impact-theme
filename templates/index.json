@@ -895,7 +895,6 @@
     },
     "aaf4d661-37d6-4088-a191-db3974e4d92a": {
       "type": "newsletter",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "show_icon": true,
