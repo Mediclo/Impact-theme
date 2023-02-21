@@ -7634,7 +7634,7 @@ split-lines {
 }
 
 @media screen and (max-width: 500px) {
-   #newsletter-p {
+   #newsletter_p {
      font-size: 16px;
    }
 }
