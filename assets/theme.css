@@ -3241,6 +3241,14 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   height: 30px;
 }
 
+.product-gallery__logo {
+  position: absolute; 
+  top: 12px; 
+  left: 12px;
+  width: 50px;
+  height: 50px;
+}
+
 .product-card__image {
   display: block;
 }
@@ -3253,6 +3261,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
     height: 15px;
   }
 }
+
+
 
 .product-card__badge-list {
   gap: var(--spacing-2);
