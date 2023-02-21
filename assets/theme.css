@@ -4572,6 +4572,10 @@ custom-cursor {
   #custom-liquid-image-4, #custom-liquid-image-5, #custom-liquid-image-6, #custom-liquid-image-7  {
     display: none;
   }
+
+   #custom-liquid-text-4, #custom-liquid-text-5, #custom-liquid-text-6, #custom-liquid-text-7  {
+    display: none;
+  }
 }
 
 .custom-liquid-image-container{
