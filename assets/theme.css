@@ -7633,6 +7633,13 @@ split-lines {
   display: grid;
 }
 
+@media screen and (max-width: 500px) {
+   #newsletter-p {
+     font-size: 16px;
+   }
+}
+
+
 .newsletter-box {
   padding: var(--spacing-6);
 }
