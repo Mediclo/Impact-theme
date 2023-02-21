@@ -819,7 +819,7 @@
         "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
           "type": "subheading",
           "settings": {
-            "text": "TENCEL™ | Plant Based"
+            "text": "TENCEL™ - Plant Based"
           }
         },
         "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1": {
@@ -849,9 +849,9 @@
         "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0736_3.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#ffffff",
+        "text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 15
+        "overlay_opacity": 0
       }
     },
     "da7ecf07-565f-443c-9760-9c6bd4732ca6": {
