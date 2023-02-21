@@ -7085,6 +7085,7 @@ split-lines {
   #image_subheading {
     font-size: 16px;
     color: #fff;
+    text-shadow: #000 1px 0 10px;
   }
 
   #image_rich-text {
