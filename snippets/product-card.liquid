@@ -74,6 +74,7 @@ Supported variables
         {% endif %} -->
 
         {% if product.title contains "fysel" %}
+        <p>Test</p>
         <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/product-card_logo.png?v=1676919526" class="product-card__logo">
         {% else %}
           
@@ -94,7 +95,9 @@ Supported variables
           {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
         {%- endif -%}
         </a>
+          
         {% endif %}
+    
       </div>
 
       {%- if show_quick_buy and product.available -%}
