@@ -81,8 +81,6 @@ only way to do it on Shopify right now.
             {%- else -%}
               {%- assign preload = false -%}
             {%- endif -%}
-
-
             <div>
           
             {%- render 'media', media: media, sizes: sizes, preload: preload, autoplay: section.settings.enable_video_autoplay, loop: section.settings.enable_video_looping, group: 'product' -%}
