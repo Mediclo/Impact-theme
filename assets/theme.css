@@ -4568,10 +4568,10 @@ custom-cursor {
  .custom-liquid-container h2 {
   font-size: 22px;
  }
-  #custom-liquid-image-4, #custom-liquid-image-5, #custom-liquid-image-6, #custom-liquid-image-7  {
+  #custom-liquid-image-4, #custom-liquid-image-5, #custom-liquid-image-6, #custom-liquid-image-7, #custom-liquid-image-11, #custom-liquid-image-12  {
     display: none;
   }
-  #custom-liquid-text-4, #custom-liquid-text-5, #custom-liquid-text-6, #custom-liquid-text-7  {
+  #custom-liquid-text-4, #custom-liquid-text-5, #custom-liquid-text-6, #custom-liquid-text-7, #custom-liquid-image-11, #custom-liquid-image-12  {
     display: none !important;
   } 
   .custom-liquid-image-container{
