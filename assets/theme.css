@@ -8768,6 +8768,11 @@ split-lines {
   margin-inline-end: auto;
 }
 
+#main-image {
+  padding: 30px;
+  background-color: #fff;
+}
+
 @media screen and (min-width: 700px) {
   .main-search-form .search-input {
     width: 490px;
