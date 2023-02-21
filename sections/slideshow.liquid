@@ -88,7 +88,7 @@ LIQUID
           <div {% render 'surface', class: content_class, text_color: block.settings.text_color %}>
             <div class="prose">
               {%- if block.settings.subheading != blank -%}
-                <p class="bold" id="slideshow-small-text" data-sequence="subheading" style="color: #fff; text-shadow: #2F200F 1px 0 10px;">{{ block.settings.subheading | escape }}</p>
+                <p class="bold" id="slideshow-small-text" data-sequence="subheading">{{ block.settings.subheading | escape }}</p>
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}

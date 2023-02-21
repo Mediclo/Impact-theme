@@ -8894,6 +8894,11 @@ split-lines {
   transition: 0.5s;
 }
 
+#slideshow-small-text {
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+}
+
 #slideshow-large-text {
   color: #fff;
   text-shadow: #000 1px 0 10px;
