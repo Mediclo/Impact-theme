@@ -7082,8 +7082,8 @@ split-lines {
   text-shadow: #000 1px 0 10px;
 }
 
-#image_rict-text {
-  font-size: 10px;
+#image_rich-text {
+  font-size: 14px;
 }
 
 @media screen and (max-width: 500px) {
