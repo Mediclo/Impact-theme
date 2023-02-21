@@ -8770,12 +8770,12 @@ split-lines {
 
 #main-image {
   padding: 30px;
-  background-color: #fff;
 }
 
-
 @media screen and (max-width: 500px) {
-  padding: 0px;
+    #main-image {
+    padding: 0px;
+  }
 }
 
 @media screen and (min-width: 700px) {
