@@ -855,6 +855,7 @@
     },
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e": {
       "type": "image-link-blocks",
+      "disabled": true,
       "blocks": {
         "template--14491305902126__a11f96fb-ccd6-4621-b769-3ea34ad13d1e-1674861089f77c0f72-0": {
           "type": "item",
