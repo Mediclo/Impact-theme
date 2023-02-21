@@ -240,73 +240,6 @@
         "heading_gradient": ""
       }
     },
-    "211604cb-3b29-4a51-ab87-ade84cd9f50b": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "blocks": {
-        "template--14491305902126__211604cb-3b29-4a51-ab87-ade84cd9f50b-1674600004d721346f-0": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "template--14491305902126__211604cb-3b29-4a51-ab87-ade84cd9f50b-1674600004d721346f-1": {
-          "type": "heading",
-          "settings": {
-            "text": "MEDICLO | SUSTAINABILITY",
-            "heading_tag": "h1"
-          }
-        },
-        "template--14491305902126__211604cb-3b29-4a51-ab87-ade84cd9f50b-1674600004d721346f-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A medical apparel brand that cares about the planet.<\/p>"
-          }
-        },
-        "d0452724-0085-44d9-9e77-b0678139ac37": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "SHOP WOMEN",
-            "url": "",
-            "background": "#ffffff",
-            "text_color": "#000000"
-          }
-        },
-        "7f9143f8-49b3-418d-aace-59a3444671bd": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "SHOP MEN",
-            "url": "",
-            "background": "#ffffff",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--14491305902126__211604cb-3b29-4a51-ab87-ade84cd9f50b-1674600004d721346f-0",
-        "template--14491305902126__211604cb-3b29-4a51-ab87-ade84cd9f50b-1674600004d721346f-1",
-        "template--14491305902126__211604cb-3b29-4a51-ab87-ade84cd9f50b-1674600004d721346f-2",
-        "d0452724-0085-44d9-9e77-b0678139ac37",
-        "7f9143f8-49b3-418d-aace-59a3444671bd"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "fill",
-        "image": "shopify:\/\/shop_images\/coffee_web.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "0634a694-82e6-4967-87d1-325f67b3c2cb": {
       "type": "rich-text",
       "blocks": {
@@ -1124,7 +1057,6 @@
     "fbfeca77-e09f-44e1-a8d4-2fa5662a5619",
     "e23ce236-bde8-45d5-9fe4-01ff32255dfd",
     "637b96c0-f2b3-4dd0-b53a-8acad09f35b1",
-    "211604cb-3b29-4a51-ab87-ade84cd9f50b",
     "0634a694-82e6-4967-87d1-325f67b3c2cb",
     "78587d95-c6df-479f-955a-863e81063078",
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3",
