@@ -177,7 +177,7 @@ Supported variables
           var new_title = product_title.replace(/\-.*/,'');
           console.log(new_title);
            
-          $(".product-card__title").html("<span>" + new_title + "</span>");   
+          $(".product-card__title").html("<span><a href="{{ product.url }}" class="bold">" + new_title + "</a></span>");   
         
         </script>
      
