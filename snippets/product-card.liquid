@@ -168,8 +168,10 @@ Supported variables
 
       <script>
 
-          const product_title = {{ product.title|json }};
-          console.log(product_title)
+          const product_title = {{ product|json }};
+          for(let i = 0; i < product_title.length; i++){
+          console.log(product_title[i];)
+          }
        
           // var new_title = product_title.replace(/\-.*/,'');
           // console.log(new_title);
