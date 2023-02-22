@@ -22,10 +22,11 @@
           {% if product.title contains "-"%}
           <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }}</h1>
             
-          <script>
-        
-              $('.product-info__title').html('<h1> Amelia‎ ‎ Fitted Scrub Top <h1>');               
-                 
+          <script> 
+            
+              const product_title = {{ product.title|json }};
+            
+              $('.product-info__title').html('<h1>  <h1>');                             
           </script>
             
           {% else %}
