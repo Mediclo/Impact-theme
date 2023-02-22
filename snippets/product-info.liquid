@@ -25,15 +25,10 @@
           <script> 
             
               const product_title = {{ product.title|json }};
-{% comment %}               console.log(product_title); {% endcomment %}
+              const new-product-info__title = product_title.replace(/\-.*/,'');
 
             
-
-              const temp = product_title.replace(/\-.*/,'');
-{% comment %}               href = href.replace(/\?.*/,''); {% endcomment %}
-              console.log(temp);
-            
-              $('.product-info__title').html('<h1>  <h1>');                             
+              $('.product-info__title').html('<h1> {new-product-info__title} <h1>');                             
           </script>
             
           {% else %}
