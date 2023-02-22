@@ -29,7 +29,8 @@
 
             
 
-              const temp = product_title.replace('-','');
+              const temp = product_title.replace(/\-.*/,'');
+{% comment %}               href = href.replace(/\?.*/,''); {% endcomment %}
               console.log(temp);
             
               $('.product-info__title').html('<h1>  <h1>');                             
