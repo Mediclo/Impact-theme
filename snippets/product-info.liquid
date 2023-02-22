@@ -152,13 +152,13 @@
                         {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'variant' -%}
-                        {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
+{% comment %}                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%} {% endcomment %}
 
                       {%- when 'block' -%}
                         {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'block_swatch' -%}
-{% comment %}                         {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%} {% endcomment %}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
                     {%- endcase -%}
                   {%- endfor -%}
                 </div>
