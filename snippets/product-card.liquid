@@ -170,7 +170,13 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
+
+        {% if product.title contains "-" %}
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">TEST</a></span>
+        {% else %}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+        {% endif %}
+        
       {%- endif -%}
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
