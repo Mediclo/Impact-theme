@@ -148,7 +148,7 @@
                     {%- endif -%}
 
                     {%- case block.settings.color_mode -%}
-{% comment %}                       {%- when 'color' -%}
+                      {%- when 'color' -%}
                         {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'variant' -%}
@@ -158,7 +158,7 @@
                         {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'block_swatch' -%}
-                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%} {% endcomment %}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
                     {%- endcase -%}
                   {%- endfor -%}
                 </div>
