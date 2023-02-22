@@ -174,8 +174,9 @@ Supported variables
           var product_title = {{ product.title|json }};
   
        
-          const new_title = product_title.replace(/\-.*/,'');
+          var new_title = product_title.replace(/\-.*/,'');
           console.log(new_title);
+           
           // $(".product-card__title").html("<span>" + new_title + "</span>");
             
          </script>
