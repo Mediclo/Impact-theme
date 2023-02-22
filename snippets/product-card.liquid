@@ -171,7 +171,7 @@ Supported variables
 
          <script> 
 
-          var product_title = {{ product.title|json }};
+          const product_title = {{ product.title|json }};
           console.log(product_title);
        
           const new_title = product_title.replace(/\-.*/,'');
