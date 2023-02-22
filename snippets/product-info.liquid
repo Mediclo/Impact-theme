@@ -161,8 +161,8 @@
                     {%- endif -%}
 
                     {%- case block.settings.color_mode -%}
-{% comment %}                       {%- when 'color' -%}
-                        {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
+                      {%- when 'color' -%}
+{% comment %}                         {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%} {% endcomment %}
 
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
@@ -171,7 +171,7 @@
                         {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'block_swatch' -%}
-                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%} {% endcomment %}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
                     {%- endcase -%}
                   {%- endfor -%}
                 </div>
