@@ -27,8 +27,7 @@
               const product_title = {{ product.title|json }};
               const new_title = product_title.replace(/\-.*/,'');
         
-{% comment %}               $('.product-info__title').html('<h1> + 'new__title' + <h1>');  {% endcomment %}
-              $(".product-info__title").html("<h1>" + new_title + "'</h1>");
+              $(".product-info__title").html("<h1>" + new_title + "</h1>");
             
           </script>
             
