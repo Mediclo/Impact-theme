@@ -92,7 +92,8 @@ only way to do it on Shopify right now.
 
             <script>
               var product_images = {{ product_media | json }};
-              for(let i = 0; i < product_images.length; i++){
+              
+              for(var i = 0; i < product_images.length; i++){
                 console.log(product_images[i]);
               }
               
