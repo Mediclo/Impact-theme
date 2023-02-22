@@ -114,52 +114,6 @@
               "drawer_link_image": "hide"
             }
           },
-          "8b660126-ce2c-49dc-aa3a-7fe53eee4431": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
-              "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
-              "image_link_2": "",
-              "image_text_color_2": "#ffffff",
-              "image_heading_3": "",
-              "image_link_3": "",
-              "image_text_color_3": "#ffffff",
-              "product": "",
-              "product_card_background": "",
-              "product_card_text_color": "",
-              "promo_content_layout": "grid",
-              "stretch_promo": false,
-              "drawer_link_image": "hide"
-            }
-          },
-          "2cfa064a-20be-444a-9444-96678da5473b": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
-              "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
-              "image_link_2": "",
-              "image_text_color_2": "#ffffff",
-              "image_heading_3": "",
-              "image_link_3": "",
-              "image_text_color_3": "#ffffff",
-              "product": "",
-              "product_card_background": "",
-              "product_card_text_color": "",
-              "promo_content_layout": "grid",
-              "stretch_promo": false,
-              "drawer_link_image": "hide"
-            }
-          },
           "af563e4d-ab2f-4bd8-bb47-ef53f959ac4c": {
             "type": "mega_menu",
             "settings": {
@@ -182,61 +136,11 @@
               "stretch_promo": false,
               "drawer_link_image": "hide"
             }
-          },
-          "44d615e7-e611-4265-8e25-323c9ae21158": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
-              "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
-              "image_link_2": "",
-              "image_text_color_2": "#ffffff",
-              "image_heading_3": "",
-              "image_link_3": "",
-              "image_text_color_3": "#ffffff",
-              "product": "",
-              "product_card_background": "",
-              "product_card_text_color": "",
-              "promo_content_layout": "grid",
-              "stretch_promo": false,
-              "drawer_link_image": "hide"
-            }
-          },
-          "d36268b5-1600-4db0-9aa0-ed22d1014f98": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
-              "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
-              "image_link_2": "",
-              "image_text_color_2": "#ffffff",
-              "image_heading_3": "",
-              "image_link_3": "",
-              "image_text_color_3": "#ffffff",
-              "product": "",
-              "product_card_background": "",
-              "product_card_text_color": "",
-              "promo_content_layout": "grid",
-              "stretch_promo": false,
-              "drawer_link_image": "hide"
-            }
           }
         },
         "block_order": [
           "f972b4c2-edc9-4f0c-ab29-e09a763c31c8",
-          "8b660126-ce2c-49dc-aa3a-7fe53eee4431",
-          "2cfa064a-20be-444a-9444-96678da5473b",
-          "af563e4d-ab2f-4bd8-bb47-ef53f959ac4c",
-          "44d615e7-e611-4265-8e25-323c9ae21158",
-          "d36268b5-1600-4db0-9aa0-ed22d1014f98"
+          "af563e4d-ab2f-4bd8-bb47-ef53f959ac4c"
         ],
         "settings": {
           "enable_sticky": true,
