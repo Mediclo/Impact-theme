@@ -169,8 +169,22 @@ Supported variables
             {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
           {%- endif -%}
         </div>
-      {%- else -%}   
-<!--         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span> -->
+      {%- else -%}
+        {% if product.title contains "-" %}
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+      
+        <script>
+          
+          const product_title = {{ product.title|json }};
+          const new_title = product_title.replace(/\-.*/,'');
+          $(".product-card__title").html("<span class="product-card__title"><a href="{{ product.url }}" class="bold"> "+ new_title +" </a></span>");
+        
+        </script>
+   
+        {% else %}
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+        {% endif %}
+        
       {%- endif -%}
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
