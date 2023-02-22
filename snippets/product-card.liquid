@@ -164,12 +164,10 @@ Supported variables
             {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
           {%- endif -%}
         </div>
-      {%- else -%}
-      
+      {%- else -%}     
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
         
-
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
 
