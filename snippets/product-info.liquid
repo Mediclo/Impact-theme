@@ -25,7 +25,12 @@
           <script> 
             
               const product_title = {{ product.title|json }};
-              console.log(product_title);
+{% comment %}               console.log(product_title); {% endcomment %}
+
+            
+
+              const temp = product_title.replace('-','*');
+              console.log(temp);
             
               $('.product-info__title').html('<h1>  <h1>');                             
           </script>
