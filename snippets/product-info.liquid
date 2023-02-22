@@ -26,6 +26,7 @@
             
               const product_title = {{ product.title|json }};
               const new-product-info__title = product_title.replace(/\-.*/,'');
+              console.log(new-product-info__title);
 
             
               $('.product-info__title').html('<h1> + new-product-info__title + <h1>');                             
