@@ -90,10 +90,9 @@ only way to do it on Shopify right now.
             {% else %}  
             <script>
               var mediaJson = {{ product.media|json }}; 
-              console.log(mediaJson);
 
               for(var i = 0; i < mediaJson.length; i++){
-                console.log(mediaJson[i]);
+                const first_image = mediaJson[0];
               }
               
             </script>
