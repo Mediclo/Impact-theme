@@ -169,17 +169,18 @@ Supported variables
         {% if product.title contains "-" %}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
 
-<!--          <script> 
+         <script> 
 
-          const product_title = {{ product.title|json }};
+          var product_title = {{ product.title|json }};
           console.log(product_title);
        
-          const new_title = product_title.replace(/\-.*/,'');
-          $(".product-card__title").html("<span>" + new_title + "</span>");
+          // const new_title = product_title.replace(/\-.*/,'');
+          // $(".product-card__title").html("<span>" + new_title + "</span>");
             
-         </script> -->
+         </script>
       
         {% else %}
+          
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
         
