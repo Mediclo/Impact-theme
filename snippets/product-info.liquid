@@ -144,8 +144,8 @@
                 {%- if block.settings.option_name != blank -%}
                   <div class="variant-picker__option-info">
                     <div class="h-stack gap-2">
-                      <legend class="text-subdued">{{ block.settings.option_name | escape }}:</legend>
-                      <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
+{% comment %}                       <legend class="text-subdued">{{ block.settings.option_name | escape }}:</legend>
+                      <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span> {% endcomment %}
                     </div>
                   </div>
                 {%- endif -%}
