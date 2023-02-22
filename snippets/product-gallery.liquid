@@ -96,7 +96,11 @@ only way to do it on Shopify right now.
             <script>
               
               const product_images = {{ product.media|json }};
-              console.log(product_images)
+              // console.log(product_images)
+
+              for(var i = 0; i < product_images.length; i++){
+                console.log(product_image[0]);
+              }
               
             </script>
               
