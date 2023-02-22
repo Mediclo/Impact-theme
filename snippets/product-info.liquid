@@ -162,7 +162,7 @@
 
                     {%- case block.settings.color_mode -%}
                       {%- when 'color' -%}
-{% comment %}                         {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%} {% endcomment %}
+                        {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
