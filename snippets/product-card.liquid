@@ -166,14 +166,14 @@ Supported variables
         </div>
       {%- else -%}
             
-        {% if product.title contains "-" %}
-        <span class="product-card__title2"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+        {% if product.title contains "Amelia‎ ‎ Fitted Scrub Top -" %}
+        <span class="product-card__title1"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
 
         <script>
 
           var product_title = {{ product.title|json }};  
           var new_title = product_title.replace(/\-.*/,'');
-          $(".product-card__title2").html("<span>" + new_title + "</span>");   
+          $(".product-card__title1").html("<span>" + new_title + "</span>");   
         
         </script>
      
