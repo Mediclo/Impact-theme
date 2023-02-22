@@ -149,7 +149,7 @@
           "logo_mobile_max_width": 50,
           "menu": "new-mediclo",
           "sidebar_menu": "",
-          "secondary_menu": "",
+          "secondary_menu": "second-menu",
           "menu_open_trigger": "hover",
           "opening_from": "bottom",
           "layout": "logo_center_navigation_inline",
