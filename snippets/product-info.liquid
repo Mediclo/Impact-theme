@@ -144,8 +144,8 @@
                 {%- if block.settings.option_name != blank -%}
                   <div class="variant-picker__option-info">
                     <div class="h-stack gap-2">
-{% comment %}                       <legend class="text-subdued">{{ block.settings.option_name | escape }}:</legend>
-                      <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span> {% endcomment %}
+                      <legend class="text-subdued">{{ block.settings.option_name | escape }}:</legend>
+                      <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
                     </div>
                   </div>
                 {%- endif -%}
@@ -161,7 +161,7 @@
                     {%- endif -%}
 
                     {%- case block.settings.color_mode -%}
-                      {%- when 'color' -%}
+{% comment %}                       {%- when 'color' -%}
                         {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'variant' -%}
@@ -171,7 +171,7 @@
                         {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'block_swatch' -%}
-                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%} {% endcomment %}
                     {%- endcase -%}
                   {%- endfor -%}
                 </div>
