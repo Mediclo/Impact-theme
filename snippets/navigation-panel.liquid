@@ -19,7 +19,7 @@ Supported variables
 <div class="panel-list__wrapper">
   <div class="panel">
     <div class="panel__wrapper" {% if mega_menu_block.settings.promo_content_layout == 'grid' or mega_menu_block.settings.promo_content_layout == 'collage' %}style="--panel-wrapper-justify-content: flex-start"{% endif %}>
-      <div class="panel__scroller v-stack gap-8">
+      <div class="panel__scroller v-stack gap-3">
         {%- if is_mega_menu -%}
           <button is="close-button" aria-label="{{ 'general.accessibility.close' | t | escape }}" {%- if section.settings.opening_from == 'bottom' -%}class="sm-max:hidden"{%- endif -%}>
             {%- render 'icon' with 'close', width: 19, height: 19 -%}
@@ -574,7 +574,7 @@ Supported variables
       {%- else -%}
         {%- comment -%}
         ----------------------------------------------------------------------------------------------------------------
-        SOCIAL MEDIA + LOCALIZATION
+        SOCIAL MEDIA + LOCALIZATIONpanel__scroller
         ----------------------------------------------------------------------------------------------------------------
         {%- endcomment -%}
 
