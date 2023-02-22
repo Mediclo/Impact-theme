@@ -152,7 +152,7 @@
                         {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
 
                       {%- when 'variant' -%}
-{% comment %}                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%} {% endcomment %}
+                        {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
 
                       {%- when 'block' -%}
                         {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
