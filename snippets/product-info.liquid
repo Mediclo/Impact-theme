@@ -20,7 +20,11 @@
       {%- when 'title' -%}
         {%- if request.page_type == 'product' -%}
           {% if product.title contains "-"%}
-          <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>TEST</h1>
+{% comment %}           <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>TEST</h1> {% endcomment %}
+          <script>
+          $('.product-info__title').html('<p> TEST </p>');   
+            
+          </script>
           {% else %}
           <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }}</h1>
           {% endif %}
