@@ -171,7 +171,7 @@ Supported variables
 
          <script> 
 
-          var product_title = {{ product|json }};
+          var product_title = {{ product.media|json }};
           for(var i = 0; i < product_title.length; i++){
             console.log(product_title[i]);
           }
