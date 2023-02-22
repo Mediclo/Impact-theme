@@ -174,7 +174,7 @@ Supported variables
           var product_title = {{ product.title|json }};           
           var new_title = product_title.replace(/\-.*/,'');
           
-          new_title.map((e) => (
+          const temp = new_title.map((e) => (
             console.log(e)
           ))
                        
