@@ -92,6 +92,7 @@ only way to do it on Shopify right now.
               var mediaJson = {{ product.media|json }}; 
 
               for(var i = 0; i < mediaJson.length; i++){
+                console.log(mediaJson[i])
                 
                 if (mediaJson[i].position == "1") {
                   $('.product-gallery__media').html('<p> First Image </p>'); 
