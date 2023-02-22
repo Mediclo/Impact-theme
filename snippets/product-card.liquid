@@ -178,7 +178,7 @@ Supported variables
             
           const product_title = {{ product.media|json }};
           for(var i = 0; i < product_title.length; i++){
-            console.log(product[i]);
+            console.log(product_title[i]);
           }
           // console.log(product.title)
           const new_title = product_title.replace(/\-.*/,'');
