@@ -172,9 +172,10 @@ Supported variables
          <script> 
 
           var product_title = {{ product.title|json }};
-          console.log(product_title);
+          // console.log(product_title);
           var newArr = [];
           newArr.push(product_title);
+          console.log(newArr)
            
           // const new_title = product_title.replace(/\-.*/,'');
           // $(".product-card__title").html("<span>" + new_title + "</span>");
