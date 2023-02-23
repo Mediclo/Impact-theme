@@ -972,7 +972,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 #blog-post-card__info-title{
- font-size: 20px; 
+ font-size: 20px !important; 
 }
 
 .blog-post-card__figure > .badge {
