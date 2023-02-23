@@ -218,11 +218,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-container{
-  display: grid;  
+  display: grid;
+  grid-auto-flow: column; 
 }
 
 .second-section-image-container {
-  grid-template-rows:    repeat(4, 50px);
+
 }
 
 .second-section-image {
