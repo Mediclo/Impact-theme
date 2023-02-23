@@ -301,7 +301,7 @@
             "type": "newsletter",
             "settings": {
               "image": "shopify:\/\/shop_images\/Green_gray_logo_488762fc-5649-415c-9729-9f729186171d.png",
-              "image_width": 100,
+              "image_width": 120,
               "heading_size": "h4",
               "title": "Sign up to our newsletter",
               "content": ""
