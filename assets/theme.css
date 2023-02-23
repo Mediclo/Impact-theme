@@ -3199,6 +3199,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: relative;
 }
 
+@media screen and (max-width: 500px) {
+   gap: none;
+}
+
 .product-list__promo {
   grid-column: var(--product-list-promo-grid-column, span 2);
   min-height: 200px;
