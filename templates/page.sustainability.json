@@ -90,7 +90,7 @@
           "type": "blog",
           "settings": {
             "blog": "the-earth-i",
-            "posts_count": 3,
+            "posts_count": 6,
             "stack_items": false
           }
         }
