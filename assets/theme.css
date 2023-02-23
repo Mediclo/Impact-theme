@@ -192,7 +192,9 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .section-stack {
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #before_after_image_subheading{
