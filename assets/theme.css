@@ -225,9 +225,8 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 
 .second-section-container {
   display: flex; 
- 
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .second-section-image-container {
@@ -239,7 +238,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 /*   display: block; */
   width: 50px;
   height: 50px;
-  margin-right: 25px;
+/*   margin-right: 25px; */
+  display: flex; 
+  align-items: center;
+  justify-content: center;
  
 }
 
