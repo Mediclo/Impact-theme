@@ -5390,6 +5390,10 @@ split-lines {
     margin-left: auto;
     margin-right: auto;
   }
+
+  #newsletter_content {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 700px) {
