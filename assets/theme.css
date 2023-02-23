@@ -971,6 +971,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   border-radius: 5px;
 }
 
+#blog-post-card__info-title{
+ font-size: 20px; 
+}
+
 .blog-post-card__figure > .badge {
   z-index: 1;
   position: absolute;
