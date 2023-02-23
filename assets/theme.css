@@ -195,6 +195,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 #before_after_image_subheading{
