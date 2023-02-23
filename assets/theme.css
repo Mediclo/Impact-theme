@@ -5028,6 +5028,10 @@ split-lines {
   height: 500px;
 }
 
+.artical-banner__title {
+  font-size: 30px;
+}
+
 .article-banner__image > img {
   width: 100%;
 }
