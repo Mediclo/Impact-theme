@@ -222,7 +222,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-image {
-  display: inline-block;
+  display: block;
   margin-top: 10px;
   margin-right: 10px;
   width: 50px;
@@ -230,7 +230,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-image-text {
-  font-size: 8px;
+  font-size: 10px;
 }
 
 /*********************** Embroidery pop up CSS *************************/
