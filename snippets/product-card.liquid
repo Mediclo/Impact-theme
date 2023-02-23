@@ -167,14 +167,11 @@ Supported variables
       {%- else -%}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
-          
-        <span><strong>{{ product.media[0].alt }}</strong></span>
 
-        <script>
-          var mediaJson = {{ product.media|json }};
-          console.log(mediaJson);          
-          
-        </script>
+        {% if product.title contains "Amelia‎ ‎ Fitted Scrub Top" %}
+        <span><strong>{{ product.media[0].alt }}</strong></span> <span> More color Available</span>
+        {% endif %}
+
       
         {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
