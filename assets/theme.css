@@ -229,6 +229,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   height:50px;
 }
 
+.second-section-image-text {
+  font-size: 12px;
+}
+
 /*********************** Embroidery pop up CSS *************************/
 
 .open_modal_popup {
