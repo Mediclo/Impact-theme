@@ -168,19 +168,6 @@ Supported variables
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
         <span class="color_name">{{ product.title }}</span>
-
-      <script>
-        
-        var productJson = {{ product|json }};
-        console.log(productJson);
-   
-        // console.log(mediaJson[i].media.alt);
-          
-        let newArr = ["1", "2", "3", "4", "5"];
-
-          $('.color_name').html('<span>'+ product.title +'</span>');
-             
-      </script>
       
         {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
