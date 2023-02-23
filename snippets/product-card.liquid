@@ -172,12 +172,13 @@ Supported variables
       <script>
         
         var mediaJson = {{ product|json }};
-        console.log(mediaJson.media.alt);
+        // console.log(mediaJson.media.alt);
 
         for(var i = 0; i < mediaJson.length; i++){
         const getAlt = mediaJson[0].alt;
           
-        // console.log(getAlt);
+        console.log(mediaJson[i].media.alt);
+          
         let newArr = ["1", "2", "3", "4", "5"];
 
           $('.color_name').html('<span>'+ product.alt +'</span>');
