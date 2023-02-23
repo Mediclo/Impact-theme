@@ -245,6 +245,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   
   .second-section-image-text {
   font-size: 8px;
+  display: none;
   }
 }
 
