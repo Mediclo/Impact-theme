@@ -168,7 +168,7 @@ Supported variables
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
         
-      {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+        {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
