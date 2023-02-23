@@ -222,7 +222,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-image-text {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 @media screen and (max-width: 500px) {
