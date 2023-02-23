@@ -223,6 +223,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   }
 }
 
+.second-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .second-section-image-container {
   display: inline-block;
 }
