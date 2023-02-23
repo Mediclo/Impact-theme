@@ -117,6 +117,18 @@
         "overlay_opacity": 30
       }
     },
+    "ae640aec-ac30-4657-b1f1-bf3a540bd59e": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc": {
       "type": "blog-posts",
       "blocks": {
@@ -174,6 +186,7 @@
     "e6ece2ff-36d5-438d-9707-79c9c266da2b",
     "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb",
     "39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0",
+    "ae640aec-ac30-4657-b1f1-bf3a540bd59e",
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc",
     "e789a64d-9c25-4e8b-aa34-0821ecf468d0"
   ]
