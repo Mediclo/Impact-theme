@@ -3443,7 +3443,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-card--blends .product-card__info {
   padding-block-end: 20px;
-/*   padding-inline-start: 0; */
+  padding-inline-start: 0;
   padding-inline-end: 0;
 }
 
