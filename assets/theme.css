@@ -5387,6 +5387,8 @@ split-lines {
   .newsletter_icon {
     width: 60px;
     height: 60px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
