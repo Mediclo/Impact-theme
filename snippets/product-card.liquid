@@ -165,25 +165,7 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}     
-        {% if product.title contains "-" %}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
-
-            <script> 
-            
-              var product_title = {{ product.title|json }};
-              console.log(product_title);
-              var new_title = product_title.replace(/\-.*/,'');
-              console.log(new_title);
-
-              let newArr = ["1", "2"];
-              
-              $(".product-info__title").html("<h1>" + newArr[0] + "</h1>");
-            
-          </script>
-      
-        {% else %}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
-        {% endif %}
         {% endif %}
         <span><strong>{{ product.media[0].alt }}</strong></span>
       
