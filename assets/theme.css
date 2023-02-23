@@ -218,13 +218,9 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-container{
-  display: grid;
-  grid-auto-flow: column;
+  display: inline-block
 }
 
-.second-section-image-container {
-/*   flex: 1; */
-}
 
 .second-section-image {
   width: 50px;
