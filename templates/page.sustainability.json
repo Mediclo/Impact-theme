@@ -49,11 +49,28 @@
         "before_text_color": "#ffffff",
         "after_text_color": "#ffffff"
       }
+    },
+    "e789a64d-9c25-4e8b-aa34-0821ecf468d0": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": false,
+        "show_icon": true,
+        "title": "We are sustainable people",
+        "content": "<p>Sign up for email updates and we’ll keep you posted as we continue to work towards our long-term sustainability goals.<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "#eaeaea",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "e6ece2ff-36d5-438d-9707-79c9c266da2b",
-    "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb"
+    "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb",
+    "e789a64d-9c25-4e8b-aa34-0821ecf468d0"
   ]
 }
