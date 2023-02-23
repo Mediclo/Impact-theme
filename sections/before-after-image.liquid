@@ -24,7 +24,7 @@ LIQUID
 {%- endcomment -%}
 
 <div {% render 'section-properties' %}>
-  <div style="display: block;" class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
+  <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- capture content -%}
       {%- if section.settings.subheading != blank -%}
         <p class="bold" id="before_after_image_subheading">{{ section.settings.subheading | escape }}</p>
@@ -45,7 +45,7 @@ LIQUID
       </div>
     {%- endif -%}
 
-    <div class="before_after_image_container" style="display: block;">
+    <div class="before_after_image_container"">
       <p class="bold" id="before_after_image_subheading"> Made with Recycled Bottles</p>
     </div>
 
