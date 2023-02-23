@@ -5032,9 +5032,17 @@ split-lines {
   font-size: 30px;
 }
 
+#article_content {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 500px) {
   .artical-banner__title {
     font-size: 20px;
+  }
+
+  #article_content {
+    font-size: 12px;
   }
 }
 
