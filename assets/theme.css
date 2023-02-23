@@ -3193,7 +3193,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-list {
   grid: var(--product-list-grid);
-  gap: var(--product-list-gap);
+/*   gap: var(--product-list-gap); */
   scroll-padding-top: calc(var(--sticky-area-height)  + 20px);
   display: grid;
   position: relative;
