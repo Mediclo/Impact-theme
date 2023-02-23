@@ -92,23 +92,15 @@
             "text": "Our Material"
           }
         },
-        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
         "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Currently, our scrubs are made from Tencel™ blend fabric, consisting of 67% Tencel™, 30% recycled polyester, and 3% spandex. Tencel™ is a fiber made from the wood chips of responsibly harvested trees. The wood chips go through a closed-loop process, in which 99% of the solvent is recovered, purified, and reused. This cycle uses less water and energy than most other conventional fibers.<\/p>"
           }
         }
       },
       "block_order": [
         "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-0",
-        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-1",
         "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-2"
       ],
       "settings": {
