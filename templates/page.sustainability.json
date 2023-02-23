@@ -27,10 +27,31 @@
         "before_text_color": "#ffffff",
         "after_text_color": "#ffffff"
       }
+    },
+    "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Made with Recycled Bottles",
+        "content": "<p>As we continue to grow, we are always working to improve our products for our customers and the environment. So we’ve made a significant switch that makes your life easier and more sustainable by switching from polyester to Recycled polyester.<\/p>",
+        "expand_image": false,
+        "text_position": "end",
+        "before_after_text_position": "top",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
-    "e6ece2ff-36d5-438d-9707-79c9c266da2b"
+    "e6ece2ff-36d5-438d-9707-79c9c266da2b",
+    "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb"
   ]
 }
