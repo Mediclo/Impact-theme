@@ -218,12 +218,11 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-image-container {
-  display: block;
+  display: inline-block;
 }
 
 .second-section-image {
   display: block;
-  margin-top: 10px;
   margin-right: 10px;
   width: 50px;
   height:50px;
