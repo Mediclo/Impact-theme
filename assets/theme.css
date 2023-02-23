@@ -968,7 +968,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   overflow: hidden;
   width: 350px;
   height: 350px;
-  border-radius: 5px;
+  border-radius: 5px !important;
 }
 
 #blog-post-card__info-title{
