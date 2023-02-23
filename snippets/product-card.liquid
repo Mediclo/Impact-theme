@@ -167,7 +167,7 @@ Supported variables
       {%- else -%}     
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
-        <span class="color_name">{{ product.title }}</span>
+        <span class="color_name">{{ product.media[0].alt }}</span>
 
       <script>
 
