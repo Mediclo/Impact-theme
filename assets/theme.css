@@ -977,7 +977,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 #blog-post-card__info-text {
- width: 90%;
+ width: 400px;
 }
 
 .blog-post-card__figure > .badge {
