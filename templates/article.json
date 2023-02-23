@@ -23,7 +23,7 @@
       ],
       "settings": {
         "allow_transparent_header": false,
-        "layout": "content_first",
+        "layout": "image_left_text_right",
         "show_author": true,
         "show_date": true,
         "show_comments_count": true,
