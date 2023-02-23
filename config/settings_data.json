@@ -297,10 +297,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "b511de05-3a6b-4cba-8ba2-a4801e5410dc": {
-            "type": "text",
+          "7c6b81a4-96d2-4a94-ad23-a20476d24f2b": {
+            "type": "newsletter",
             "settings": {
-              "title": "MEDICLO",
+              "image": "shopify:\/\/shop_images\/Green_gray_logo_488762fc-5649-415c-9729-9f729186171d.png",
+              "image_width": 150,
+              "heading_size": "h3",
+              "title": "Sign up to our newsletter",
               "content": ""
             }
           },
@@ -327,7 +330,7 @@
           }
         },
         "block_order": [
-          "b511de05-3a6b-4cba-8ba2-a4801e5410dc",
+          "7c6b81a4-96d2-4a94-ad23-a20476d24f2b",
           "5725328e-8179-4045-bc1f-2b04f54161a5",
           "5d801d5d-1c5f-484e-932d-4900d41745f4",
           "4d612cdd-677f-4a60-8891-955b62427a47"
