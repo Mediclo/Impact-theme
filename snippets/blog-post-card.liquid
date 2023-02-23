@@ -29,7 +29,7 @@ Supported parameters
           <span class="badge badge--primary">{{ article.tags | first }}</span>
         {%- endif -%}
 
-        {{- article.image | image_url: width: article.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'w-full h-full object-cover zoom-image' style="width: 200px; height: 200px;" -}}
+        {{- article.image | image_url: width: article.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'w-full h-full object-cover zoom-image' -}}
       </a>
     {%- endif -%}
   {%- else -%}
