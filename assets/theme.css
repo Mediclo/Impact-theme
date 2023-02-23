@@ -224,12 +224,9 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   }
 }
 
-.second-section-container {
-  
-}
-
 .second-section-image-container {
   display: inline-block; 
+  margin-right: 20px;
 }
 
 .second-section-image {
