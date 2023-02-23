@@ -46,7 +46,7 @@ Supported parameters
 
         <p class="{% if heading_size != blank %}{{ heading_size }}{% elsif featured %}h2{% else %}h3{% endif %}" id="blog-post-card__info-title">
           {%- if article -%}
-            <a href="{{ article.url }}"><strong>{{ article.title }}</strong></a>
+            <a href="{{ article.url }}">{{ article.title }}</a>
           {%- else -%}
             {{- 'general.on_boarding.blog_post_title' | t -}}
           {%- endif -%}
