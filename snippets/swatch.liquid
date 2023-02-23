@@ -114,12 +114,12 @@ Color swatch specific parameters:
         <span class="sr-only">{{ value }}</span>
       </a>
     {%- else -%}
-      <label class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" for="{{ id | escape }}" data-option-value {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}"
+      <label style="display: none;"class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" for="{{ id | escape }}" data-option-value {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}"
         data-value="{{ swatch_value }}" 
         data-color-name="{{ value }}"
         data-src="{{ value | handle | append: '.png' | file_img_url: '48x48', crop: 'center' }}" 
       >
-        <span class="sr-only"> {{ value }}</span>
+        <span style="display: none;" class="sr-only"> {{ value }}</span>
       </label>
     {%- endif -%}
   
