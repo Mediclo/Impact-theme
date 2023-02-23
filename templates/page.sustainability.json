@@ -2,11 +2,33 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "e6ece2ff-36d5-438d-9707-79c9c266da2b": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "Sustainable Practices",
+        "title": "Tree Edition‎ ‎ &‎ ‎ Bottle Edition",
+        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "expand_image": true,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e6ece2ff-36d5-438d-9707-79c9c266da2b"
   ]
 }
