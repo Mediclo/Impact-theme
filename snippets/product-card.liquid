@@ -173,7 +173,8 @@ Supported variables
         var mediaJson = {{ product.media|json }};
 
         for(var i = 0; i < mediaJson.length; i++){
-        console.log(mediaJson[i]);
+        const getAlt = mediaJson[i].alt;
+          console.log(getAlt);
         }
         
       </script>
