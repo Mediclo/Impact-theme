@@ -169,13 +169,17 @@ Supported variables
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
 
-        {% if product.title contains "Amelia‎ ‎ Fitted Scrub Top" %}
+        {% if product.title == "Amelia‎ ‎ Fitted Scrub Top" %}
         <div style="display: inline-block">
         <span><strong>{{ product.media[0].alt }}</strong></span><span style="margin-left: 5px;"> 5 Colors </span>
         </div>
         {% elsif product.title contains "Capri‎‎‎ ‎ Collared Scrub Top" %}
         <div style="display: inline-block">
         <span><strong>{{ product.media[0].alt }}</strong></span><span style="margin-left: 5px;"> 10 Colors </span>
+        </div>
+        {% elsif product.title == "Sal‎ ‎ Essential Scrub Top" %}
+        <div style="display: inline-block">
+        <span><strong>{{ product.media[0].alt }}</strong></span><span style="margin-left: 5px;"> 21 Colors </span>
         </div>
         {% endif %}
 
