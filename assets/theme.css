@@ -225,12 +225,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   display: block;
   width: 70px;
   height: 70px;
-  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-section-image-text {
   font-size: 9px;
-  align-self: center;
 }
 
 @media screen and (max-width: 500px) {
