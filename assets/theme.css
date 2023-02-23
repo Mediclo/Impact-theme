@@ -224,12 +224,11 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-container {
-  display: grid;
-  grid-auto-flow: column;  
+  display: flex; 
 }
 
 .second-section-image-container {
-  grid-row: 1;  
+  flex: 1;
 }
 
 
