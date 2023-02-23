@@ -166,7 +166,17 @@ Supported variables
         </div>
       {%- else -%}     
         {% if product.title contains "-" %}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold">TEST</a></span>
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+
+            <script> 
+            
+              var product_title = {{ product.title|json }};
+              console.log(product_title);
+              // var new_title = product_title.replace(/\-.*/,'');
+              // $(".product-info__title").html("<h1>" + new_title + "</h1>");
+            
+          </script>
+      
         {% else %}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
