@@ -198,10 +198,6 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   margin-top: 50px;
 }
 
-.section-stack:nth-child(2) {
-  background: red;
-}
-
 #before_after_image_subheading{
   font-size: 18px;
 }
