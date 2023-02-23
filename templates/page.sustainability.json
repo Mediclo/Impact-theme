@@ -120,7 +120,7 @@
     "ae640aec-ac30-4657-b1f1-bf3a540bd59e": {
       "type": "custom-html",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "html": "‎",
