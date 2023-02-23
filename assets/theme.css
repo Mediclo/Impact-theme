@@ -7716,7 +7716,7 @@ split-lines {
 
 @media screen and (max-width: 500px) {
    #newsletter_content {
-     font-size: 14px;
+     font-size: 12px;
    }
 
   .newsletter_icon {
@@ -7724,6 +7724,10 @@ split-lines {
     height: 100px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #newsletter_title {
+    font-size: 28px;
   }
 }
 
