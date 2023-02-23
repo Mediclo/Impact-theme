@@ -3199,11 +3199,11 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: relative;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
    .product-list {
     gap: 0;
   }
-}
+} */
 
 .product-list__promo {
   grid-column: var(--product-list-promo-grid-column, span 2);
