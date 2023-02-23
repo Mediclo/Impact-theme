@@ -166,6 +166,7 @@ Supported variables
         </div>
       {%- else -%}
         {% if product.title contains "-" %}
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ new_title }}</a></span>
           
           <script> 
             
@@ -174,10 +175,10 @@ Supported variables
               // $(".product-info__title").html("<h1>" + new_title + "</h1>");
             
           </script>
-          
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ new_title }}</a></span>
+        {% else %}
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
-        
+          
         {% endif %}
         <span><strong>{{ product.media[0].alt }}</strong></span>
       
