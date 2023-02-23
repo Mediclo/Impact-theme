@@ -104,7 +104,7 @@
         "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-2"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "sm",
