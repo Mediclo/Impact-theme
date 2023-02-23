@@ -173,7 +173,8 @@ Supported variables
               var product_title = {{ product.title|json }};
               var new_title = product_title.replace(/\-.*/,'');
               // $(".product-info__title").html("<h1>" + new_title + "</h1>");
-              console.log(new_title)
+              $('.product-card_title').attr('new-title', new_title);
+              console.log(product)
           </script>
       
         {% else %}
