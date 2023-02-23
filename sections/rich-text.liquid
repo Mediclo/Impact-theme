@@ -23,7 +23,10 @@
           {%- when 'heading' -%}
             {%- if block.settings.text != blank -%}
               <p class="{{ block.settings.heading_tag }} hyphenate" {{ block.shopify_attributes }} id="rich-text-heading">
+                {% if page.url contains "sustainability" %}
+                <p>TEST</p>
                 {%- render 'styled-text', content: block.settings.text, text_color: block.settings.text_color, gradient: block.settings.gradient -%}
+                {% endif %}
               </p>
             {%- endif -%}
 
