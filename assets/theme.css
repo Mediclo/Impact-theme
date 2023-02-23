@@ -5024,7 +5024,8 @@ split-lines {
 
 .article-banner__image {
   z-index: 1;
-  width: 100%;
+  width: 500px;
+  height: 500px;
 }
 
 .article-banner__image > img {
