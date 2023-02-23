@@ -41,10 +41,7 @@ LIQUID
       <div class="section-stack__intro">
         <div class="prose {% if text_position == 'center' %}text-center{% endif %}" id="before_after_image_text">
           {{ content }}
-        </div>
-      </div>
-
-      {% if section.settings.title == "Plant Based Materials" %}
+              {% if section.settings.title == "Plant Based Materials" %}
       <div class="second-section-container">
         <div class="second-section-image-container">
         <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_13.png?v=1634857536"/>
@@ -54,6 +51,8 @@ LIQUID
         </div>
       </div>
       {% endif %}
+        </div>
+      </div>
     {%- endif -%}
 
     <div class="section-stack__main">
