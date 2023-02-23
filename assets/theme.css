@@ -213,12 +213,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 .second-section-container {
   display: grid;
   grid-auto-flow: column;  
+  width: 60%;
 }
 
 .second-section-image-container {
   display: inline-block; 
   text-align: center;
-    grid-template-columns: 100px;
 }
 
 .second-section-image {
