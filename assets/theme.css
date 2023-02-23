@@ -213,7 +213,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 .second-section-container {
   display: grid;
   grid-auto-flow: column;  
-  width: 60%;
+  width: 80%;
 }
 
 .second-section-image-container {
