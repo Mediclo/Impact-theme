@@ -1009,7 +1009,6 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
    .blog-post-card__figure {
     width: 300px;
     height: 300px;
-    border-radius: 5px !important;
   }
 }
 
