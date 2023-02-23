@@ -231,6 +231,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 
 .second-section-image-container {
   flex: 1;
+  margin: auto;
 }
 
 
