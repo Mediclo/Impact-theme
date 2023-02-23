@@ -145,7 +145,7 @@
             "collection": "",
             "image": "shopify:\/\/shop_images\/shop_by_color-04.png",
             "subheading": "",
-            "title": "Lavender",
+            "title": "Coffee Brown",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-end-center text-center",
@@ -172,6 +172,7 @@
         },
         "e4dff79b-f5f7-4b90-aaf8-049c7b192982": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "subheading": "",
@@ -186,6 +187,7 @@
         },
         "8d8053dd-f188-4da8-bc63-802909f68cf0": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "subheading": "",
@@ -200,6 +202,7 @@
         },
         "663cedd3-e01f-4e83-af33-733980c4d5bb": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "subheading": "",
