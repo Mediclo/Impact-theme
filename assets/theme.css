@@ -217,6 +217,11 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   }
 }
 
+.second-section-container{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
 .second-section-image {
   display: inline-block;
   width: 50px;
