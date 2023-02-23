@@ -199,6 +199,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   font-size: 40px;
 }
 
+#before_after_image_text{
+  font-size: 14px;
+}
+
 
 /*********************** Embroidery pop up CSS *************************/
 
