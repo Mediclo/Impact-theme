@@ -54,7 +54,7 @@ Supported parameters
 
         {%- if show_excerpt -%}
           {%- if article -%}
-<!--             <p {% if featured %}class="text-lg"{% endif %}>{{ article.excerpt_or_content | strip_html | truncate: 200 }}</p> -->
+            <p id="blog-post-card__info-text" {% if featured %}class="text-lg"{% endif %}>{{ article.excerpt_or_content | strip_html | truncate: 200 }}</p>
           {%- else -%}
             <p {% if featured %}class="text-lg"{% endif %}>{{ 'general.on_boarding.blog_post_excerpt' | t }}</p>
           {%- endif -%}
