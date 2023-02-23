@@ -242,6 +242,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   width: 30px;
   height: 30px;
   }
+  
+  .second-section-image-text {
+  font-size: 8px;
+  }
 }
 
 /*********************** Embroidery pop up CSS *************************/
