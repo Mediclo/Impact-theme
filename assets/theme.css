@@ -244,7 +244,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   }
   
   .second-section-image-text {
-  display: none;
+  display: none !important; 
   }
 }
 
