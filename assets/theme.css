@@ -218,11 +218,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-container{
-  display: grid;
+  display: flex;
+  flex-direction: row;
 }
 
 .second-section-image-container {
-  align-self: center;
+  flex: 1;
 }
 
 .second-section-image {
