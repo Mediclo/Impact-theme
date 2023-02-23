@@ -8549,6 +8549,7 @@ split-lines {
 
 #rich-text-heading {
   font-size: 40px;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 400px) {
