@@ -167,15 +167,7 @@ Supported variables
       {%- else -%}     
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
-        <span class="color_name">{{ product.media[0].alt }}</span>
-
-      <script>
-
-         
-        var product_price = {{ product | json }};
-        console.log(product_price);
-        
-      </script>
+        <span><strong>{{ product.media[0].alt }}</strong></span>
       
         {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
