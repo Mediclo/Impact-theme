@@ -3697,7 +3697,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .variant-picker {
-  gap: var(--spacing-2);
+  gap: var(--spacing-3);
   grid-template-columns: minmax(0, 1fr);
   display: grid;
 }
