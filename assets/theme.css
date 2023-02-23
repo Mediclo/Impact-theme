@@ -203,6 +203,20 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   font-size: 14px;
 }
 
+@media screen and (max-width: 500px) {
+  #before_after_image_subheading{
+    font-size: 14px;
+  }
+  
+  #before_after_image_heading{
+    font-size: 30px;
+  }
+  
+  #before_after_image_text{
+    font-size: 12px;
+  }
+}
+
 
 /*********************** Embroidery pop up CSS *************************/
 
