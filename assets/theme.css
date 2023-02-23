@@ -5385,8 +5385,8 @@ split-lines {
 
 @media screen and (max-width: 500px) {
   .newsletter_icon {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
   }
