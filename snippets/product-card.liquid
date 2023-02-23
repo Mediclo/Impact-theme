@@ -168,6 +168,14 @@ Supported variables
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
         <span class="color_name">{{ product.title }}</span>
+
+      <script>
+
+         
+        var product_price = {{ product | json }};
+        console.log(product_price);
+        
+      </script>
       
         {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
