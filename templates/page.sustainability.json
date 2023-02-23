@@ -39,6 +39,47 @@
         "text_color": ""
       }
     },
+    "849a8504-1324-4f79-ac9e-5327f1ba7bb7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14502977077294__849a8504-1324-4f79-ac9e-5327f1ba7bb7-1677193274feb4f843-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--14502977077294__849a8504-1324-4f79-ac9e-5327f1ba7bb7-1677193274feb4f843-1": {
+          "type": "heading",
+          "settings": {
+            "text": "We care about the planet",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--14502977077294__849a8504-1324-4f79-ac9e-5327f1ba7bb7-1677193274feb4f843-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14502977077294__849a8504-1324-4f79-ac9e-5327f1ba7bb7-1677193274feb4f843-0",
+        "template--14502977077294__849a8504-1324-4f79-ac9e-5327f1ba7bb7-1677193274feb4f843-1",
+        "template--14502977077294__849a8504-1324-4f79-ac9e-5327f1ba7bb7-1677193274feb4f843-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "e6ece2ff-36d5-438d-9707-79c9c266da2b": {
       "type": "before-after-image",
       "settings": {
@@ -81,6 +122,46 @@
         "text_color": "",
         "before_text_color": "#ffffff",
         "after_text_color": "#ffffff"
+      }
+    },
+    "39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-0",
+        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-1",
+        "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc": {
@@ -137,8 +218,10 @@
   "order": [
     "main",
     "bf9d17df-3a84-48d4-9482-0cfa39a14aa5",
+    "849a8504-1324-4f79-ac9e-5327f1ba7bb7",
     "e6ece2ff-36d5-438d-9707-79c9c266da2b",
     "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb",
+    "39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0",
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc",
     "e789a64d-9c25-4e8b-aa34-0821ecf468d0"
   ]
