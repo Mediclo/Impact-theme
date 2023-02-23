@@ -169,6 +169,12 @@ Supported variables
         {% endif %}
           
         <span><strong>{{ product.media[0].alt }}</strong></span>
+
+        <script>
+          var mediaJson = {{ product.media|json }};
+          console.log(mediaJson);          
+          
+        </script>
       
         {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
