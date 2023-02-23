@@ -8,6 +8,7 @@
     },
     "bf9d17df-3a84-48d4-9482-0cfa39a14aa5": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-0": {
           "type": "subheading",
@@ -82,6 +83,40 @@
         "after_text_color": "#ffffff"
       }
     },
+    "16a35af2-ebeb-4a8c-bd6e-089da2537ffc": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--14502977077294__16a35af2-ebeb-4a8c-bd6e-089da2537ffc-1677189189f5fa4ce3-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14502977077294__16a35af2-ebeb-4a8c-bd6e-089da2537ffc-1677189189f5fa4ce3-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "The Earth & I",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "e789a64d-9c25-4e8b-aa34-0821ecf468d0": {
       "type": "newsletter",
       "settings": {
@@ -104,6 +139,7 @@
     "bf9d17df-3a84-48d4-9482-0cfa39a14aa5",
     "e6ece2ff-36d5-438d-9707-79c9c266da2b",
     "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb",
+    "16a35af2-ebeb-4a8c-bd6e-089da2537ffc",
     "e789a64d-9c25-4e8b-aa34-0821ecf468d0"
   ]
 }
