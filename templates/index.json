@@ -113,7 +113,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/shop_by_color-coffee_brown_a599fbcb-7c4b-4b5e-adc0-ead1631beac4.png",
+            "image": "shopify:\/\/shop_images\/shop_by_color-sunflower_53f3007e-156c-4ec2-bf2a-1ae0f05d89e8.png",
             "subheading": "",
             "title": "Sage Green",
             "url": "",
@@ -128,7 +128,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/shop_by_color-sunflower_53f3007e-156c-4ec2-bf2a-1ae0f05d89e8.png",
+            "image": "shopify:\/\/shop_images\/IMG_9883.jpg",
             "subheading": "",
             "title": "Sunflower",
             "url": "",
@@ -143,7 +143,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/shop_by_color-lavender.png",
+            "image": "shopify:\/\/shop_images\/IMG_9919.jpg",
             "subheading": "",
             "title": "Lavender",
             "url": "",
@@ -156,6 +156,7 @@
         },
         "c7a9b5f4-f2f2-4460-8fd6-b336d545c333": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/SUN_5756_1.jpg",
