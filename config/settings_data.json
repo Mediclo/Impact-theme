@@ -117,7 +117,7 @@
           "af563e4d-ab2f-4bd8-bb47-ef53f959ac4c": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "",
+              "menu_item": "Men",
               "layout": "horizontal",
               "submenu_style": "bold_heading",
               "image_heading_1": "",
