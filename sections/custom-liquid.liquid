@@ -14,11 +14,6 @@
     {{ section.settings.liquid }}
   </div> -->
 
-<div class="custom-liquid-container">
-  <h1>Made with care</h1>
-</div>
-
-
 {%if collection.url contains "women-sale-collection"%}
 <div class="custom-liquid-container">
   <h2>Women's Scrub Tops</h2>
@@ -114,6 +109,10 @@
         <span class="custom-liquid-text" style="display: block; font-weight: bold;">Kodiak Jogger Scrub Pants</span>
       </a>  
   </div>
+</div>
+{% else %}
+<div class="custom-liquid-container">
+  <h1>Made with care</h1>
 </div>
 {% endif %}
 
