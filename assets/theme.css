@@ -191,6 +191,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   }
 }
 
+.section-stack {
+  background-color: red;
+}
+
 #before_after_image_subheading{
   font-size: 18px;
 }
