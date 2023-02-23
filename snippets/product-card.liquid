@@ -174,7 +174,7 @@ Supported variables
         var mediaJson = {{ product.media|json }};
 
         for(var i = 0; i < mediaJson.length; i++){
-        const getAlt = mediaJson[i].alt[0];
+        const getAlt = mediaJson[i].alt;
           console.log(getAlt);
 
           $('.color_name').html('<span>'+ getAlt +'</span>');
