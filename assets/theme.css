@@ -213,13 +213,13 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 .second-section-image-container {
   display: inline-block; 
   text-align: center;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .second-section-image {
   display: block;
-  width: 65px;
-  height: 65px;
+  width: 70px;
+  height: 70px;
   vertical-align:middle;
 }
 
