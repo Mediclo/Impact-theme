@@ -224,15 +224,16 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .second-section-container {
+
+}
+
+.second-section-image-container {
+  display: inline-block;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.second-section-image-container {
-  display: inline-block;
 }
 
 .second-section-image {
