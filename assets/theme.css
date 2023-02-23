@@ -228,6 +228,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   grid-auto-flow: column;  
 }
 
+.second-section-image-container {
+  grid-row: 1;  
+}
+
 
 .second-section-image {
 /*   display: block; */
