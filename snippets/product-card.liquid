@@ -165,33 +165,9 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        {% if product.title contains "-" %}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
-          
-          <script> 
-            
-/*               var product_title = {{ product|json }}; */
-
-              
-              // var obj = JSON.parse(product_title);
-              // console.log(product_title);
-            
-              // obj['theTeam'].push({"teamId":"4","status":"pending"});
-              // jsonStr = JSON.stringify(obj);
-              
-              // var new_title = product_title.replace(/\-.*/,'');
-              // $(".product-info__title").html("<h1>" + new_title + "</h1>");
-              // $('.product-card_title').attr('new-title', new_title);
-            
-              // console.log(product_title);
-            
-          </script>
-      
-        {% else %}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
           
-        {% endif %}
         <span><strong>{{ product.media[0].alt }}</strong></span>
       
         {%- render 'price-list', product: product, text_alignment: text_alignment -%}
