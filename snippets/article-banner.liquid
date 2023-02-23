@@ -20,7 +20,7 @@ Supported parameters
       <a href="{{ blog.url }}/tagged/{{ article.tags.first | handle }}" class="badge bold text-sm">{{- article.tags.first -}}</a>
     {%- endif -%}
 
-    <h1 class="h0">{{- article.title -}}</h1>
+    <p class="artical-banner__title">{{- article.title -}}</p>
 
     <div class="article__meta text-sm">
       {%- if show_date -%}
