@@ -167,6 +167,7 @@ Supported variables
       {%- else -%}     
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
         {% endif %}
+        <span class="color_name"></span>
 
       <script>
         
@@ -175,7 +176,10 @@ Supported variables
         for(var i = 0; i < mediaJson.length; i++){
         const getAlt = mediaJson[i].alt;
           console.log(getAlt);
+
+          
         }
+        
         
       </script>
       
