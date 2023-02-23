@@ -7202,7 +7202,6 @@ split-lines {
 
 #image_rich-text {
   font-size: 16px;
-  width: 60%;
 }
 
 @media screen and (max-width: 500px) {
