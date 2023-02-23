@@ -89,8 +89,8 @@
         "template--14502977077294__16a35af2-ebeb-4a8c-bd6e-089da2537ffc-1677189189f5fa4ce3-0": {
           "type": "blog",
           "settings": {
-            "blog": "",
-            "posts_count": 3,
+            "blog": "the-earth-i",
+            "posts_count": 6,
             "stack_items": false
           }
         }
