@@ -12,7 +12,7 @@
         "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-0": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "SUSTAINABILITY"
           }
         },
         "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-1": {
@@ -23,18 +23,11 @@
             "text_color": "",
             "gradient": ""
           }
-        },
-        "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
         }
       },
       "block_order": [
         "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-0",
-        "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-1",
-        "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-2"
+        "template--14502977077294__bf9d17df-3a84-48d4-9482-0cfa39a14aa5-1677188325775d1b0d-1"
       ],
       "settings": {
         "full_width": true,
