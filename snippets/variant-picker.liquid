@@ -49,7 +49,7 @@ Supported variables
       <fieldset class="variant-picker__option no-js:hidden">
         <div class="variant-picker__option-info">
            <div class="h-stack gap-2">
-            {% if option.name == "Color" %}
+            {% if option.name contains "Color" %}
             <legend class="text-subdued" style="display: none;">{{ option.name }}:</legend>  
             <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
             {% else %}
