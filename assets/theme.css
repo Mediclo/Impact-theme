@@ -208,7 +208,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 
 #before_after_image_text{
   font-size: 14px;
-}
+
 
 .second-section-image-container {
   display: inline-block; 
@@ -220,10 +220,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   display: block;
   width: 70px;
   height: 70px;
+  vertical-align:middle;
 }
 
 .second-section-image-text {
   font-size: 9px;
+  vertical-align:middle;
 }
 
 @media screen and (max-width: 500px) {
