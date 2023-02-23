@@ -222,6 +222,11 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   #before_after_image_text{
     font-size: 12px;
   }
+
+  .second-section-image {
+  width: 30px;
+  height: 30px;
+  }
 }
 
 .second-section-image-container {
