@@ -4730,6 +4730,7 @@ custom-cursor {
 }
 
 #custom-html-title {
+  width: 80%;
   margin-top: 30px;
   margin-bottom: 20px;
 }
