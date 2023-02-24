@@ -3448,9 +3448,9 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__info--center {
-  text-align: center;
+/*   text-align: center;
   justify-content: center;
-  justify-items: center;
+  justify-items: center; */
 }
 
 .product-card__variant-list {
