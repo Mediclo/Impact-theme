@@ -4707,7 +4707,13 @@ custom-cursor {
   margin-bottom: 50px;
 }
 
-.custom-html-small-container {
+.custom-html-left-container {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.custom-html-right-container {
+  width: 50%;
   margin-top: 50px;
 }
 
