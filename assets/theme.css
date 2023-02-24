@@ -4693,11 +4693,12 @@ custom-cursor {
 
 .custom-html-small-container {
   margin-top: 20px;
-  padding: 40px;
+  padding: 50px;
 }
 
 .custom-html-image { 
   height: 200px;
+  border-radius: 5px;
 }
 
 #custom-html-title {
