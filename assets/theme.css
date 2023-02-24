@@ -4703,12 +4703,8 @@ custom-cursor {
   }
 }
 
-#custom-html-big-title {
-  margin-bottom: 70px;
-}
-
 .custom-html-small-container {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 /* @media screen and (min-width: 1500px) {
