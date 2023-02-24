@@ -4694,7 +4694,6 @@ custom-cursor {
 
 .custom-html-small-container {
   margin-top: 20px;
-  --context-section-spacing-inline: var(--container-gutter);
 }
 
 /* @media screen and (min-width: 1500px) {
@@ -4705,7 +4704,6 @@ custom-cursor {
 
 #custom-html-image { 
   border-radius: 5px;
-  --context-section-spacing-inline: var(--container-gutter);
 }
 
 #custom-html-title {
