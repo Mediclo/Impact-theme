@@ -4691,6 +4691,14 @@ custom-cursor {
   text-align: center;
 }
 
+.custom-html-small-container {
+  margin-top: 20px;
+}
+
+.custom-html-title {
+  
+}
+
 .custom-html-content {
   width: 60%;
   margin-left: auto;
