@@ -4695,9 +4695,8 @@ custom-cursor {
   margin-top: 20px;
 }
 
-.custom-html-image {
-  width: 90%;
-  height: 300px;
+.custom-html-image { 
+  height: 200px;
 }
 
 #custom-html-title {
