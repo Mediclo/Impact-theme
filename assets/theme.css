@@ -4749,6 +4749,12 @@ custom-cursor {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 500px) {
+ .custom-html-container1 {
+   margin-bottom: 10px;
+ }
+}
+
 :has( > custom-cursor:not([hidden])) {
   cursor: none;
 }
