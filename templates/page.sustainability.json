@@ -83,14 +83,25 @@
         "after_text_color": "#ffffff"
       }
     },
+    "ae640aec-ac30-4657-b1f1-bf3a540bd59e": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "‎",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "blocks": {
         "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-0": {
           "type": "subheading",
           "settings": {
-            "text": "Our Material"
+            "text": "Our Factory"
           }
         },
         "template--14502977077294__39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0-16771931143c4f5c11-2": {
@@ -109,24 +120,11 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/03_1296x_08f77b62-9f19-406b-a3da-b2f28f5ae302.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "ae640aec-ac30-4657-b1f1-bf3a540bd59e": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "‎",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc": {
@@ -185,8 +183,8 @@
     "bf9d17df-3a84-48d4-9482-0cfa39a14aa5",
     "e6ece2ff-36d5-438d-9707-79c9c266da2b",
     "e0b417cd-aa88-4d1d-988f-f684c2ef5bcb",
-    "39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0",
     "ae640aec-ac30-4657-b1f1-bf3a540bd59e",
+    "39a3ca76-cff9-4d5f-aa7d-8b22e012bbd0",
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc",
     "e789a64d-9c25-4e8b-aa34-0821ecf468d0"
   ]
