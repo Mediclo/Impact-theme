@@ -4696,6 +4696,12 @@ custom-cursor {
   padding: 60px;
 }
 
+@media screen and (min-width: 1500px) {
+  .custom-html-small-container {
+    padding: 100px;
+  }
+}
+
 #custom-html-image { 
   border-radius: 5px;
 }
