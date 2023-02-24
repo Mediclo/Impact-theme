@@ -4704,7 +4704,7 @@ custom-cursor {
 }
 
 #custom-html-small-container {
-  background-color: red;
+  padding: 30px !important;
 }
 
 #custom-html-big-title {
