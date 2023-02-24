@@ -4693,14 +4693,14 @@ custom-cursor {
 
 .custom-html-small-container {
   margin-top: 20px;
-  padding: 60px;
+  --context-section-spacing-inline: var(--container-gutter);
 }
 
-@media screen and (min-width: 1500px) {
+/* @media screen and (min-width: 1500px) {
   .custom-html-small-container {
     padding: 140px;
   }
-}
+} */
 
 #custom-html-image { 
   border-radius: 5px;
