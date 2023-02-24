@@ -4710,11 +4710,13 @@ custom-cursor {
 
 .custom-html-left-container {
   width: 50%;
+  margin-right: 10px;
   margin-top: 50px;
 }
 
 .custom-html-right-container {
   width: 50%;
+  margin-left: 10px;
   margin-top: 50px;
 }
 
