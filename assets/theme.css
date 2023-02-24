@@ -4759,12 +4759,10 @@ custom-cursor {
   }
    .custom-html-left-container {
     width: 100%;
-    margin-right: 10px;
-    margin-top: 50px;
   }
   .custom-html-right-container {
     width: 100%;
-    margin-top: 50px;
+    margin-left: 0px;
   }
 }
 
