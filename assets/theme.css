@@ -4687,7 +4687,7 @@ custom-cursor {
   }
 }
 
-custom-html-container {
+.custom-html-container {
   display: flex;
   justify-content: center;
   align-items: center;
