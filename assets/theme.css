@@ -4703,6 +4703,10 @@ custom-cursor {
   }
 }
 
+#custom-html-small-container {
+  background-color: red;
+}
+
 #custom-html-big-title {
   margin-bottom: 50px; 
 }
