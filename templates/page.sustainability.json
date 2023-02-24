@@ -120,11 +120,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/janko-ferlic-eBtwD6ZG78I-unsplash_1_a661149a-1478-4ce2-871d-dd8a5a3448d4.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 50
       }
     },
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc": {
