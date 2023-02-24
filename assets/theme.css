@@ -4728,6 +4728,10 @@ custom-cursor {
   margin-bottom: 20px;
 }
 
+#custom-html-big-title {
+  margin-bottom: 30px;
+}
+
 .custom-html-content {
   margin-left: auto;
   margin-right: auto;
