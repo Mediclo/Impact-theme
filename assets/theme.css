@@ -4750,6 +4750,12 @@ custom-cursor {
 }
 
 @media screen and (max-width: 500px) {
+
+  .custom-html-container2 {
+    display: block;
+    margin-bottom: 50px;
+}
+  
    .custom-html-left-container {
     width: 100%;
     margin-right: 10px;
