@@ -192,8 +192,8 @@ Supported variables
         </div>
         {% endif %}
 
-      
-        {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+        <!-- text_alignment: text_alignment -->
+        {%- render 'price-list', product: product -%}
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
