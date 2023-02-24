@@ -4689,7 +4689,18 @@ custom-cursor {
 
 .custom-html-container {
   text-align: center;
-   --context-section-spacing-inline: var(--container-gutter);
+      --context-section-spacing-block-start: var(--section-outer-spacing-block);
+    --context-section-spacing-block-end: var(--section-outer-spacing-block);
+    --context-section-spacing-inline: var(--container-gutter);
+    --calculated-section-spacing-block-start: var(--section-spacing-block-start, var(--section-spacing-block, var(--context-section-spacing-block-start)));
+    --calculated-section-spacing-block-end: var(--section-spacing-block-end, var(--section-spacing-block, var(--context-section-spacing-block-end)));
+    --calculated-section-spacing-inline: var(--section-spacing-inline, var(--context-section-spacing-inline));
+    --container-inner-width: min((100vw - var(--scrollbar-width, 0px)) - var(--calculated-section-spacing-inline, 0px) * 2, var(--container-max-width));
+    --container-outer-width: calc(((100vw - var(--scrollbar-width, 0px)) - var(--container-inner-width, 0px)) / 2);
+    --section-stack-spacing-inline: var(--section-inner-spacing-inline, 0px);
+    padding-inline-start: max(var(--calculated-section-spacing-inline),45% - var(--container-max-width) / 2);
+    padding-inline-end: max(var(--calculated-section-spacing-inline),45% - var(--container-max-width) / 2);
+}
 }
 
 .custom-html-small-container {
