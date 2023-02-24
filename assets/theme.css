@@ -4689,6 +4689,7 @@ custom-cursor {
 
 .custom-html-container {
   text-align: center;
+   --context-section-spacing-inline: var(--container-gutter);
 }
 
 .custom-html-small-container {
