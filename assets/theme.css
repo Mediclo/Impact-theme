@@ -4688,7 +4688,9 @@ custom-cursor {
 }
 
 custom-html-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 :has( > custom-cursor:not([hidden])) {
