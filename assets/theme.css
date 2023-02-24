@@ -4691,6 +4691,10 @@ custom-cursor {
   text-align: center;
 }
 
+.custom-html-content {
+  width: 60%;
+}
+
 :has( > custom-cursor:not([hidden])) {
   cursor: none;
 }
