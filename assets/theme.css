@@ -2678,6 +2678,10 @@ scroll-carousel {
   }
 }
 
+.page-container {
+  display: flex;
+}
+
 .page-text {
   line-height: 2.0;  
 }
