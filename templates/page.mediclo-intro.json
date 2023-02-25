@@ -31,10 +31,57 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "cf5b18cc-43e0-4729-9778-51c20335bc18": {
+      "type": "timeline",
+      "blocks": {
+        "template--14503525351470__cf5b18cc-43e0-4729-9778-51c20335bc18-167728529817ad34eb-0": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1953",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14503525351470__cf5b18cc-43e0-4729-9778-51c20335bc18-167728529817ad34eb-1": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1960",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14503525351470__cf5b18cc-43e0-4729-9778-51c20335bc18-167728529817ad34eb-2": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1966",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14503525351470__cf5b18cc-43e0-4729-9778-51c20335bc18-167728529817ad34eb-0",
+        "template--14503525351470__cf5b18cc-43e0-4729-9778-51c20335bc18-167728529817ad34eb-1",
+        "template--14503525351470__cf5b18cc-43e0-4729-9778-51c20335bc18-167728529817ad34eb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "impact_text_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "impact_text_color": "",
+        "impact_text_gradient": ""
+      }
     }
   },
   "order": [
     "839cc772-f883-472b-9d24-9014aa809a72",
-    "main"
+    "main",
+    "cf5b18cc-43e0-4729-9778-51c20335bc18"
   ]
 }
