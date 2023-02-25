@@ -2678,6 +2678,10 @@ scroll-carousel {
   }
 }
 
+.page-text {
+  line-height: 1.6px;  
+}
+
 .box {
   padding: var(--spacing-8);
 }
