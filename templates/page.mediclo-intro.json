@@ -1,5 +1,46 @@
 {
   "sections": {
+    "839cc772-f883-472b-9d24-9014aa809a72": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14503525351470__839cc772-f883-472b-9d24-9014aa809a72-1677284976f2be5096-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--14503525351470__839cc772-f883-472b-9d24-9014aa809a72-1677284976f2be5096-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--14503525351470__839cc772-f883-472b-9d24-9014aa809a72-1677284976f2be5096-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14503525351470__839cc772-f883-472b-9d24-9014aa809a72-1677284976f2be5096-0",
+        "template--14503525351470__839cc772-f883-472b-9d24-9014aa809a72-1677284976f2be5096-1",
+        "template--14503525351470__839cc772-f883-472b-9d24-9014aa809a72-1677284976f2be5096-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_1759_1.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -7,6 +48,7 @@
     }
   },
   "order": [
+    "839cc772-f883-472b-9d24-9014aa809a72",
     "main"
   ]
 }
