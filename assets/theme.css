@@ -2682,6 +2682,14 @@ scroll-carousel {
   display: flex;
 }
 
+.page-left-container {
+  width: 50%;
+}
+
+.page-right-container {
+  width: 50%;
+}
+
 .page-text {
   line-height: 2.0;  
 }
