@@ -119,6 +119,23 @@ Color swatch specific parameters:
   
           <span>Bottle Edition</span>
         </a>
+      {% elsif value == "Bottle Edition" %}    
+        <a href="https://mediclo.com/products/fysel%C2%AE-amelia-fitted-scrub-top-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>{{ value }}</span>
+        </a>
+
+  
+        <a href="https://mediclo.com/products/amelia-fitted-scrub-top-lavender" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>Tree Edition</span>
+      </a>
       {% else %}
         <a href="https://mediclo.com/products/amelia-fitted-scrub-top-lavender" class="block-swatch {% if selected %}is-selected{% endif %}">
         {%- if show_color -%}
