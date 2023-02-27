@@ -48,8 +48,7 @@ Supported variables
 
       <fieldset class="variant-picker__option no-js:hidden">
         <div class="variant-picker__option-info">
-           <div class="h-stack gap-2">
-
+<!--            <div class="h-stack gap-2">
             {% if option.name == "Color" %}
             <legend class="text-subdued" style="display: none;">{{ option.name }}:</legend>  
             <variant-option-value style="display:none;" form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
@@ -57,7 +56,7 @@ Supported variables
             <legend class="text-subdued">{{ option.name }}:</legend>  
             <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
             {% endif %}
-          </div>
+          </div> -->
           
           {%- if hide_size_chart != true and block.settings.size_chart_page != blank and size_label_list contains option_downcase -%}
             {%- capture drawer_id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
