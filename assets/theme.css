@@ -4679,6 +4679,7 @@ custom-cursor {
   }  */
   .custom-liquid-image-container{
     margin-top: 23px; 
+    padding: 30px;
     overflow: scroll;
     white-space: nowrap;
   }
