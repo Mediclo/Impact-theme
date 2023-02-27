@@ -146,7 +146,7 @@
                       </a>
                     {% elsif sub_sub_link.title == "All Tops" %}
                     <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
-                    <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/all_tops.png?v=1677525220" alt="All_Tops" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> All Tops <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/new_coffee.png?v=1675800023" alt="Coffee" width="35" height="35" style="display: inline-block; margin-bottom: 7px; "/></span></span>
+                    <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/all_tops.png?v=1677525220" alt="All_Tops" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 5px" /> {{- sub_sub_link.title -}} </span></span>
                     </a>
                      {% elsif sub_sub_link.title == "Plant Based" %}
                       <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
