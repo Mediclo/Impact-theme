@@ -91,8 +91,17 @@ Color swatch specific parameters:
         {%- endif -%}
 
         <span>{{ value }}</span>
-      </a>     
+      </a>
+
     {%- else -%}
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
+        {%- if show_color -%}
+          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ value }}</span>
+      </label>
+    {%- endif -%}
 
 
 <!--       {% if value == "Tree Edition" and product.url contains "capri-collared-scrub-top"%}    
@@ -146,17 +155,7 @@ Color swatch specific parameters:
   
         <span>Bottle Edition</span>
         </a> -->
-        
-        
-      {% else %}
-        <label class="block-swatch" for="{{ id | escape }}" data-option-value>
-        {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-        {%- endif -%}
-
-        <span>{{ value }}</span>
-      </label>
-      {% endif %}
+  
       
     {%- endif -%}
 
