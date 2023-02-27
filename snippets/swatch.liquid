@@ -154,12 +154,10 @@ Color swatch specific parameters:
           {%- endif -%}
   
         <span>Bottle Edition</span>
-        </a> -->
-  
+        </a> 
+      {% endif %}-->
+        
       
-    {%- endif -%}
-
-
   {%- when 'color' -%}
     {%- assign white_label = 'general.label.white' | t | downcase -%}
     {%- assign value_downcase = value | downcase -%}
