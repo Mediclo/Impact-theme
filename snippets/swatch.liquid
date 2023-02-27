@@ -102,8 +102,8 @@ Color swatch specific parameters:
         <span>{{ value }}</span>
       </label> -->
 
-      {% if value == "Tree Edition" %}    
-        <a href="https://mediclo.com/products/amelia-fitted-scrub-top-lavender" class="block-swatch {% if selected %}is-selected{% endif %}">
+      {% if value == "Tree Edition" and product.url contains "capri-collared-scrub-top-indigo"%}    
+        <a href="https://mediclo.com/products/capri-collared-scrub-top-indigo-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
           {%- endif -%}
