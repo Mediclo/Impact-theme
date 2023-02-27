@@ -4671,12 +4671,12 @@ custom-cursor {
  .custom-liquid-container h2 {
   font-size: 20px;
  }
-  #custom-liquid-image-4, #custom-liquid-image-5, #custom-liquid-image-6, #custom-liquid-image-7, #custom-liquid-image-11, #custom-liquid-image-12, #custom-liquid-image-16  {
+/*   #custom-liquid-image-4, #custom-liquid-image-5, #custom-liquid-image-6, #custom-liquid-image-7, #custom-liquid-image-11, #custom-liquid-image-12, #custom-liquid-image-16  {
     display: none !important;
   }
   #custom-liquid-text-4, #custom-liquid-text-5, #custom-liquid-text-6, #custom-liquid-text-7, #custom-liquid-text-11, #custom-liquid-text-12, #custom-liquid-text-16  {
     display: none !important;
-  } 
+  }  */
   .custom-liquid-image-container{
     margin-top: 23px;
   }
