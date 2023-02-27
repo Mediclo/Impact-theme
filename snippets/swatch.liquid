@@ -85,22 +85,14 @@ Color swatch specific parameters:
 
   {%- when 'block' -%}
     {%- if href -%}
-<!--       <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
+      <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
         {%- if show_color -%}
           <span class="block-swatch__color" style="{{ swatch_style }}"></span>
         {%- endif -%}
 
         <span>{{ value }}</span>
-      </a> -->
-
-       <a href="https://mediclo.com/products/fysel%C2%AE-amelia-fitted-scrub-top-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
-        {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-        {%- endif -%}
-
-        <span>Bottle Edition</span>
       </a>
-
+      
     {%- else -%}
       <label class="block-swatch" for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
@@ -108,6 +100,14 @@ Color swatch specific parameters:
         {%- endif -%}
 
         <span>{{ value }}</span>
+
+        <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
+        {%- if show_color -%}
+          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ value }}</span>
+      </a>
       </label>
       
     {%- endif -%}
