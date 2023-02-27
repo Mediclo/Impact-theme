@@ -2678,8 +2678,8 @@ scroll-carousel {
   }
 }
 
-.page-container {
-/*   display: flex; */
+.page-small-container {
+  display: flex;
 }
 
 .page-left-container {
