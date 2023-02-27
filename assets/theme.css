@@ -4786,6 +4786,9 @@ custom-cursor {
     margin-left: 0px;
     margin-top: 20px;
   }
+  #custom-html-image { 
+  margin-bottom: 0px;
+}
 }
 
 :has( > custom-cursor:not([hidden])) {
