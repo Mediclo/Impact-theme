@@ -91,16 +91,9 @@ Color swatch specific parameters:
         {%- endif -%}
 
         <span>{{ value }}</span>
-      </a>
-      
+      </a>     
     {%- else -%}
-<!--       <label class="block-swatch" for="{{ id | escape }}" data-option-value>
-        {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-        {%- endif -%}
 
-        <span>{{ value }}</span>
-      </label> -->
 
       {% if value == "Tree Edition" and product.url contains "capri-collared-scrub-top"%}    
         <a href="https://mediclo.com/products/capri-collared-scrub-top-indigo-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
