@@ -138,14 +138,6 @@ Color swatch specific parameters:
      
 
       {% elsif value == "Tree Edition" and product.url contains "amelia-fitted-scrub-top"  %}    
-        <a href="https://mediclo.com/products/capri-collared-scrub-top-indigo-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
-          {%- if show_color -%}
-            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-          {%- endif -%}
-  
-        <span>Tree Edition</span>
-        </a>
-        
         <a href="https://mediclo.com/products/fysel-capri-collared-scrub-top-burgundy" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
@@ -153,6 +145,16 @@ Color swatch specific parameters:
   
           <span>{{ value }}</span>
         </a>
+        
+        <a href="https://mediclo.com/products/capri-collared-scrub-top-indigo-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+        <span>Bottle Edition</span>
+        </a>
+        
+        
       {% else %}
         <label class="block-swatch" for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
