@@ -4679,7 +4679,7 @@ custom-cursor {
   }  */
   .custom-liquid-image-container{
     margin-top: 23px;
-    overflow-x: auto;
+    overflow-x: scroll;
   }
   .custom-liquid-image {
     width: 100px;
