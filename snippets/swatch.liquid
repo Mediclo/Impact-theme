@@ -136,13 +136,13 @@ Color swatch specific parameters:
         </a>
       </a>
       {% else %}
-        <a href="https://mediclo.com/products/amelia-fitted-scrub-top-lavender" class="block-swatch {% if selected %}is-selected{% endif %}">
+        <label class="block-swatch" for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
-            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-          {%- endif -%}
-    
-          <span>{{ value }}</span>
-        </a>
+          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ value }}</span>
+      </label>
       {% endif %}
       
     {%- endif -%}
