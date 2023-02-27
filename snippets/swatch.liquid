@@ -102,24 +102,32 @@ Color swatch specific parameters:
         <span>{{ value }}</span>
       </label> -->
 
-      
-      <a href="https://mediclo.com/products/amelia-fitted-scrub-top-lavender" class="block-swatch {% if selected %}is-selected{% endif %}">
-        {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-        {%- endif -%}
-
-        <span>{{ value }}</span>
-      </a>
+      {% if value == "Tree Edition" %}    
+        <a href="https://mediclo.com/products/amelia-fitted-scrub-top-lavender" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>{{ value }}</span>
+        </a>
 
   
-      <a href="https://mediclo.com/products/fysel%C2%AE-amelia-fitted-scrub-top-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
+        <a href="https://mediclo.com/products/fysel%C2%AE-amelia-fitted-scrub-top-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>Bottle Edition</span>
+        </a>
+      {% else %}
+        <a href="https://mediclo.com/products/amelia-fitted-scrub-top-lavender" class="block-swatch {% if selected %}is-selected{% endif %}">
         {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-        {%- endif -%}
-
-        <span>Bottle Edition</span>
-      </a>
-   
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+    
+          <span>{{ value }}</span>
+        </a>
+      {% endif %}
       
     {%- endif -%}
 
