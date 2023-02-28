@@ -382,7 +382,7 @@ Color swatch specific parameters:
 
       <!--  ********* Capri  **********   -->
 
-      {% elsif value == "Tree Edition" and product.url contains "capri-collared-scrub-top-black" or product.url contains "capri-collared-scrub-top-mauve" or product.url contains "capri-collared-scrub-top-mauve" %}    
+      {% elsif value == "Tree Edition" and product.url contains "capri-collared-scrub-top-black" %}    
         <a href="https://mediclo.com/products/capri-collared-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
@@ -399,8 +399,8 @@ Color swatch specific parameters:
           <span>Bottle Edition</span>
         </a>
 
-      {% elsif value == "Bottle Edition" and product.url contains "fysel-sal-essential-scrub-top-black" or product.url contains "fysel-sal-essential-scrub-top-burgundy" or product.url contains "fysel-sal-essential-scrub-top-ceil-blue" or product.url contains "fysel-sal-essential-scrub-top-hunter-green" or product.url contains "fysel-sal-essential-scrub-top-mauve" or product.url contains "fysel-sal-essential-scrub-top-navy" or product.url contains "fysel-sal-essential-scrub-top-sage-green" or product.url contains "fysel-sal-essential-scrub-top-stone-blue" %}    
-        <a href="https://mediclo.com/products/sal-essential-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
+      {% elsif value == "Bottle Edition" and product.url contains "fysel-sal-essential-scrub-top-black" %}    
+        <a href="https://mediclo.com/products/capri-collared-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
           {%- endif -%}
