@@ -160,6 +160,10 @@
                       <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
                       <span><span class="reversed-link"><img src="https://cdn.shopify.com/s/files/1/2490/1254/files/Bottle.png?v=1675791136" alt="Bottle" width="20" height="20" style="display: inline-block; margin-bottom: 4px; margin-right: 8px; margin-left: 3px;" /> {{- sub_sub_link.title -}}</span></span>
                       </a>
+                      {% elsif sub_sub_link.title == "WOMEN'S SCRUBS" or sub_sub_link.title == "MEN'S SCRUBS" %}
+                      <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                      <span><span class="reversed-link"><strong>{{- sub_sub_link.title -}}</strong></span></span>
+                      </a>
                       {% elsif sub_sub_link.title == "NEW ARRIVALS" %}
                       <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
                       <span><span class="reversed-link"><strong>{{- sub_sub_link.title -}}</strong></span></span>
