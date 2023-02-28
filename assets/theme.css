@@ -2699,6 +2699,11 @@ scroll-carousel {
 }
 
 @media screen and (max-width: 500px) {
+  .page-spacer {
+   margin-block-start: var(--spacing-8);
+   margin-block-end: var(--section-outer-spacing-block);
+}
+  
   .page-small-container {
     padding: 30px;
   }
