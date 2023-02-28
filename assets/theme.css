@@ -2690,9 +2690,6 @@ scroll-carousel {
 
 .page-right-container {
   width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
 }
 
