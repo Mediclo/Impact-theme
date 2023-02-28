@@ -104,7 +104,9 @@ Color swatch specific parameters:
     {%- endif -%}
 
 
-<!--       {% if value == "Tree Edition" and product.url contains "capri-collared-scrub-top"%}    
+      <!-- ****** Add Tree Edition & Bottle Edition Link *******-->
+  
+      {% if value == "Tree Edition" and product.url contains "capri-collared-scrub-top"%}    
         <a href="https://mediclo.com/products/capri-collared-scrub-top-indigo-navy" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
@@ -155,7 +157,9 @@ Color swatch specific parameters:
   
         <span>Bottle Edition</span>
         </a> 
-      {% endif %}-->
+      {% endif %}
+
+  
         
       
   {%- when 'color' -%}
