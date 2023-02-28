@@ -2712,9 +2712,22 @@ scroll-carousel {
   padding: 20px;
 }
 
-.page-right-container {
-  width: 100%;
-  padding: 20px;
+  .page-right-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .page-small-container1 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.page-small-container2 {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 }
 
