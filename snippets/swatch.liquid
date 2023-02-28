@@ -115,6 +115,25 @@ Color swatch specific parameters:
           <span>Bottle Edition</span>
         </a>
 
+      {% elsif value == "Bottle Edition" and product.url contains "sal-essential-scrub-top"%}    
+        <a href="https://mediclo.com/products/fysel®-sal-essential-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>Tree Edition</span>
+        </a>
+        
+        <a href="https://mediclo.com/products/sal-essential-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>{{ value }}</span>
+        </a>
+  
+        
+
       {%- else -%}
       <label class="block-swatch" for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
