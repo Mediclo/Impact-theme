@@ -8018,7 +8018,7 @@ split-lines {
 
 .page {
   gap: var(--spacing-12);
-  max-width: 80ch;
+  max-width: 100ch;
   grid-auto-columns: minmax(0, 1fr);
   margin-inline-start: auto;
   margin-inline-end: auto;
