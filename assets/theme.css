@@ -2678,6 +2678,10 @@ scroll-carousel {
   width: 50%;
 }
 
+.page-right-container-text {
+  font-size: 12px;
+}
+
 @media screen and (min-width: 700px) {
   .page-spacer {
     margin-block-start: var(--spacing-12);
