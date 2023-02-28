@@ -692,6 +692,40 @@ Color swatch specific parameters:
   
           <span>{{ value }}</span>
         </a>
+
+      {% elsif value == "Tree Edition" and product.url contains "lanai-rib-band-scrub-top-stone-blue" %}    
+        <a href="https://mediclo.com/products/lanai-rib-band-scrub-top-stone-blue" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>{{ value }}</span>
+        </a>
+  
+        <a href="https://mediclo.com/products/fysel-lanai-rib-band-scrub-top-stone-blue" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>Bottle Edition</span>
+        </a>
+
+      {% elsif value == "Bottle Edition" and product.url contains "fysel-lanai-rib-band-scrub-top-stone-blue" %}    
+        <a href="https://mediclo.com/products/lanai-rib-band-scrub-top-stone-blue" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>Tree Edition</span>
+        </a>
+        
+        <a href="https://mediclo.com/products/fysel-lanai-rib-band-scrub-top-stone-blue" class="block-swatch {% if selected %}is-selected{% endif %}">
+          {%- if show_color -%}
+            <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          {%- endif -%}
+  
+          <span>{{ value }}</span>
+        </a>
         
 
       {%- else -%}
