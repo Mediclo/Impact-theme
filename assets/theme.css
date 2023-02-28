@@ -2666,7 +2666,14 @@ scroll-carousel {
   margin-block-end: var(--section-outer-spacing-block);
 }
 
-.page-small-container1, .page-small-container2 {
+.page-small-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.page-small-container2 {
   display: flex;
   justify-content: center;
   align-items: center;
