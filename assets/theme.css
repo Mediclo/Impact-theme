@@ -2668,6 +2668,8 @@ scroll-carousel {
 
 .page-small-container2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-left-container {
