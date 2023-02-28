@@ -92,15 +92,7 @@ Color swatch specific parameters:
 
         <span>{{ value }}</span>
       </a>
-
-    {%- else -%}
-      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
-        {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-        {%- endif -%}
-
-        <span>{{ value }}</span>
-      </label>
+      
     {%- endif -%}
 
 
@@ -121,7 +113,17 @@ Color swatch specific parameters:
           {%- endif -%}
   
           <span>Bottle Edition</span>
-        </a>      
+        </a>
+
+      {%- else -%}
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
+        {%- if show_color -%}
+          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ value }}</span>
+      </label>
+        
       {% endif %}
 
   
