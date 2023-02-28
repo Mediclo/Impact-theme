@@ -2700,7 +2700,7 @@ scroll-carousel {
 
 @media screen and (max-width: 500px) {
   .page-spacer {
-   padding: 20px;
+   padding: 40px;
 }
   
   .page-text {
