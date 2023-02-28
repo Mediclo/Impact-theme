@@ -2666,6 +2666,18 @@ scroll-carousel {
   margin-block-end: var(--section-outer-spacing-block);
 }
 
+.page-small-container2 {
+  display: flex;
+}
+
+.page-left-container {
+  width: 50%;
+}
+
+.page-right-container {
+  width: 50%;
+}
+
 @media screen and (min-width: 700px) {
   .page-spacer {
     margin-block-start: var(--spacing-12);
