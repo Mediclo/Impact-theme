@@ -8007,12 +8007,12 @@ split-lines {
 }
 
 .page {
-  gap: var(--spacing-12);
+/*   gap: var(--spacing-12);
   max-width: 80ch;
   grid-auto-columns: minmax(0, 1fr);
   margin-inline-start: auto;
   margin-inline-end: auto;
-  display: grid;
+  display: grid; */
 }
 
 .password {
