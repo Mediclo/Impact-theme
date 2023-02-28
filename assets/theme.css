@@ -2672,10 +2672,16 @@ scroll-carousel {
 
 .page-left-container {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-right-container {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-container-text {
