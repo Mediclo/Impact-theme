@@ -93,10 +93,20 @@ Color swatch specific parameters:
         <span>{{ value }}</span>
       </a>
 
+    {%- else -%}
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
+        {%- if show_color -%}
+          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ value }}</span>
+      </label>
+    {%- endif -%}
+
+
       <!-- ****** Add Tree Edition & Bottle Edition Link *******-->
   
       {% if value == "Tree Edition" and product.url contains "sal-essential-scrub-top"%}    
-        
         <a href="https://mediclo.com/products/sal-essential-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
@@ -105,7 +115,7 @@ Color swatch specific parameters:
           <span>{{ value }}</span>
         </a>
   
-        <a href="https://mediclo.com/products/fysel-sal-essential-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
+        <a href="https://mediclo.com/products/fysel®-sal-essential-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
           {%- endif -%}
@@ -129,20 +139,7 @@ Color swatch specific parameters:
   
           <span>{{ value }}</span>
         </a>
-
-      {%- else -%}
-          <label class="block-swatch" for="{{ id | escape }}" data-option-value>
-            {%- if show_color -%}
-              <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-            {%- endif -%}
-    
-            <span>{{ value }}</span>
-          </label>
-          
-   
-    {%- endif -%}
-
-      
+     
 
       {% elsif value == "Tree Edition" and product.url contains "amelia-fitted-scrub-top"  %}    
         <a href="https://mediclo.com/products/fysel-capri-collared-scrub-top-burgundy" class="block-swatch {% if selected %}is-selected{% endif %}">
@@ -163,6 +160,8 @@ Color swatch specific parameters:
       {% endif %}
 
   
+        
+      
   {%- when 'color' -%}
     {%- assign white_label = 'general.label.white' | t | downcase -%}
     {%- assign value_downcase = value | downcase -%}
