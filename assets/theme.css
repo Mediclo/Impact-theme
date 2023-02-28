@@ -2727,6 +2727,10 @@ scroll-carousel {
     justify-content: center;
     align-items: center;
   }
+
+  .page-container-text {
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 700px) {
