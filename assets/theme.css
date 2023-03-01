@@ -8079,7 +8079,7 @@ split-lines {
 
 .page {
   gap: var(--spacing-12);
-  max-width: 100ch;
+  max-width: 120ch;
   grid-auto-columns: minmax(0, 1fr);
   margin-inline-start: auto;
   margin-inline-end: auto;
