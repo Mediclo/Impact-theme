@@ -64,18 +64,11 @@
           <P class="page-text">At Mediclo, it's more than just scrubs. We strive to create a sustainable brand while giving the very best to healthcare professionals around the world. We try our best to practice sustainability in all aspects of our business and product's life-cycle.</P>
         </div>
       </div>
-    
-
-    {% elsif page.url contains "/mediclo-policy" %}
-       
-        <div class="prose" style="font-size: 14px;">
-          {{ page.content }}
-        </div>
    
      {% endif %}
      
       {%- if page.content != empty -%}
-        <div class="prose">
+        <div class="prose" style="14px;">
           {{ page.content }}
         </div>
       {%- endif -%}
