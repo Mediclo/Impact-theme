@@ -2750,7 +2750,11 @@ scroll-carousel {
   
   .image-container {
     width: 100%;
-}
+  }
+  
+  .text-container {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 700px) {
