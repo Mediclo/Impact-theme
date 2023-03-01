@@ -19,12 +19,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "md",
-        "image": "shopify:\/\/shop_images\/glenn-theunissen-NBZuFOrVLpM-unsplash.jpg",
+        "image": "shopify:\/\/shop_images\/ja-kubislav-rHhVF92GB1k-unsplash_4.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 10
       }
     },
     "main": {
