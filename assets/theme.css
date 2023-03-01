@@ -2680,6 +2680,10 @@ scroll-carousel {
   align-items: center;
 }
 
+.animatedPng {
+  margin-top: 20px;
+}
+
 .page-left-container {
   width: 50%;
   padding: 20px;
