@@ -83,16 +83,12 @@ only way to do it on Shopify right now.
             {%- endif -%}
             <div>
 
-            {% if product.title contains "FYSEL®" and product.media[0].position == 1 %}  
-            <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/bottle_icon_03_black.png?v=1677015084" class="product-gallery__logo">           
-            {%- render 'media', media: media, sizes: sizes, preload: preload, autoplay: section.settings.enable_video_autoplay, loop: section.settings.enable_video_looping, group: 'product' -%}
-
-            {% elsif product.title contains "Sal" and product.media[0].position == 1 %}  
+            {% if product.title contains "FYSEL®" %}  
             <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/bottle_icon_03_black.png?v=1677015084" class="product-gallery__logo">           
             {%- render 'media', media: media, sizes: sizes, preload: preload, autoplay: section.settings.enable_video_autoplay, loop: section.settings.enable_video_looping, group: 'product' -%}
   
             {% else %}  
-<!--             <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/tree_icon_03_black.png?v=1677015059" class="product-gallery__logo">     -->
+            <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/tree_icon_03_black.png?v=1677015059" class="product-gallery__logo">    
             {%- render 'media', media: media, sizes: sizes, preload: preload, autoplay: section.settings.enable_video_autoplay, loop: section.settings.enable_video_looping, group: 'product' -%}
             {% endif %}
           
