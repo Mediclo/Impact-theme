@@ -2666,6 +2666,10 @@ scroll-carousel {
   margin-block-end: var(--section-outer-spacing-block);
 }
 
+.page-container-text {
+  letter-spacing: 1.6px;
+}
+
 .page-small-container1 {
   display: flex;
   justify-content: center;
