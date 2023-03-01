@@ -2719,6 +2719,25 @@ scroll-carousel {
   margin-bottom: 20px;
 }
 
+ 
+.come-in {
+  /*transform: translateY(100px);*/
+  transform: translate3d(0, 100px, 0);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  /*transform: translateY(0);*/
+  transform: translate3d(0, 0, 0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translate3d(0, 0, 0); }
+}
+
 @media screen and (max-width: 500px) {
   .page-spacer {
    padding: 30px;
