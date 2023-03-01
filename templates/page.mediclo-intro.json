@@ -31,43 +31,10 @@
       "type": "main-page",
       "settings": {
       }
-    },
-    "518d7547-ccf3-4553-acf5-708557d8ff64": {
-      "type": "video",
-      "blocks": {
-        "template--14503525351470__518d7547-ccf3-4553-acf5-708557d8ff64-16777031146e840c86-0": {
-          "type": "play",
-          "settings": {
-          }
-        },
-        "template--14503525351470__518d7547-ccf3-4553-acf5-708557d8ff64-16777031146e840c86-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--14503525351470__518d7547-ccf3-4553-acf5-708557d8ff64-16777031146e840c86-0",
-        "template--14503525351470__518d7547-ccf3-4553-acf5-708557d8ff64-16777031146e840c86-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "md",
-        "video": "shopify:\/\/files\/videos\/Mediclo_video_21_oct.mp4",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
     }
   },
   "order": [
     "839cc772-f883-472b-9d24-9014aa809a72",
-    "main",
-    "518d7547-ccf3-4553-acf5-708557d8ff64"
+    "main"
   ]
 }
