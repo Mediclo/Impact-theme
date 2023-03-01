@@ -18,7 +18,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "md",
+        "image_size": "lg",
         "image": "shopify:\/\/shop_images\/ja-kubislav-rHhVF92GB1k-unsplash_4.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
