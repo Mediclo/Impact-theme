@@ -2706,6 +2706,10 @@ scroll-carousel {
   width: 50%;
 }
 
+.text-container h3 {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 500px) {
   .page-spacer {
    padding: 40px;
