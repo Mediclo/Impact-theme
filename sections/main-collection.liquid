@@ -144,7 +144,7 @@
                         <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media h-full rounded-sm" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
                           {%- case block.type -%}
                             {%- when 'promotion_image' -%}
-                              {%- if block.settings.image != blank -%}
+/*                               {%- if block.settings.image != blank -%}
                                 {%- capture image_class -%}zoom-image {% if block.settings.mobile_image != blank %}hidden sm:block{% endif %}{%- endcapture -%}
                                 {%- capture sizes -%}(max-width: 699px) 100vw, {{ 400 | times: block.settings.column_span }}px{%- endcapture -%}
                                 {% if collection.url contains "womens-tree-scrub-top" %}
@@ -156,7 +156,7 @@
 
                               {%- if block.settings.mobile_image != blank -%}
                                 {{- block.settings.mobile_image | image_url: width: block.settings.mobile_image.width | image_tag: loading: 'lazy', widths: '200,300,400,500,600,700,800,900,1000,1200', class: 'zoom-image sm:hidden' -}}
-                              {%- endif -%}
+                              {%- endif -%} */
 
                             {%- when 'promotion_video' -%}
                               {%- if block.settings.video -%}
