@@ -2747,6 +2747,10 @@ scroll-carousel {
   .page-container-text {
     font-size: 12px;
   }
+  
+  .image-container {
+    width: 100%;
+}
 }
 
 @media screen and (min-width: 700px) {
