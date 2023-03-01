@@ -3,28 +3,6 @@
     <div class="page">
   
      {% if page.url contains "/mediclo-intro" %}
-       <script>
-
-        function reveal() {
-          var reveals = document.querySelectorAll(".reveal");
-          for (var i = 0; i < reveals.length; i++) {
-            var windowHeight = window.innerHeight;
-            var elementTop = reveals[i].getBoundingClientRect().top;
-            var elementVisible = 150;
-            if (elementTop < windowHeight - elementVisible) {
-              reveals[i].classList.add("active");
-            } else {
-              reveals[i].classList.remove("active");
-          }
-        }
-       }
-
-       window.addEventListener("scroll", reveal);
-
-      // To check the scroll position on page load
-      reveal();
-       
-       </script>
        
       <div class="page-small-container">
         <p class="page-text"> Hi, we are Mediclo, a medical apparel brand that cares about the planet. Although Earth Month is coming to a close, we pledge to continue treating every month as Earth Month. We're committed to improving the life cycle of our products and offering easy, practical ways to help healthcare professionals live more eco-friendly lifestyles. Sustainability continues to remain our top priority. We will continue to learn new and better ways to improve throughout the entire life cycle of our products. From ethical practices in our factory, the transportation of our goods, to even packaging, we truly care.As a start-up company, we cannot begin to express our gratitude to the community of people who support us. Because of loyal customers, such as yourselves, we can continue thriving and improving. Your continued support helps and encourages us as we become more sustainable without compromising our commitment to quality, comfort, or style. Thank you. We appreciate you.</p> 
@@ -63,6 +41,29 @@
           <P class="page-text">At Mediclo, it's more than just scrubs. We strive to create a sustainable brand while giving the very best to healthcare professionals around the world. We try our best to practice sustainability in all aspects of our business and product's life-cycle.</P>
         </div>
       </div>
+
+      <script>
+       
+        function reveal() {
+          var reveals = document.querySelectorAll(".reveal");
+          for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+            if (elementTop < windowHeight - elementVisible) {
+              reveals[i].classList.add("active");
+            } else {
+              reveals[i].classList.remove("active");
+          }
+        }
+       }
+
+       window.addEventListener("scroll", reveal);
+
+      // To check the scroll position on page load
+      reveal();
+       
+      </script>
 
        <section class="container">
         <h2>Caption</h2>
