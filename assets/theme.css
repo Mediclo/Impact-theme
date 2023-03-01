@@ -2719,6 +2719,17 @@ scroll-carousel {
   margin-bottom: 20px;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
 @media screen and (max-width: 500px) {
   .page-spacer {
    padding: 30px;
