@@ -2698,6 +2698,10 @@ scroll-carousel {
   font-size: 16px;
 }
 
+.image-container {
+  width: 50%;
+}
+
 .text-container {
   width: 50%;
 }
