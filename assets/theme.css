@@ -2707,6 +2707,7 @@ scroll-carousel {
 .text-container {
   width: 50%;
   padding: 20px;
+  line-height: 2.0;
 }
 
 .text-container h3 {
