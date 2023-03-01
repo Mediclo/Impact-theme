@@ -2674,9 +2674,8 @@ scroll-carousel {
 }
 
 .page-small-container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row-reverse;  
+  display:flex;
 }
 
 .page-left-container {
