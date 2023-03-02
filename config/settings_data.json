@@ -40,7 +40,7 @@
     "currency_code_enabled": false,
     "heading_apparition": "split_clip",
     "color_swatch_style": "round",
-    "color_swatch_config": "Stone Blue:#96BABC\nHunter Green:#247052\nMauve:#C6747D\nSage Green:#B6D1B1\nIndigo Navy:#4A4F69\nRose Pink:#FF99AF\nOlive Green:#7F9372\nFire Red:#FF0000\nLavender:#B27B9A\nCaribbean Blue:#21586D\nCobalt Blue:#264AB4\nCeil Blue:#9DBDED\nBurgundy:#7B2E3D\nNavy:#20294B\nBlack:#060506\nMoonlight Navy: #454E6B\nParadise Green: #B0CC6D\nSunflower: #DF9C0A\nHeather Grey: #656564\nSurgical Green: #2BB895\nCoffee Brown: #422200\nSpruce Green: #446250\nSteel Grey: #8C8C8C\nRoyal Blue: #172B8C",
+    "color_swatch_config": "Stone Blue:#96BABC\nHunter Green:#247052\nMauve:#C6747D\nSage Green:#B6D1B1\nIndigo Navy:#4A4F69\nRose Pink:#FF99AF\nOlive Green:#7F9372\nFire Red:#FF0000\nLavender:#B27B9A\nCaribbean Blue:#21586D\nCobalt Blue:#264AB4\nCeil Blue:#9DBDED\nBurgundy:#7B2E3D\nNavy:#20294B\nBlack:#060506\nMoonlight Navy: #454E6B\nParadise Green: #B0CC6D\nSunflower: #DF9C0A\nHeather Grey: #656564\nSurgical Green: #2BB895\nCoffee Brown: #422200\nSpruce Green: #446250\nSteel Grey: #8C8C8C\nRoyal Blue: #172B8C\nLight Denim Blue: #B5D2DF",
     "show_vendor": false,
     "show_secondary_image": false,
     "show_quick_buy": false,
@@ -114,6 +114,29 @@
               "drawer_link_image": "hide"
             }
           },
+          "26c0f10d-f227-4493-97ba-cb109bef01fa": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "layout": "horizontal",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "",
+              "image_link_1": "",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          },
           "31200d86-4cc9-4bd7-bad3-713a5dd61fa3": {
             "type": "mega_menu",
             "settings": {
@@ -163,6 +186,7 @@
         },
         "block_order": [
           "f972b4c2-edc9-4f0c-ab29-e09a763c31c8",
+          "26c0f10d-f227-4493-97ba-cb109bef01fa",
           "31200d86-4cc9-4bd7-bad3-713a5dd61fa3",
           "af563e4d-ab2f-4bd8-bb47-ef53f959ac4c"
         ],
