@@ -382,7 +382,7 @@ Color swatch specific parameters:
 
       <!--  ********* Capri  **********   -->
 
-      {% elsif value == "Tree Edition" and product.url contains "capri-collared-scrub-top-black" %}    
+      {% elsif class="block-swatch" for="{{ id | escape }}" data-option-value value == "Tree Edition" and product.url contains "capri-collared-scrub-top-black" %}    
         <a href="https://mediclo.com/products/capri-collared-scrub-top-black" class="block-swatch {% if selected %}is-selected{% endif %}">
           {%- if show_color -%}
             <span class="block-swatch__color" style="{{ swatch_style }}"></span>
