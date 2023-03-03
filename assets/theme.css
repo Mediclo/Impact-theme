@@ -5982,12 +5982,6 @@ split-lines {
     padding: 6px; 30px;
     margin-left: 2px;
     margin-right: 2px;
-  justify-content: end;
-  gap: var(--spacing-1);
-  flex-shrink: 0;
-
-  display: flex;
-  position: relative;
   }
   
     .sort-button:hover {
