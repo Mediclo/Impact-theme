@@ -5957,6 +5957,20 @@ split-lines {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 1000px) {
+   .sort-button {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 8px; 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+    .sort-button:hover {
+    border: 1px solid #6E6E6E;
+    transition: 0.5s;
+  }
+}
+
 .sort-by-facet {
   justify-content: end;
   gap: var(--spacing-1);
