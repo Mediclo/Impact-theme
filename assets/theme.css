@@ -4806,6 +4806,15 @@ custom-cursor {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .custom-liquid-image-container{
+    margin-top: 23px; 
+    padding: 0px 30px;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+}
+
 @media screen and (pointer: fine) {
   custom-cursor {
     display: block;
