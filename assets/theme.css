@@ -5962,7 +5962,7 @@ split-lines {
 
 @media screen and (max-width: 1000px) {
 
-  .filter_button {
+  .filter_button-container {
     display: flex;
   }
   
