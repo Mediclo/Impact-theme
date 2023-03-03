@@ -5960,11 +5960,10 @@ split-lines {
 @media screen and (max-width: 1000px) {
    .sort-button {
     border: 1px solid #DDDDDD;
-    border-radius: 5px;
     padding: 5px; 30px;
     margin-left: 2px;
     margin-right: 2px;
-    margin-bottom: 20px;
+    justify-content: end;
   }
     .sort-button:hover {
     border: 1px solid #6E6E6E;
