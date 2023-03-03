@@ -5970,6 +5970,10 @@ split-lines {
     border: 1px solid #6E6E6E;
     transition: 0.5s;
   }
+
+  .collection__results gap2 {
+    gap: var(--spacing-4);
+  }
 }
 
 .sort-by-facet {
