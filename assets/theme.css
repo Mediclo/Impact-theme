@@ -5975,6 +5975,10 @@ split-lines {
   .collection__results .gap-2 {
     gap: var(--spacing-4);
   }
+
+  .filter_button {
+    justify-content:end;
+  }
 }
 
 .sort-by-facet {
