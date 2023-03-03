@@ -4758,13 +4758,13 @@ custom-cursor {
 }
 
 .custom-liquid-container {
-  padding: 10px 0px;
+  padding: 0px 10px;
   text-align: center;
   margin-top: 40px;
 }
 
 .custom-liquid-container h2 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   letter-spacing: 1.4px;
 }
