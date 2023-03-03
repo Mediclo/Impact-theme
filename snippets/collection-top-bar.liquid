@@ -149,6 +149,11 @@ Supported variables
         <a class="sort-button" href="https://mediclo.com/collections/tree-edition-mens-tops">Tree Edition</a>
         <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-mens-tops">Bottle Edition</a>
         </div>
+        {% elsif collection.url contains "shop-mens-pants" or collection.url contains "tree-edition-mens-bottoms" or collection.url contains "bottle-edition-mens-bottoms" %}
+        <div class="sort-button-container">
+        <a class="sort-button" href="https://mediclo.com/collections/tree-edition-mens-bottoms">Tree Edition</a>
+        <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-mens-bottoms">Bottle Edition</a>
+        </div>
         {% endif %}
       
         <facet-sort-by class="sort-by-facet">
