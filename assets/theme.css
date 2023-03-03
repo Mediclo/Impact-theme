@@ -5964,7 +5964,7 @@ split-lines {
 
   .filter_button {
     display: inline-block;
-    margin-top: 2px;
+    padding-top: 2px;
   }
   
   .filter_button button{
