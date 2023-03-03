@@ -5963,7 +5963,7 @@ split-lines {
 @media screen and (max-width: 1000px) {
 
   .filter_button {
-    flex: 1;
+    display: inline-block;
   }
   
   .filter_button button{
@@ -5974,7 +5974,7 @@ split-lines {
   }
   
    .sort-button-container {
-     flex: 1;
+     display: inline-block;
    } 
   
    .sort-button {
