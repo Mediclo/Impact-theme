@@ -5974,7 +5974,8 @@ split-lines {
     color: #000;
   }
    .sort-button-container {
-      text-align: right;
+     display: inline-block;
+     text-align: right;
    } 
    .sort-button {
     border: 1px solid #DDDDDD;
