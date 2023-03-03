@@ -5948,11 +5948,11 @@ split-lines {
 }
 
 .sort-button {
-/*   border: 2px solid #DDDDDD;
+  border: 2px solid #DDDDDD;
   border-radius: 5px;
   padding: 8px; 30px;
   margin-left: 5px;
-  margin-right: 5px; */
+  margin-right: 5px;
 }
 
 .sort-button:hover {
@@ -5966,12 +5966,6 @@ split-lines {
     padding: 5px; 30px;
     margin-left: 2px;
     margin-right: 2px;
-    justify-content: end;
-    gap: var(--spacing-1);
-    flex-shrink: 0;
-    margin-inline-start: auto;
-    display: flex;
-    position: relative;
   }
     .sort-button:hover {
     border: 1px solid #6E6E6E;
