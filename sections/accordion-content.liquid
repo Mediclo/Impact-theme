@@ -33,22 +33,39 @@
       <div class="section-stack__intro">
         <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
           {% if section.settings.title contains "Tree Edition" %}
-          <h3 class="h3">Tree Edition</h3>
-          <p class="page-text">Our Tree Scrubs are made from sustainably sourced natural raw material wood  that is treated in an innovative closed loop system, which allows for over 99% of water and solvent waste to be reused.</p>
-           <div class="second-section-container">   
-            <div class="second-section-image-container">
-              <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_13.png?v=1634857536"/><span class="second-section-image-text">LIGHTWEIGHT</span>
+            <h3 class="h3">Tree Edition</h3>
+            <p class="page-text">Our Tree Scrubs are made from sustainably sourced natural raw material wood  that is treated in an innovative closed loop system, which allows for over 99% of water and solvent waste to be reused.</p>
+             <div class="second-section-container">   
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_13.png?v=1634857536"/><span class="second-section-image-text">LIGHTWEIGHT</span>
+              </div>
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_12.png?v=1634857537"/><span class="second-section-image-text">BREATHABLE</span>
+              </div>
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_11.png?v=1634857536"/><span class="second-section-image-text">SUSTAINABLE</span>
+              </div>
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_10.png?v=1634857536"/><span class="second-section-image-text">THERMAL REGULATING</span>
+              </div>
             </div>
-            <div class="second-section-image-container">
-              <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_12.png?v=1634857537"/><span class="second-section-image-text">BREATHABLE</span>
+          {% elsif section.settings.title contains "Bottle Edition" %}
+             <h3 class="h3">Bottle Edition</h3>
+             <p class="page-text">Our Tree Scrubs are made from sustainably sourced natural raw material wood  that is treated in an innovative closed loop system, which allows for over 99% of water and solvent waste to be reused.</p>
+             <div class="second-section-container">   
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_13.png?v=1634857536"/><span class="second-section-image-text">LIGHTWEIGHT</span>
+              </div>
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_12.png?v=1634857537"/><span class="second-section-image-text">BREATHABLE</span>
+              </div>
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_11.png?v=1634857536"/><span class="second-section-image-text">SUSTAINABLE</span>
+              </div>
+              <div class="second-section-image-container">
+                <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_10.png?v=1634857536"/><span class="second-section-image-text">THERMAL REGULATING</span>
+              </div>
             </div>
-            <div class="second-section-image-container">
-              <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_11.png?v=1634857536"/><span class="second-section-image-text">SUSTAINABLE</span>
-            </div>
-            <div class="second-section-image-container">
-              <img class="second-section-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/Icon-Tencel_Fyseleach_page_10.png?v=1634857536"/><span class="second-section-image-text">THERMAL REGULATING</span>
-            </div>
-          </div>
           
           {% else %}
           {{- content -}}
