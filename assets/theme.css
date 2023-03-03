@@ -5961,6 +5961,10 @@ split-lines {
 }
 
 @media screen and (max-width: 1000px) {
+  .filter_button button{
+    margin-right: 0px;  
+  }
+  
    .sort-button-container {
 /*       text-align: right; */
    }
