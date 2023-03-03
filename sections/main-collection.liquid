@@ -139,7 +139,7 @@
                 {%- endif -%}
       
                 {% if collection.url contains "women-sale-collection" or collection.url contains "womens-tree-scrub-top" or collection.url contains "bottle-edition-womens-tops" %}
-                  <div style: flex;>
+                  <div>
                     <div class="filter_button">
                       {%- assign filter_label = 'collection.faceting.filter_and_sort' | t -%}
                       {%- render 'button', size: 'xs', content: filter_label, icon: 'filter', style: 'fill', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}
