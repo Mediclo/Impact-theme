@@ -5971,7 +5971,7 @@ split-lines {
     transition: 0.5s;
   }
 
-  .collection__results vstack {
+  .collection__results .gap-2 {
     gap: var(--spacing-4);
   }
 }
