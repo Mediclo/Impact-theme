@@ -137,7 +137,10 @@
                   {%- render 'collection-top-bar', results: collection, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
                 {%- endif -%}
 
-                <div>Filter</div>
+                <div>Filter
+                  {%- assign filter_label = 'collection.faceting.filter_and_sort' | t -%}
+                  {%- render 'button', size: 'xl', content: filter_label, icon: 'filter', style: 'fill', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}    
+                </div>
           
 
       
