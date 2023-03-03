@@ -5954,7 +5954,7 @@ split-lines {
 .sort-button {
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 5px; 30px;
+  padding: 10px; 30px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -5972,6 +5972,7 @@ split-lines {
 /*   margin-inline-start: auto; */
   display: flex;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .facets__floating-filter {
