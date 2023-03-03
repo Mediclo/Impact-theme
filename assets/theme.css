@@ -5964,23 +5964,27 @@ split-lines {
 
   .filter_button {
     display: inline-block;
+    margin-top: 2px;
   }
+  
   .filter_button button{
     margin-right: 0px;  
     padding: 6px 15px;
     background-color: #DDDDDD;
     color: #000;
   }
+  
    .sort-button-container {
      display: inline-block;
-     margin-bottom: 2px;
    } 
+  
    .sort-button {
     border: 1px solid #DDDDDD;
     padding: 7px; 30px;
     margin-left: 2px;
     margin-right: 2px;
   }
+  
     .sort-button:hover {
     border: 1px solid #6E6E6E;
     transition: 0.5s;
