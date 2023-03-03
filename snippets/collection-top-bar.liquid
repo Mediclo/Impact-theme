@@ -131,6 +131,15 @@ Supported variables
         {%- endif -%}
       {%- endif -%}
 
+         {%- if section.settings.filter_layout == 'horizontal' -%}
+            {%- render 'collection-top-bar', results: collection, show_filters: show_filters, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+          {%- else -%}
+            {%- render 'collection-top-bar', results: collection, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+          {%- endif -%}
+
+          <p>Test</p>
+      
+
       {%- if show_sort_by -%}
         {%- capture sort_by_popover_id -%}popover-{{ 'now' | date: '%N' }}{%- endcapture -%}
 
