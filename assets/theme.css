@@ -4787,8 +4787,11 @@ custom-cursor {
 }
 
 @media screen and (max-width: 500px) {
+  .custom-liquid-container {
+    padding: 10px;
+  }
    .custom-liquid-container h2 {
-    font-size: 20px;
+    font-size: 18px;
    }
   .custom-liquid-image-container{
     margin-top: 23px; 
