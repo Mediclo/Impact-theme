@@ -5973,13 +5973,13 @@ split-lines {
   }
    .sort-button-container {
      display: inline-block;
+     padding-bottom: 2px;
    } 
    .sort-button {
     border: 1px solid #DDDDDD;
     padding: 7px; 30px;
     margin-left: 2px;
     margin-right: 2px;
-    padding-bottom: 2px;
   }
     .sort-button:hover {
     border: 1px solid #6E6E6E;
