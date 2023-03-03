@@ -140,12 +140,12 @@
       
                 {% if collection.url contains "women-sale-collection" or collection.url contains "womens-tree-scrub-top" or collection.url contains "bottle-edition-womens-tops" %}
                   <div class="sort-button-container" style="display:inline-block;">
-                  <div class="filter_button">
+                  <div class="filter_button" style="display:inline-block;">
                   {%- assign filter_label = 'collection.faceting.filter_and_sort' | t -%}
                   {%- render 'button', size: 'xs', content: filter_label, icon: 'filter', style: 'fill', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}
                   </div>
-                  <a class="sort-button" href="https://mediclo.com/collections/womens-tree-scrub-top">Tree Edition</a>
-                  <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-womens-tops">Bottle Edition</a>
+                  <a class="sort-button" href="https://mediclo.com/collections/womens-tree-scrub-top" style="display:inline-block;">Tree Edition</a>
+                  <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-womens-tops" style="display:inline-block;">Bottle Edition</a>
                   </div>
                   {% elsif collection.url contains "shop-women-pants" or collection.url contains "womens-tree-scrub-pants" or collection.url contains "bottle-edition-womens-bottoms" %}
                   <div class="sort-button-container">
