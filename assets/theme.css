@@ -5964,7 +5964,6 @@ split-lines {
 
   .filter_button {
     display: inline-block;
-    padding-top: 2px;
   }
   
   .filter_button button{
@@ -5980,7 +5979,7 @@ split-lines {
   
    .sort-button {
     border: 1px solid #DDDDDD;
-    padding: 7px; 30px;
+    padding: 6px; 30px;
     margin-left: 2px;
     margin-right: 2px;
   }
