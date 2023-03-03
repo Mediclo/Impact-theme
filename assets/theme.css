@@ -5972,6 +5972,11 @@ split-lines {
     background-color: #DDDDDD;
     color: #000;
   }
+
+   .filter_button button:hover{
+    background-color: #DDDDDD;
+    color: #000;
+  }
   
    .sort-button-container {
      display: inline-block;
