@@ -73,7 +73,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
         "e8e4d4e0-97cc-4646-b746-b146ca54586f": {
@@ -93,6 +93,7 @@
         },
         "aaf1b0f6-5b4d-4ccf-9808-24fec0e80cb0": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "Tencel™ Care",
             "content": "<p><strong>Fabric Content<\/strong><\/p><p>Tencel™ 67%‎ ‎ \/‎ ‎ Recycled Polyester 30%‎ ‎ \/‎ ‎ Spandex 3%<\/p><p><\/p><p><strong>Care Instructions<\/strong><\/p><p><\/p><ul><li>Machine wash cold inside out<\/li><li>Gentle cycle with like colors<\/li><li>Non-chlorine bleach when needed<\/li><li>Tumble dry low<\/li><li>Air fluff setting or simply hang dry to help prevent wrinkles<\/li><li>Iron when needed<\/li><li><strong>Overloading washer or dryer could damage your clothes and decrease your washer and dryer's efficiency<\/strong><\/li><\/ul>"
@@ -100,6 +101,7 @@
         },
         "24a1c624-5607-4aa1-95c9-945285c8c235": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "FYSEL® Care",
             "content": "<p><strong>Fabric Content<\/strong><\/p><p>Recycled Polyester 75%‎ ‎ \/‎ ‎ Rayon 20%‎ ‎ \/‎ ‎ Spandex 5%<\/p><p><strong>Care Instructions<\/strong><\/p><p><\/p><ul><li>Machine washable<\/li><li>Wash with like colors<\/li><li>Non-chlorine bleach when needed<\/li><li>Tumble dry<\/li><li>Air fluff setting or simply hang dry to help prevent wrinkles<\/li><li>Iron when needed<\/li><li><strong>Overloading washer or dryer could damage your clothes and decrease your washer and dryer's efficiency<\/strong><\/li><\/ul>"
@@ -152,6 +154,55 @@
         "input_text_color": ""
       }
     },
+    "bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-0": {
+          "type": "item",
+          "settings": {
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-1": {
+          "type": "item",
+          "settings": {
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-2": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-0",
+        "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-1",
+        "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Tree Edition",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -179,6 +230,7 @@
   },
   "order": [
     "main",
+    "bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1",
     "product-recommendations"
   ]
 }
