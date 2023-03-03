@@ -5942,7 +5942,7 @@ split-lines {
   }
 }
 
-.sort-button {
+.sort-button-container {
   text-align: end;
 }
 
