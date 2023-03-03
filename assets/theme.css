@@ -5976,10 +5976,10 @@ split-lines {
    } 
    .sort-button {
     border: 1px solid #DDDDDD;
-    padding: 5px; 30px;
+    padding: 7px; 30px;
     margin-left: 2px;
     margin-right: 2px;
-    margin-bottom: 1px;
+    padding-bottom: 2px;
   }
     .sort-button:hover {
     border: 1px solid #6E6E6E;
