@@ -99,8 +99,6 @@
             {%- assign filter_label = 'collection.faceting.filter_and_sort' | t -%}
             {%- render 'button', size: 'xl', content: filter_label, icon: 'filter', style: 'fill', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}
           </facet-floating-filter> -->
-
-          <p>TEST</p>
           
         {%- endif -%}
 
@@ -132,6 +130,17 @@
               <div class="v-stack gap-4 md:hidden">
                 {%- comment -%}We have to duplicate some information on mobile and tablet here{%- endcomment -%}
 <!--                 <p class="text-center">{{ 'collection.products_count' | t: count: collection.products_count }}</p> -->
+
+                {%- if section.settings.filter_layout == 'horizontal' -%}
+                  {%- render 'collection-top-bar', results: collection, show_filters: show_filters, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+                {%- else -%}
+                  {%- render 'collection-top-bar', results: collection, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+                {%- endif -%}
+
+                <p>Test</p>
+          
+
+      
                 {% if collection.url contains "women-sale-collection" or collection.url contains "womens-tree-scrub-top" or collection.url contains "bottle-edition-womens-tops" %}
                   <div class="sort-button-container">
                   <a class="sort-button" href="https://mediclo.com/collections/womens-tree-scrub-top">Tree Edition</a>
