@@ -32,7 +32,7 @@
     {%- if content != blank -%}
       <div class="section-stack__intro">
         <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
-          {% if section.settings.title =="Tree Edtion" %}
+          {% if section.settings.title contains "Tree Edtion" %}
           <p>TEST</p>
           {% else %}
           {{- content -}}
