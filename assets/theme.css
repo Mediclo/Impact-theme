@@ -5945,7 +5945,7 @@ split-lines {
 }
 
 .sort-button {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
   padding: 8px; 30px;
   margin-left: 5px;
@@ -5956,7 +5956,6 @@ split-lines {
   border: 1px solid #000;
   transition: 0.5s;
 }
-
 
 .sort-by-facet {
   justify-content: end;
