@@ -153,7 +153,7 @@
         "template--14500855447598__44c6f635-70fe-412b-bdbd-c908d71c3360-167786818053ef724d-2": {
           "type": "item",
           "settings": {
-            "title": "Question 3",
+            "title": "Sustainability",
             "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
           }
         }
@@ -166,7 +166,7 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Heading",
+        "title": "Bottle Edition",
         "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
         "button_text": "",
         "button_url": "",
