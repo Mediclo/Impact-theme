@@ -5962,10 +5962,10 @@ split-lines {
 
 @media screen and (max-width: 1000px) {
   .collection-top-bar-button-container{
-    display: inline-block;
+/*     display: inline-block; */
   }
   .filter_button {
-/*     display: inline-block; */
+    display: inline-block;
   }
   .filter_button button{
     margin-right: 0px;  
@@ -5974,7 +5974,7 @@ split-lines {
     color: #000;
   }
    .sort-button-container {
-/*      display: inline-block; */
+     display: inline-block;
      text-align: right;
    } 
    .sort-button {
