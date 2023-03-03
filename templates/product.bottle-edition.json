@@ -133,6 +133,55 @@
         "input_text_color": ""
       }
     },
+    "44c6f635-70fe-412b-bdbd-c908d71c3360": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--14500855447598__44c6f635-70fe-412b-bdbd-c908d71c3360-167786818053ef724d-0": {
+          "type": "item",
+          "settings": {
+            "title": "Fabric Content",
+            "content": "<ul><li>Recycled Polyester 75%‎ ‎<\/li><li>Rayon 20%‎ ‎<\/li><li>Spandex 5%<\/li><\/ul>"
+          }
+        },
+        "template--14500855447598__44c6f635-70fe-412b-bdbd-c908d71c3360-167786818053ef724d-1": {
+          "type": "item",
+          "settings": {
+            "title": "FYSEL® Care",
+            "content": "<ul><li>Machine washable<\/li><li>Wash with like colors<\/li><li>Non-chlorine bleach when needed<\/li><li>Tumble dry<\/li><li>Air fluff setting or simply hang dry to help prevent wrinkles<\/li><li>Iron when needed<\/li><li><strong>Overloading washer or dryer could damage your clothes and decrease your washer and dryer's efficiency<\/strong><\/li><\/ul>"
+          }
+        },
+        "template--14500855447598__44c6f635-70fe-412b-bdbd-c908d71c3360-167786818053ef724d-2": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14500855447598__44c6f635-70fe-412b-bdbd-c908d71c3360-167786818053ef724d-0",
+        "template--14500855447598__44c6f635-70fe-412b-bdbd-c908d71c3360-167786818053ef724d-1",
+        "template--14500855447598__44c6f635-70fe-412b-bdbd-c908d71c3360-167786818053ef724d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Heading",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -160,6 +209,7 @@
   },
   "order": [
     "main",
+    "44c6f635-70fe-412b-bdbd-c908d71c3360",
     "product-recommendations"
   ]
 }
