@@ -5964,6 +5964,7 @@ split-lines {
   .filter_button button{
     margin-right: 0px;  
     padding: 6px 15px;
+    background-color: #DDDDDD;
   }
   
    .sort-button-container {
