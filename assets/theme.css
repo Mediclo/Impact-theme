@@ -5943,7 +5943,7 @@ split-lines {
 }
 
 .sort-button-container {
-  text-align: end;
+  justify-content: end;
 }
 
 .sort-by-facet {
