@@ -173,7 +173,7 @@
         "button_url": "shopify:\/\/collections\/womens-tree-scrubs",
         "text_position": "start",
         "background": "#ffffff",
-        "background_gradient": "",
+        "background_gradient": "linear-gradient(179deg, rgba(255, 255, 255, 1), rgba(215, 217, 215, 1) 100%)",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
