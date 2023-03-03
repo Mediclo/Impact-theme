@@ -5943,12 +5943,7 @@ split-lines {
 }
 
 .sort-button {
-  justify-content: end;
-  gap: var(--spacing-1);
-  flex-shrink: 0;
-  margin-inline-start: auto;
-  display: flex;
-  position: relative;
+  text-align: end;
 }
 
 .sort-by-facet {
