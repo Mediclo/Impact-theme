@@ -5978,6 +5978,7 @@ split-lines {
   
   .filter_button {
     width: 20px;
+    background-color: #ddddd;
   }
 }
 
