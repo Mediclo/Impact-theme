@@ -5969,7 +5969,7 @@ split-lines {
   .filter_button button{
     margin-right: 0px;  
     padding: 9px 15px;
-    background-color: #DDDDDD;
+    background-color: #fff;
     color: #000;
   }
   
