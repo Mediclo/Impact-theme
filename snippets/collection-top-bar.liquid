@@ -167,7 +167,7 @@ Supported variables
           <x-popover id="{{ sort_by_popover_id }}" class="popover" close-on-listbox-select anchor-horizontal="end" anchor-vertical="end">
             <x-listbox class="popover-listbox" aria-owns="{{ sort_by_popover_id }}-value">
               {%- for sort_option in results.sort_options -%}
-                {% if sort_option.name == "Alphabetically, A-Z" or sort_option.name == "Alphabetically, Z-A" or sort_option.name == "Date, old to new" or sort_option.name == "Date, new to old" or sort_option.name == "Featured" %}
+                {% if sort_option.name == "Alphabetically, A-Z" or sort_option.name == "Alphabetically, Z-A" or sort_option.name == "Date, old to new" or sort_option.name == "Date, new to old" %}
                 <button type="button" class="popover-listbox__option group" role="option" style="display: none;" value="{{ sort_option.value }}" {% if sort_option.value == selected_sort_by_value %}aria-selected="true"{% endif %}>
                   <span class="reversed-link">{{ sort_option.name }}</span>
                 </button>
