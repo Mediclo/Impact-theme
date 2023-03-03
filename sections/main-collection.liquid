@@ -84,28 +84,7 @@
           {%- endcomment -%}
 
           <facet-drawer header-bordered id="facets-drawer" class="facets-drawer drawer" open-from="left">
-<!--             <p class="h5" slot="header">{{ 'collection.faceting.filters' | t }}</p> -->
-                 {% if collection.url contains "women-sale-collection" or collection.url contains "womens-tree-scrub-top" or collection.url contains "bottle-edition-womens-tops" %}
-                  <div class="sort-button-container">
-                  <a class="sort-button" href="https://mediclo.com/collections/womens-tree-scrub-top">Tree Edition</a>
-                  <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-womens-tops">Bottle Edition</a>
-                  </div>
-                  {% elsif collection.url contains "shop-women-pants" or collection.url contains "womens-tree-scrub-pants" or collection.url contains "bottle-edition-womens-bottoms" %}
-                  <div class="sort-button-container">
-                  <a class="sort-button" href="https://mediclo.com/collections/womens-tree-scrub-pants">Tree Edition</a>
-                  <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-womens-bottoms">Bottle Edition</a>
-                  </div>
-                  {% elsif collection.url contains "shop-mens-top" or collection.url contains "tree-edition-mens-tops" or collection.url contains "bottle-edition-mens-tops" %}
-                  <div class="sort-button-container">
-                  <a class="sort-button" href="https://mediclo.com/collections/tree-edition-mens-tops">Tree Edition</a>
-                  <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-mens-tops">Bottle Edition</a>
-                  </div>
-                  {% elsif collection.url contains "shop-mens-pants" or collection.url contains "tree-edition-mens-bottoms" or collection.url contains "bottle-edition-mens-bottoms" %}
-                  <div class="sort-button-container">
-                  <a class="sort-button" href="https://mediclo.com/collections/tree-edition-mens-bottoms">Tree Edition</a>
-                  <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-mens-bottoms">Bottle Edition</a>
-                  </div>
-              {% endif %}
+            <p class="h5" slot="header">{{ 'collection.faceting.filters' | t }}</p>
             {%- render 'facets-vertical', results: collection, show_filters: true, show_sort_by: section.settings.show_sort_by, update_on_change: false -%}
           </facet-drawer>
 
