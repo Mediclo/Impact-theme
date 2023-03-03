@@ -86,13 +86,13 @@
           <facet-drawer header-bordered id="facets-drawer" class="facets-drawer drawer" open-from="left">
             <p class="h5" slot="header">{{ 'collection.faceting.filters' | t }}</p>
           
-/*             {%- render 'facets-vertical', results: collection, show_filters: true, show_sort_by: section.settings.show_sort_by, update_on_change: false -%} */
+            {%- render 'facets-vertical', results: collection, show_filters: true, show_sort_by: section.settings.show_sort_by, update_on_change: false -%}
           </facet-drawer>
 
           {%- if section.settings.filter_layout == 'horizontal' -%}
             {%- render 'collection-top-bar', results: collection, show_filters: show_filters, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
           {%- else -%}
-            {%- render 'collection-top-bar', results: collection, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+/*             {%- render 'collection-top-bar', results: collection, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%} */
           {%- endif -%}
 
           {%- comment -%}We also need to render the button, that is floating on mobile{%- endcomment -%}
