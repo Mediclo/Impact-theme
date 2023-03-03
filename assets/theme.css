@@ -5964,18 +5964,18 @@ split-lines {
   .collection-top-bar-button-container{
     display: inline-block;
   }
-  
+  .filter_button {
+    display: inline-block;
+  }
   .filter_button button{
     margin-right: 0px;  
     padding: 6px 15px;
     background-color: #DDDDDD;
     color: #000;
   }
-  
    .sort-button-container {
       text-align: right;
-   }
-  
+   } 
    .sort-button {
     border: 1px solid #DDDDDD;
     padding: 5px; 30px;
