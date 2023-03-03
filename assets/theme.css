@@ -5947,7 +5947,7 @@ split-lines {
 }
 
 .sort-button {
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px; 30px;
   margin-left: 5px;
