@@ -93,6 +93,7 @@
         },
         "0cd3e9f7-50a8-432a-93e8-171e0727c6c8": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "FYSEL® Care",
             "content": "<p><strong>Fabric Content<\/strong><\/p><p>Recycled Polyester 75%‎ ‎ \/‎ ‎ Rayon 20%‎ ‎ \/‎ ‎ Spandex 5%<\/p><p><strong>Care Instructions<\/strong><\/p><p><\/p><ul><li>Machine washable<\/li><li>Wash with like colors<\/li><li>Non-chlorine bleach when needed<\/li><li>Tumble dry<\/li><li>Air fluff setting or simply hang dry to help prevent wrinkles<\/li><li>Iron when needed<\/li><li><strong>Overloading washer or dryer could damage your clothes and decrease your washer and dryer's efficiency<\/strong><\/li><\/ul>"
@@ -154,7 +155,7 @@
           "type": "item",
           "settings": {
             "title": "Sustainability",
-            "content": "<p>Polyester is the most often used fabric in the fashion industry, but the downside to it is that polyester is a type of plastic polymer that is usually created through a toxic process, which leads to massive waste. That is why we have committed to changing all of the polyester in our clothes from Virgin polyester to Recycled Polyester.<\/p>"
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
           }
         }
       },
