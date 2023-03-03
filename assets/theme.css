@@ -5964,6 +5964,8 @@ split-lines {
     margin-left: 2px;
     margin-right: 2px;
     justify-content: end;
+    display: flex;
+    position: relative;
   }
     .sort-button:hover {
     border: 1px solid #6E6E6E;
