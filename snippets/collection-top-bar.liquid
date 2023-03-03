@@ -134,7 +134,7 @@ Supported variables
       {%- if show_sort_by -%}
         {%- capture sort_by_popover_id -%}popover-{{ 'now' | date: '%N' }}{%- endcapture -%}
 
-        {% if collection.url contains "women-sale-collection" %}
+        {% if collection.url contains "women-sale-collection" or collection.url contains "womens-tree-scrub-top" or collection.url contains "bottle-edition-womens-tops" %}
         <div class="sort-button-container">
         <a class="sort-button" href="https://mediclo.com/collections/womens-tree-scrub-top">Tree Edition</a>
         <a class="sort-button" href="https://mediclo.com/collections/bottle-edition-womens-tops">Bottle Edition</a>
