@@ -5946,6 +5946,10 @@ split-lines {
   justify-content: end;
 }
 
+.sort-button {
+  border: 1px solid #ccc;
+}
+
 .sort-by-facet {
   justify-content: end;
   gap: var(--spacing-1);
