@@ -4770,6 +4770,8 @@ custom-cursor {
 
 .custom-liquid-image-container{
   margin-top: 30px;
+  overflow: scroll;
+  white-space: nowrap;
 }
 
 .custom-liquid-image {
@@ -4803,15 +4805,6 @@ custom-cursor {
   }
   .custom-liquid-text {
     font-size: 7px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .custom-liquid-image-container{
-    margin-top: 23px; 
-    padding: 0px 30px;
-    overflow: scroll;
-    white-space: nowrap;
   }
 }
 
