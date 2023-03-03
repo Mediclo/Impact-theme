@@ -167,15 +167,15 @@
         "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-1": {
           "type": "item",
           "settings": {
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+            "title": "Tencel™ Care",
+            "content": "<ul><li>Machine wash cold inside out<\/li><li>Gentle cycle with like colors<\/li><li>Non-chlorine bleach when needed<\/li><li>Tumble dry low<\/li><li>Air fluff setting or simply hang dry to help prevent wrinkles<\/li><li>Iron when needed<\/li><li><strong>Overloading washer or dryer could damage your clothes and decrease your washer and dryer's efficiency<\/strong><\/li><\/ul>"
           }
         },
         "template--14500855152686__bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1-1677868053044ee289-2": {
           "type": "item",
           "settings": {
-            "title": "Question 3",
-            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+            "title": "Sustainability",
+            "content": "<p>Tencel™ is a fiber made from the wood chips of responsibly harvested trees. The wood chips go through a closed-loop process, in which 99% of the solvent is recovered, purified, and reused. This cycle uses less water and energy than most other conventional fibers.<\/p><p><a href=\"https:\/\/www.tencel.com\" title=\"https:\/\/www.tencel.com\">Learn more<\/a><\/p>"
           }
         }
       },
