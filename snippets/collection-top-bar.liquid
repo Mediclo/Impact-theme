@@ -147,7 +147,7 @@ Supported variables
               {%- for sort_option in results.sort_options -%}
                 <button type="button" class="popover-listbox__option group" role="option" value="{{ sort_option.value }}" {% if sort_option.value == selected_sort_by_value %}aria-selected="true"{% endif %}>
                   {% if sort_option.name == "Alphabetically, A-Z" or sort_option.name == "Alphabetically, Z-A" or sort_option.name == "Date, old to new" or sort_option.name == "Date, new to old" %}
-                  <span></span>
+                
                   {% else %}
                   <span class="reversed-link">{{ sort_option.name }}</span>
                   {% endif %}
