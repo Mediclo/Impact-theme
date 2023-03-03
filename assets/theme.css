@@ -5961,9 +5961,6 @@ split-lines {
 }
 
 @media screen and (max-width: 1000px) {
-  .sort-button-container {
-    display: inline-block
-  }
    .sort-button {
     border: 1px solid #DDDDDD;
     padding: 5px; 30px;
