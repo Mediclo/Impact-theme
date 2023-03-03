@@ -5974,8 +5974,8 @@ split-lines {
   }
 
    .filter_button button:hover{
-    border: 2px solid #DDDDDD;
-    background-color: #DDDDDD;
+    border: 2px solid #DDDDDD !important;
+    background-color: #DDDDDD !important;
     color: #000;
   }
   
