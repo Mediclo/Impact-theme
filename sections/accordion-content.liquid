@@ -32,6 +32,9 @@
     {%- if content != blank -%}
       <div class="section-stack__intro">
         <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
+          {% if content contains "‎ " %}
+          <p>TEST</p>
+          {% endif %}
           {{- content -}}
         </div>
       </div>
