@@ -5961,6 +5961,10 @@ split-lines {
 }
 
 @media screen and (max-width: 1000px) {
+  .collection-top-bar-button-container{
+    display: inline-block;
+  }
+  
   .filter_button button{
     margin-right: 0px;  
     padding: 6px 15px;
