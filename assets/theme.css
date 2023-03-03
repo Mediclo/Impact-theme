@@ -5969,7 +5969,7 @@ split-lines {
   justify-content: end;
   gap: var(--spacing-1);
   flex-shrink: 0;
-  margin-inline-start: auto;
+/*   margin-inline-start: auto; */
   display: flex;
   position: relative;
 }
