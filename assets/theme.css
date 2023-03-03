@@ -5944,15 +5944,6 @@ split-lines {
   }
 }
 
-.sort-button-container {
-  justify-content: end;
-  gap: var(--spacing-1);
-  flex-shrink: 0;
-  margin-inline-start: auto;
-  display: flex;
-  position: relative;
-}
-
 .sort-button {
   border: 1px solid #ccc;
   border-radius: 5px;
