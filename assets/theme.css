@@ -5973,10 +5973,6 @@ split-lines {
     color: #000;
   }
 
-  .filter_button button:hover{
-   pointer-events: none;
-  }
-  
    .sort-button-container {
      flex: 1;
      justify-content: end;
