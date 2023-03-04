@@ -5974,7 +5974,8 @@ split-lines {
   }
 
   .filter_button button:hover{
-     pointer-events: none;
+    pointer-events: none;
+    cursor: pointer;
   }
   
    .sort-button-container {
