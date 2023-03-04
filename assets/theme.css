@@ -5968,13 +5968,9 @@ split-lines {
   
   .filter_button button{
     margin-right: 0px;  
-    padding: 5px;
+    padding: 6px;
     background-color: #fff;
     color: #000;
-  }
-
-  .filter_button button:hover{
-    border: 1px solid #fff;
   }
   
    .sort-button-container {
