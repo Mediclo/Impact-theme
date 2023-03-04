@@ -5975,6 +5975,7 @@ split-lines {
   
    .sort-button-container {
      flex: 1;
+     text-align: right;
      justify-content: end;
    } 
   
