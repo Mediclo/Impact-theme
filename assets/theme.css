@@ -5984,6 +5984,7 @@ split-lines {
     padding: 6px; 20px;
     margin-left: 2px;
     margin-right: 2px;
+    margin-top: 5px;
   }
   
     .sort-button:hover {
