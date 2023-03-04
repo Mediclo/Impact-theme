@@ -5968,14 +5968,13 @@ split-lines {
   
   .filter_button button{
     margin-right: 0px;  
-    padding: 0px;
+    padding: 10px;
     background-color: #fff;
     color: #000;
   }
 
   .filter_button button:hover{
-    pointer-events: none;
-    cursor: pointer;
+ 
   }
   
    .sort-button-container {
