@@ -4864,6 +4864,7 @@ custom-cursor {
 .custom-html-image-small-container-1 {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 50px;
   grid-column: 1;
   grid-row: 1;
 }
@@ -4871,7 +4872,7 @@ custom-cursor {
 .custom-html-image-small-container-2 {
   margin-left: auto;
   margin-right: auto;
-  grid-column: 1;
+  grid-column: 2;
   grid-row: 1;
 }
 
