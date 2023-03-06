@@ -4916,7 +4916,7 @@ custom-cursor {
 }
 
 .custom-image-banner-btn {
-  display: block;
+  display: inline-block;
   margin-top: 20px;
   padding: 10px 30px;
   border: 2px solid #000;
