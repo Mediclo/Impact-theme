@@ -4892,7 +4892,7 @@ custom-cursor {
     justify-content: center;
 }
 
-.custom-image-banner-image-1, .custom-image-banner-image-2 {
+.custom-image-banner-image {
     padding: 0px 0px 60px;
     text-align: center;
     margin: 0 20px;
