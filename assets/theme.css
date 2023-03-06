@@ -4938,10 +4938,9 @@ custom-cursor {
       padding-inline-start: max(var(--calculated-section-spacing-inline),45% - var(--container-max-width) / 2);
       padding-inline-end: max(var(--calculated-section-spacing-inline),45% - var(--container-max-width) / 2);
     }
-  }
-
+  
   .custom-image-banner-image {
-      margin: 0px 0px;
+      margin: 0px 20px;
   }
 
 
@@ -4950,9 +4949,10 @@ custom-cursor {
     font-size: 18px;
 }
 
-.custom-image-banner-text {
-    text-align: center;
-  }
+  .custom-image-banner-text {
+      text-align: center;
+    }
+  
   .custom-image-banner-btn {
     margin-top: 30px;
     padding: 10px 20px;
