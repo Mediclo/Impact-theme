@@ -4860,7 +4860,7 @@ custom-cursor {
 .custom-html-image-container {
   display: grid;
   grid-column-gap: 0.625rem;
-  grid-template-columns: 
+  grid-template-columns: repeat(12,1fr);
 }
 
 .custom-html-image-small-container-1 {
