@@ -4904,6 +4904,9 @@ custom-cursor {
 /*     font-family: 'Roboto', sans-serif;
     font-weight: bold; */
     text-decoration: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2.0px;
     margin-top: 20px;
 }
 
