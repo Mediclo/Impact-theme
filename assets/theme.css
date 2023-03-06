@@ -4887,10 +4887,12 @@ custom-cursor {
 }
 
 .custom-left-image-banner {
+  display: inline-block;
   width: 50%;
 }
 
 .custom-right-image-banner {
+  display: inline-block;
   width: 50%;
 }
 
