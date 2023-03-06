@@ -46,9 +46,9 @@ LIQUID
 
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>
 
-{% if block.settings.link_url == "/collections/women-sale-collection" %}
+
  {%- render 'section-header', subheading: section.settings.subheading, heading: "Women's clothes", heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
-{% endif %}  
+ 
   
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
