@@ -46,9 +46,10 @@ LIQUID
 
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>
 
-{% if block.settings.link_url contains "/collections/women-sale-collection" %}
+{% if block.settings.link_url == "/collections/women-sale-collection" %}
  {%- render 'section-header', subheading: section.settings.subheading, heading: "Women's clothes", heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
 {% endif %}  
+  
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
       <a {% if block.settings.link_url != blank %}href="{{ block.settings.link_url }}"{% endif %} class="media-grid__item shadow group" reveal-js style="--media-grid-column-span: {{ block.settings.desktop_column_span }}; --media-grid-row-span: {{ block.settings.desktop_row_span }}" {{ block.shopify_attributes }}>
