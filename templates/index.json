@@ -244,100 +244,16 @@
         "heading_gradient": ""
       }
     },
-    "0ddd9058-606d-4e47-9d06-27ab82d78ea8": {
+    "54a2d515-e2ea-4a77-a138-782e45d2c0d0": {
       "type": "custom-html",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "‎",
+        "html": ".",
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        },
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Made from a one-of-a-kind fabric that was carefully crafted to make sure it is eco-conscious but also functional.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0",
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1",
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "lg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 0
-      }
-    },
-    "da7ecf07-565f-443c-9760-9c6bd4732ca6": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "blocks": {
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "FYSEL® - Made with Recycled Bottles"
-          }
-        },
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-2": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>This collection is made to keep up with those who have busy lifestyles and need easy-care medical apparel.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-0",
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-1",
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0231_2_2.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-end sm:text-end",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "0634a694-82e6-4967-87d1-325f67b3c2cb": {
@@ -1038,9 +954,7 @@
     "fbfeca77-e09f-44e1-a8d4-2fa5662a5619",
     "e23ce236-bde8-45d5-9fe4-01ff32255dfd",
     "637b96c0-f2b3-4dd0-b53a-8acad09f35b1",
-    "0ddd9058-606d-4e47-9d06-27ab82d78ea8",
-    "e91fe2af-cb0d-4012-aa47-b2872b9a8984",
-    "da7ecf07-565f-443c-9760-9c6bd4732ca6",
+    "54a2d515-e2ea-4a77-a138-782e45d2c0d0",
     "0634a694-82e6-4967-87d1-325f67b3c2cb",
     "78587d95-c6df-479f-955a-863e81063078",
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3",
