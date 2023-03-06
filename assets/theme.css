@@ -4862,15 +4862,6 @@ custom-cursor {
   margin-bottom: 50px;
 }
 
-#custom-html-left-image, #custom-html-right-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  object-fit: cover;
-  height: 700px;
-  width: 600px;
-}
-
 #custom-html-title {
   margin-top: 30px;
   margin-bottom: 20px;
