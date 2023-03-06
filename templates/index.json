@@ -284,69 +284,6 @@
         "text_color": ""
       }
     },
-    "78587d95-c6df-479f-955a-863e81063078": {
-      "type": "impact-text",
-      "disabled": true,
-      "blocks": {
-        "738d8a48-4db3-414f-bc38-2336f395ea03": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "template--14491305902126__78587d95-c6df-479f-955a-863e81063078-167521249488160ce6-0": {
-          "type": "item",
-          "settings": {
-            "title": "59995",
-            "subheading": "How many trees we have planted",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2.5
-          }
-        },
-        "ce86f01a-296f-44c8-9a20-1bc116dbbbb2": {
-          "type": "item",
-          "settings": {
-            "title": "76853",
-            "subheading": "How many bottles we have recycled",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "738d8a48-4db3-414f-bc38-2336f395ea03",
-        "template--14491305902126__78587d95-c6df-479f-955a-863e81063078-167521249488160ce6-0",
-        "ce86f01a-296f-44c8-9a20-1bc116dbbbb2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1.3,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(179deg, rgba(0, 0, 0, 1), rgba(191, 191, 191, 1) 99%)",
-        "text_color": "#717171",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "b80abe78-977a-43b0-b1ab-4c45d0e556c3": {
       "type": "custom-html",
       "settings": {
@@ -443,19 +380,31 @@
         "background_gradient": ""
       }
     },
-    "542e6185-1347-48b2-bf15-082b4c075615": {
-      "type": "scrolling-text",
+    "80356139-c2ae-48c9-ad01-892984cb9548": {
+      "type": "featured-collection",
       "settings": {
+        "collection": "best-selling-products",
+        "products": [
+
+        ],
         "full_width": true,
-        "text": "Sustainable‎ ‎ Medical‎ ‎ Apparel",
-        "text_size": "medium",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 4,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Shop Our Best Sellers",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
         "background": "",
         "background_gradient": "",
-        "text_color": "#000000",
-        "text_gradient": "linear-gradient(180deg, rgba(24, 23, 24, 1), rgba(180, 180, 180, 1) 100%)"
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "910239c9-5c40-4d45-90da-58a85c3e8bee": {
@@ -542,6 +491,21 @@
         "background_gradient": ""
       }
     },
+    "542e6185-1347-48b2-bf15-082b4c075615": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Sustainable‎ ‎ Medical‎ ‎ Apparel",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "text_gradient": "linear-gradient(180deg, rgba(24, 23, 24, 1), rgba(180, 180, 180, 1) 100%)"
+      }
+    },
     "5fcb9f07-a7d4-4014-b55e-f4526441c581": {
       "type": "featured-collection",
       "settings": {
@@ -557,33 +521,6 @@
         "products_per_row_desktop": 4,
         "subheading": "",
         "title": "New Arrivals",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "80356139-c2ae-48c9-ad01-892984cb9548": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "best-selling-products",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 8,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Shop Our Best Sellers",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -954,13 +891,12 @@
     "e23ce236-bde8-45d5-9fe4-01ff32255dfd",
     "637b96c0-f2b3-4dd0-b53a-8acad09f35b1",
     "0634a694-82e6-4967-87d1-325f67b3c2cb",
-    "78587d95-c6df-479f-955a-863e81063078",
     "b80abe78-977a-43b0-b1ab-4c45d0e556c3",
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3",
-    "542e6185-1347-48b2-bf15-082b4c075615",
-    "910239c9-5c40-4d45-90da-58a85c3e8bee",
-    "5fcb9f07-a7d4-4014-b55e-f4526441c581",
     "80356139-c2ae-48c9-ad01-892984cb9548",
+    "910239c9-5c40-4d45-90da-58a85c3e8bee",
+    "542e6185-1347-48b2-bf15-082b4c075615",
+    "5fcb9f07-a7d4-4014-b55e-f4526441c581",
     "4874b797-4917-4b28-9020-5c68ba6e7cc6",
     "fc25c2d5-ab85-49ce-bf3f-f8fc5269fa3e",
     "588819be-1d46-487c-8ed2-f4f3e99969d2",
