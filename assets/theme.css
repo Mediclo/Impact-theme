@@ -4874,6 +4874,10 @@ custom-cursor {
   margin-bottom: 50px;
 }
 
+#custom-html-container h4{
+  
+}
+
 #custom-html-left-image, #custom-html-right-image {
   margin-left: auto;
   margin-right: auto;
