@@ -50,6 +50,10 @@ LIQUID
   <div style="margin-bottom: 40px;">
    {%- render 'section-header', subheading: section.settings.subheading, heading: "Women's scrubs", heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
   </div>
+  {% elsif block.settings.title == "Men's Scrubs Top" or "Men's Scrubs Bottoms" %}
+    <div style="margin-bottom: 40px;">
+     {%- render 'section-header', subheading: section.settings.subheading, heading: "Men's scrubs", heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
+    </div>
   {% endif %}
   
   <media-grid class="media-grid">
