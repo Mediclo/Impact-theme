@@ -4927,6 +4927,15 @@ custom-cursor {
     padding: 0px;
     max-width: 330px;
   }
+
+  .custom-image-banner-title {
+    text-align: center;
+    font-size: 16px;
+}
+
+.custom-image-banner-text {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 500px) {
