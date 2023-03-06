@@ -50,6 +50,7 @@ LIQUID
             {%- assign collection = block.settings.collection -%}
             {%- assign collection_url = block.settings.url | default: collection.url -%}
 
+            <!--rounded-sm -->
             <a {% if collection_url != blank %}href="{{ collection_url }}"{% endif %} class="collection-card {% if block.settings.text_position contains 'place-self-end' %}collection-card--reverse-transition{% endif %} shadow" reveal-js>
               <div class="content-over-media group" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
                 {%- if collection != blank or block.settings.image != blank -%}
