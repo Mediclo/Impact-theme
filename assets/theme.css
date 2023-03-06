@@ -4901,6 +4901,7 @@ custom-cursor {
 }
 
 .custom-image-banner-title {
+    text-align: start;
     text-decoration: inherit;
     font-weight: bold;
     font-size: 20px;
@@ -4909,6 +4910,7 @@ custom-cursor {
 }
 
 .custom-image-banner-text {
+    text-align: start;
     margin-top: 20px;
 }
 
