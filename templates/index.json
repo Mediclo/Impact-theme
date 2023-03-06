@@ -246,6 +246,7 @@
     },
     "0634a694-82e6-4967-87d1-325f67b3c2cb": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-0": {
           "type": "subheading",
@@ -285,6 +286,7 @@
     },
     "78587d95-c6df-479f-955a-863e81063078": {
       "type": "impact-text",
+      "disabled": true,
       "blocks": {
         "738d8a48-4db3-414f-bc38-2336f395ea03": {
           "type": "item",
@@ -1017,42 +1019,6 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
-    },
-    "bf7c0e6e-6049-428e-a0a5-e8d38ad0e141": {
-      "type": "impact-text",
-      "disabled": true,
-      "blocks": {
-        "template--14491305902126__bf7c0e6e-6049-428e-a0a5-e8d38ad0e141-1675378836220ff40f-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--14491305902126__bf7c0e6e-6049-428e-a0a5-e8d38ad0e141-1675378836220ff40f-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
@@ -1073,7 +1039,6 @@
     "588819be-1d46-487c-8ed2-f4f3e99969d2",
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e",
     "aaf4d661-37d6-4088-a191-db3974e4d92a",
-    "d566eeaf-be05-4dcf-b7c7-4fc42a404336",
-    "bf7c0e6e-6049-428e-a0a5-e8d38ad0e141"
+    "d566eeaf-be05-4dcf-b7c7-4fc42a404336"
   ]
 }
