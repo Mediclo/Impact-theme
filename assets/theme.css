@@ -4943,7 +4943,6 @@ custom-cursor {
       margin: 0px 20px;
   }
 
-
   .custom-image-banner-title {
     text-align: center;
     font-size: 18px;
@@ -4977,9 +4976,10 @@ custom-cursor {
     margin-left: 0px;
     margin-top: 30px;
   }
+  
   #custom-html-image { 
   margin-bottom: 0px;
-}
+  }
 }
 
 :has( > custom-cursor:not([hidden])) {
