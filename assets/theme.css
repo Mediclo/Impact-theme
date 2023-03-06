@@ -4921,6 +4921,12 @@ custom-cursor {
   border: 2px solid #000;
 }
 
+@media screen and (max-width: 500px) {
+  .custom-image-banner-container {
+    display: block;
+  }
+}
+
 
 
 @media screen and (max-width: 500px) {
