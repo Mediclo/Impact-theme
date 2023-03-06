@@ -4857,6 +4857,10 @@ custom-cursor {
   padding: 0px 30px;
 }
 
+.custom-html-image-container {
+  display: grid;
+}
+
 .custom-html-left-container {
   width: 50%;
   margin-right: 10px;
