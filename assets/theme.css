@@ -4914,6 +4914,11 @@ custom-cursor {
     margin-top: 20px;
 }
 
+.custom-image-banner-btn {
+  padding: 10px 30px;
+  border: 1px solid #000;
+}
+
 
 
 @media screen and (max-width: 500px) {
