@@ -4901,12 +4901,14 @@ custom-cursor {
 }
 
 .custom-image-banner-title {
-/*     font-family: 'Roboto', sans-serif;
-    font-weight: bold; */
     text-decoration: inherit;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2.0px;
+    margin-top: 20px;
+}
+
+.custom-image-banner-text {
     margin-top: 20px;
 }
 
