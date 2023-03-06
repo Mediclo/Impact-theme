@@ -4900,12 +4900,10 @@ custom-cursor {
     width: 100%;
 }
 
-.custom-image-banner-text-container {
-    padding: 0px 0px 60px;
-    text-align: center;
-    margin: 0 20px;
-    width: 100%;
+.custom-image-banner-image h4 {
+  margin-top: 20px;
 }
+
 
 
 @media screen and (max-width: 500px) {
