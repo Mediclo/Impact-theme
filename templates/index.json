@@ -244,8 +244,21 @@
         "heading_gradient": ""
       }
     },
+    "0ddd9058-606d-4e47-9d06-27ab82d78ea8": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "‎",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "0634a694-82e6-4967-87d1-325f67b3c2cb": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-0": {
           "type": "subheading",
@@ -283,8 +296,95 @@
         "text_color": ""
       }
     },
+    "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "TENCEL™ - Plant Based"
+          }
+        },
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Made from a one-of-a-kind fabric that was carefully crafted to make sure it is eco-conscious but also functional.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0",
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1",
+        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0736_3.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#000000",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "da7ecf07-565f-443c-9760-9c6bd4732ca6": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "FYSEL® - Made with Recycled Bottles"
+          }
+        },
+        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>This collection is made to keep up with those who have busy lifestyles and need easy-care medical apparel.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-0",
+        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-1",
+        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0231_2_2.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "78587d95-c6df-479f-955a-863e81063078": {
       "type": "impact-text",
+      "disabled": true,
       "blocks": {
         "738d8a48-4db3-414f-bc38-2336f395ea03": {
           "type": "item",
@@ -431,6 +531,7 @@
     },
     "542e6185-1347-48b2-bf15-082b4c075615": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Sustainable‎ ‎ Medical‎ ‎ Apparel",
@@ -555,48 +656,6 @@
         "product_card_text_color": ""
       }
     },
-    "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "TENCEL™ - Plant Based"
-          }
-        },
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        },
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Made from a one-of-a-kind fabric that was carefully crafted to make sure it is eco-conscious but also functional.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0",
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-1",
-        "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0736_3.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 0
-      }
-    },
     "80356139-c2ae-48c9-ad01-892984cb9548": {
       "type": "featured-collection",
       "settings": {
@@ -713,48 +772,6 @@
         "text_color": "#000000",
         "before_text_color": "#ffffff",
         "after_text_color": "#ffffff"
-      }
-    },
-    "da7ecf07-565f-443c-9760-9c6bd4732ca6": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "FYSEL® - Made with Recycled Bottles"
-          }
-        },
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-2": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>This collection is made to keep up with those who have busy lifestyles and need easy-care medical apparel.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-0",
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-1",
-        "template--14500855611438__da7ecf07-565f-443c-9760-9c6bd4732ca6-16769377980c2c72d9-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0231_2_2.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-end sm:text-end",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "588819be-1d46-487c-8ed2-f4f3e99969d2": {
@@ -1023,17 +1040,18 @@
     "fbfeca77-e09f-44e1-a8d4-2fa5662a5619",
     "e23ce236-bde8-45d5-9fe4-01ff32255dfd",
     "637b96c0-f2b3-4dd0-b53a-8acad09f35b1",
+    "0ddd9058-606d-4e47-9d06-27ab82d78ea8",
     "0634a694-82e6-4967-87d1-325f67b3c2cb",
+    "e91fe2af-cb0d-4012-aa47-b2872b9a8984",
+    "da7ecf07-565f-443c-9760-9c6bd4732ca6",
     "78587d95-c6df-479f-955a-863e81063078",
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3",
     "542e6185-1347-48b2-bf15-082b4c075615",
     "910239c9-5c40-4d45-90da-58a85c3e8bee",
     "5fcb9f07-a7d4-4014-b55e-f4526441c581",
-    "e91fe2af-cb0d-4012-aa47-b2872b9a8984",
     "80356139-c2ae-48c9-ad01-892984cb9548",
     "4874b797-4917-4b28-9020-5c68ba6e7cc6",
     "fc25c2d5-ab85-49ce-bf3f-f8fc5269fa3e",
-    "da7ecf07-565f-443c-9760-9c6bd4732ca6",
     "588819be-1d46-487c-8ed2-f4f3e99969d2",
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e",
     "aaf4d661-37d6-4088-a191-db3974e4d92a",
