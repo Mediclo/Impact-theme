@@ -4901,8 +4901,9 @@ custom-cursor {
 }
 
 .custom-image-banner-image h4 {
-    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 
