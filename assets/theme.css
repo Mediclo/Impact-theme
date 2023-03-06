@@ -4901,7 +4901,8 @@ custom-cursor {
 }
 
 .custom-image-banner-image h4 {
-  margin-top: 20px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 
