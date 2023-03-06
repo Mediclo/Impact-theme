@@ -4858,12 +4858,18 @@ custom-cursor {
 }
 
 .custom-html-left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   margin-right: 10px;
   margin-top: 50px;
 }
 
 .custom-html-right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   margin-left: 10px;
   margin-top: 50px;
@@ -4875,9 +4881,6 @@ custom-cursor {
 }
 
 #custom-html-left-image, #custom-html-right-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   object-fit: cover;
   height: 600px;
 }
