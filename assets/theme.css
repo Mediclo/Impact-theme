@@ -4875,8 +4875,9 @@ custom-cursor {
 }
 
 #custom-html-left-image, #custom-html-right-image {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   object-fit: cover;
   height: 600px;
 }
