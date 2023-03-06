@@ -244,18 +244,6 @@
         "heading_gradient": ""
       }
     },
-    "54a2d515-e2ea-4a77-a138-782e45d2c0d0": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": ".",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "0634a694-82e6-4967-87d1-325f67b3c2cb": {
       "type": "rich-text",
       "disabled": true,
@@ -357,6 +345,18 @@
         "text_color": "#717171",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "b80abe78-977a-43b0-b1ab-4c45d0e556c3": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": ".",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3": {
@@ -954,9 +954,9 @@
     "fbfeca77-e09f-44e1-a8d4-2fa5662a5619",
     "e23ce236-bde8-45d5-9fe4-01ff32255dfd",
     "637b96c0-f2b3-4dd0-b53a-8acad09f35b1",
-    "54a2d515-e2ea-4a77-a138-782e45d2c0d0",
     "0634a694-82e6-4967-87d1-325f67b3c2cb",
     "78587d95-c6df-479f-955a-863e81063078",
+    "b80abe78-977a-43b0-b1ab-4c45d0e556c3",
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3",
     "542e6185-1347-48b2-bf15-082b4c075615",
     "910239c9-5c40-4d45-90da-58a85c3e8bee",
