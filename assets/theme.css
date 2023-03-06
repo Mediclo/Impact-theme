@@ -4861,12 +4861,12 @@ custom-cursor {
   display: grid;
 }
 
-.custom-html-image-1 {
+.custom-html-image-small-container-1 {
   grid-column: 1;
   grid-row: 1;
 }
 
-.custom-html-image-2 {
+.custom-html-image-small-container-2 {
   grid-column: 2;
   grid-row: 1;
 }
