@@ -4926,7 +4926,6 @@ custom-cursor {
       display: block;
       padding: 0px;
       width: 100%;
-      margin: 0px 0px;
       --context-section-spacing-block-start: var(--section-outer-spacing-block);
       --context-section-spacing-block-end: var(--section-outer-spacing-block);
       --context-section-spacing-inline: var(--container-gutter);
@@ -4940,6 +4939,10 @@ custom-cursor {
       padding-inline-end: max(var(--calculated-section-spacing-inline),45% - var(--container-max-width) / 2);
     }
   }
+
+  .custom-image-banner-image {
+    margin: 0px 0px;
+}
 
   .custom-image-banner-title {
     text-align: center;
