@@ -4924,6 +4924,8 @@ custom-cursor {
 @media screen and (max-width: 500px) {
   .custom-image-banner-container {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
