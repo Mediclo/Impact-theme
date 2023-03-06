@@ -4883,7 +4883,7 @@ custom-cursor {
 }
 
 .custom-image-banner-container {
-  display: grid;
+  display: inline-block;
 }
 
 .custom-left-image-banner {
