@@ -4859,20 +4859,22 @@ custom-cursor {
 
 .custom-html-image-container {
   display: grid;
+  grid-column-gap: 0.625rem;
+  grid-template-columns: 
 }
 
 .custom-html-image-small-container-1 {
-  margin-left: auto;
+/*   margin-left: auto;
   margin-right: auto;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 1; */
 }
 
 .custom-html-image-small-container-2 {
-  margin-left: auto;
+/*   margin-left: auto;
   margin-right: auto;
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 1; */
 }
 
 #custom-html-image { 
