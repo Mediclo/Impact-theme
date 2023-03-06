@@ -4857,12 +4857,6 @@ custom-cursor {
   padding: 0px 30px;
 }
 
-.custom-image-banner-container {
-  display: grid;
-  grid-column-gap: 0.625rem;
-  grid-template-columns: repeat(12,1fr);
-}
-
 #custom-html-image { 
   border-radius: 5px;
   margin-bottom: 50px;
@@ -4886,6 +4880,12 @@ custom-cursor {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+}
+
+.custom-image-banner-container {
+  display: grid;
+  grid-column-gap: 0.625rem;
+  grid-template-columns: repeat(12,1fr);
 }
 
 @media screen and (max-width: 500px) {
