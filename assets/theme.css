@@ -4873,6 +4873,17 @@ custom-cursor {
   margin-bottom: 50px;
 }
 
+.custom-html-left-container {
+    width: 50%;
+    margin-top: 30px;
+  }
+
+.custom-html-right-container {
+  width: 50%;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
 .custom-image-banner-container {
     display: flex;
     margin-bottom: 40px;
