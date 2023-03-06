@@ -46,11 +46,9 @@ LIQUID
 
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>
 
-  {% if block.settings.title == "Women's Scrubs Tops" %}
   <div style="margin-bottom: 40px;">
    {%- render 'section-header', subheading: section.settings.subheading, heading: "Women's scrubs", heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
   </div>
- 
   
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
@@ -114,7 +112,6 @@ LIQUID
       </a>
     {%- endfor -%}
   </media-grid>
- {% endif %}
 </div>
 
 {% schema %}
