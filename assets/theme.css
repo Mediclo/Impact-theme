@@ -4936,6 +4936,11 @@ custom-cursor {
 .custom-image-banner-text {
     text-align: center;
   }
+  .custom-image-banner-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid #000;
+  }
 }
 
 @media screen and (max-width: 500px) {
