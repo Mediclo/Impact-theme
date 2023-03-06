@@ -256,49 +256,8 @@
         "text_color": ""
       }
     },
-    "0634a694-82e6-4967-87d1-325f67b3c2cb": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-0": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-1": {
-          "type": "heading",
-          "settings": {
-            "text": "We're in the business of doing better, for people and the planet.",
-            "heading_tag": "h1",
-            "text_color": "#050000",
-            "gradient": ""
-          }
-        },
-        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p> <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-0",
-        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-1",
-        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "e91fe2af-cb0d-4012-aa47-b2872b9a8984": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "blocks": {
         "template--14500855611438__e91fe2af-cb0d-4012-aa47-b2872b9a8984-1676936377ddf3d497-0": {
           "type": "subheading",
@@ -331,7 +290,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/2021-05-12_MEDICLO_0736_3.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#000000",
@@ -380,6 +338,46 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "0634a694-82e6-4967-87d1-325f67b3c2cb": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "We're in the business of doing better, for people and the planet.",
+            "heading_tag": "h1",
+            "text_color": "#050000",
+            "gradient": ""
+          }
+        },
+        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p> <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-0",
+        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-1",
+        "template--14491305902126__0634a694-82e6-4967-87d1-325f67b3c2cb-1675378904f954d86b-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "78587d95-c6df-479f-955a-863e81063078": {
@@ -1041,9 +1039,9 @@
     "e23ce236-bde8-45d5-9fe4-01ff32255dfd",
     "637b96c0-f2b3-4dd0-b53a-8acad09f35b1",
     "0ddd9058-606d-4e47-9d06-27ab82d78ea8",
-    "0634a694-82e6-4967-87d1-325f67b3c2cb",
     "e91fe2af-cb0d-4012-aa47-b2872b9a8984",
     "da7ecf07-565f-443c-9760-9c6bd4732ca6",
+    "0634a694-82e6-4967-87d1-325f67b3c2cb",
     "78587d95-c6df-479f-955a-863e81063078",
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3",
     "542e6185-1347-48b2-bf15-082b4c075615",
