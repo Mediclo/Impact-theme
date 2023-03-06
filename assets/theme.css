@@ -4886,6 +4886,14 @@ custom-cursor {
   display: grid;
 }
 
+.custom-left-image-banner {
+  width: 50%;
+}
+
+.custom-left-image-banner {
+  width: 50%;
+}
+
 @media screen and (max-width: 500px) {
     .custom-html-container2 {
       display: block;
