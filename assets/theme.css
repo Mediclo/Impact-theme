@@ -4875,6 +4875,7 @@ custom-cursor {
 }
 
 #custom-html-left-image, #custom-html-right-image {
+  object-fit: cover;
   height: 600px;
 }
 
