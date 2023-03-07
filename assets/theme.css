@@ -8588,7 +8588,7 @@ split-lines {
   }
 
   .product-info__buy-buttons {
-    --product-info-block-spacing: var(--spacing-8);
+/*     --product-info-block-spacing: var(--spacing-8); */
   }
 
   .product-info__offer-list {
