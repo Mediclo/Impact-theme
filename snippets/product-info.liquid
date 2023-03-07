@@ -74,7 +74,11 @@
           {%- endif -%}
 
         </div>
- 
+      
+        <div class="new-tag-container">
+        <div>TEST</div>
+        </div>
+      
         <div class="tag-container">
           <script>  
           const tagJson = {{ product.tags|json }};
@@ -86,9 +90,8 @@
                 $('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles</p></div>');
               } 
           }
-          </script>   
-        <div>TEST</div>
-        </div>
+          </script>       
+        </div> 
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
