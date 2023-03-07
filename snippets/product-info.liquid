@@ -83,9 +83,11 @@
 
         for(var i = 0; i < tagJson.length; i++){
           if (tagJson[i].indexOf("Tree Edition") !== -1) {
-          console.log(tagJson[i]);
-        	$('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles </p></div>');
-        }}
+        	$('.tag-container').html('<div class="tag"> <p class="tag-text">Plant Based </p></div>');
+        } else if (tagJson[i].indexOf("bottle edition") !== -1) {
+            $('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles </p></div>');
+          }
+        }
       
         </script>
       
