@@ -164,8 +164,8 @@
                       {%- when 'color' -%}
                
        
-                       {% if value == "Burgundy" or value == "Surgical Green"  %}
-                       <div>TEST</div>
+                      {% if value == "Burgundy" or value == "Surgical Green"  %}
+                      {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
                  
                       {% else %}
                       {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
