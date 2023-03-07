@@ -87,13 +87,9 @@
         }}
       
         </script>
-{% comment %}       
-        {% if product.tags contains "bottle edition"%} 
-        <div class="tag"> <p class="tag-text"> Recycled Bottles </p> </div>
-        {% elsif product.tags contains "Tree edition" %}
-        <div class="tag"> <p class="tag-text"> Plant Based </p> </div>
-        {% endif %}
-        </div> {% endcomment %}
+      
+       
+        </div>
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
