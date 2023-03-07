@@ -1,9 +1,7 @@
 
-.swatch-container {
-  display: block !important;
+.fysel-swatches {
+  display: inlin-block !important;
 }
-
-
 
 .tencel-swatches {
   display: block !important;
