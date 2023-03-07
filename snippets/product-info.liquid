@@ -144,7 +144,17 @@
                 {%- if block.settings.option_name != blank -%}    
 
                   {% if block.settings.option_name == "Color" %}
-
+                    <div class="variant-picker__option-info">
+                      <div class="h-stack gap-2">
+                        <legend class="text-subdued">{{ block.settings.option_name | escape }}:</legend>
+                        <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
+                      </div>
+                    </div> 
+                    <div>
+                    <p>TEST</p>
+                    <p>TEST</p>
+                    </div>
+                    
                   {% else %}
                     <div class="variant-picker__option-info">
                       <div class="h-stack gap-2">
