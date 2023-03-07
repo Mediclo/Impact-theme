@@ -58,8 +58,7 @@
               {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
             {%- endif -%}
           </div>
-          <div class="tag-container"> TEST </div>
-
+      
           {%- if block.settings.show_taxes_notice -%}
             <p class="text-sm text-subdued">
               {%- if cart.taxes_included -%}
@@ -74,6 +73,7 @@
             </p>
           {%- endif -%}
         </div>
+        <div class="tag-container"> TEST </div>
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
