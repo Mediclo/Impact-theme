@@ -1,4 +1,6 @@
-
+.fysel-swatches {
+  display: inline-block;
+}
 
 .tencel-swatches {
   display: block !important;
