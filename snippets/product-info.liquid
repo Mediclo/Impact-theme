@@ -165,14 +165,8 @@
                
        
                       {% if product_variation.title contains "FYSEL®"  %}
-
-                
                       <span class="fysel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
-          
-             
-                      
                 
-                 
                       {% else %}
                       <div class="tencel-swatches">
                       {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
