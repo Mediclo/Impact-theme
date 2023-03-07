@@ -114,75 +114,6 @@
               "drawer_link_image": "hide"
             }
           },
-          "47515393-4583-4181-a55e-51666b0b5020": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
-              "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
-              "image_link_2": "",
-              "image_text_color_2": "#ffffff",
-              "image_heading_3": "",
-              "image_link_3": "",
-              "image_text_color_3": "#ffffff",
-              "product": "",
-              "product_card_background": "",
-              "product_card_text_color": "",
-              "promo_content_layout": "grid",
-              "stretch_promo": false,
-              "drawer_link_image": "hide"
-            }
-          },
-          "26c0f10d-f227-4493-97ba-cb109bef01fa": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
-              "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
-              "image_link_2": "",
-              "image_text_color_2": "#ffffff",
-              "image_heading_3": "",
-              "image_link_3": "",
-              "image_text_color_3": "#ffffff",
-              "product": "",
-              "product_card_background": "",
-              "product_card_text_color": "",
-              "promo_content_layout": "grid",
-              "stretch_promo": false,
-              "drawer_link_image": "hide"
-            }
-          },
-          "31200d86-4cc9-4bd7-bad3-713a5dd61fa3": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
-              "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
-              "image_link_2": "",
-              "image_text_color_2": "#ffffff",
-              "image_heading_3": "",
-              "image_link_3": "",
-              "image_text_color_3": "#ffffff",
-              "product": "",
-              "product_card_background": "",
-              "product_card_text_color": "",
-              "promo_content_layout": "grid",
-              "stretch_promo": false,
-              "drawer_link_image": "hide"
-            }
-          },
           "af563e4d-ab2f-4bd8-bb47-ef53f959ac4c": {
             "type": "mega_menu",
             "settings": {
@@ -209,9 +140,6 @@
         },
         "block_order": [
           "f972b4c2-edc9-4f0c-ab29-e09a763c31c8",
-          "47515393-4583-4181-a55e-51666b0b5020",
-          "26c0f10d-f227-4493-97ba-cb109bef01fa",
-          "31200d86-4cc9-4bd7-bad3-713a5dd61fa3",
           "af563e4d-ab2f-4bd8-bb47-ef53f959ac4c"
         ],
         "settings": {
