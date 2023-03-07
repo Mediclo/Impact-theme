@@ -273,7 +273,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .open_modal_popup:hover {
-  color: #ccc;
+  color: #828282;
   transition: 0.3s;
 }
 
