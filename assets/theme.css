@@ -260,7 +260,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: .08em;
-  padding: 15px 25px;
+/*   padding: 15px 25px; */
   color: #000;
   align-items: center;
   justify-content: center;
