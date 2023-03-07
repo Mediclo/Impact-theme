@@ -76,7 +76,7 @@
       
         <div class="tag-container">
         <script>
-        const temp = {{ product.json }}
+        const temp = {{ product.tags|json }};
         console.log(temp)
         </script>
         {% if product.title contains "FYSEL®"%} 
