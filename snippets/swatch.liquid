@@ -552,67 +552,67 @@ Color swatch specific parameters:
   
       var mediaJson = {{ product.media|json }};
 
-      // if (mediaJson[0].alt == "Mauve") {
-      //    $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #BF697E;}</style>');
-      //    $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Stone Blue") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #96BABC;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Coffee Brown") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #422200;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Hunter Green") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #247052;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Rose Pink") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #FF99AF;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Indigo Navy") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #4A4F69;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Olive Green") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #747B66;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Sage Green") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #B6D1B1;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Ceil Blue") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #9DBDED;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Navy") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #20294B;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Lavender") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #B27B9A;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Black") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #060506;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Burgundy") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #7B2E3D;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Spruce Green") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #446250;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Sunflower") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #DF9C0A;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Fire Red") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #D42537;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Paradise Green") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #98BB37;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Heather Grey") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #656564;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Light Denim Blue") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #B5D2DF;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // } else if (mediaJson[0].alt == "Surgical Green") {
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #2BB895;}</style>');
-      //   $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      // }
+      if (mediaJson[0].alt == "Mauve") {
+         $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #BF697E;}</style>');
+         $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Stone Blue") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #96BABC;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Coffee Brown") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #422200;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Hunter Green") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #247052;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Rose Pink") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #FF99AF;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Indigo Navy") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #4A4F69;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Olive Green") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #747B66;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Sage Green") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #B6D1B1;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Ceil Blue") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #9DBDED;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Navy") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #20294B;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Lavender") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #B27B9A;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Black") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #060506;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Burgundy") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #7B2E3D;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Spruce Green") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #446250;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Sunflower") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #DF9C0A;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Fire Red") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #D42537;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Paradise Green") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #98BB37;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Heather Grey") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #656564;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Light Denim Blue") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #B5D2DF;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      } else if (mediaJson[0].alt == "Surgical Green") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #2BB895;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
+      }
   
      $('.color-swatch').on('click', function(){
       var imgSrc = $(this).attr('data-src');
