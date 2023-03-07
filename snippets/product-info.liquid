@@ -169,7 +169,9 @@
     
                         {%- case block.settings.color_mode -%}
                           {%- when 'color' -%}
+                          {% unless product_variation.title contains "FYSEL®" %}
                           <span class="tencel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>                  
+                          {% endunless %}
                           {%- when 'variant' -%}
                             {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
     
@@ -246,6 +248,7 @@
                       {% else %}
                       <span class="tencel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
                       {% endif %}                   {% endcomment %}
+                      
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
 
