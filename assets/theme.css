@@ -269,6 +269,8 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   z-index: 1;
   background: none;
   border-radius:5px;
+  font-weight: bold;
+  
 }
 .open_modal_popup .fa-plus {
 	font-size: 12px;
