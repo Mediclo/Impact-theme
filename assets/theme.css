@@ -522,7 +522,6 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 	color: #000;
 	padding: 5px 18px;
 	display: inline-block;
-    border-radius: 5px;
 }
 
 .font_style_buttons .fonts_input {
@@ -552,7 +551,6 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 .popup_buttons_outer .print_popup_buttons {
   padding: 7px 15px;
   border: 2px solid #9A9A9A;
-  border-radius: 5px;
   width: 48%;
   text-align: center;
   margin: 0px 0px;
