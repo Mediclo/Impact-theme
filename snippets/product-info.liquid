@@ -165,6 +165,13 @@
                
        
                       {% if product_variation.title contains "FYSEL®"  %}
+                      <div class="variant-picker__option-info">
+                        <div class="h-stack gap-2">
+                          <legend class="text-subdued">FYSEL Color:</legend>
+                          <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
+                        </div>
+                      </div>
+                        
                       <span class="fysel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
                 
                       {% else %}
