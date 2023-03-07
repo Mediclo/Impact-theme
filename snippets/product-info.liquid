@@ -74,16 +74,13 @@
           {%- endif -%}
         </div>
       
-        <div class="tag-container"> TEST </div>
-        {% if product.title contains "FYSEL®"%}
         <div class="tag-container">
+        {% if product.title contains "FYSEL®"%} 
         <div class="tag"> Recycled Bottles </div>
-        </div>
         {% else %}
-        <div class="tag-container">
         <div class="tag"> Plant Based </div>
-        </div>
         {% endif %}
+        </div>
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
