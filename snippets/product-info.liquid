@@ -164,8 +164,8 @@
                       {%- when 'color' -%}
                
        
-                      {% if value == "Burgundy" or value == "Surgical Green"  %}
-                      <div style="display: block;">TEST</div>
+                      {% if product_title contains "FYSEL"  %}
+                      <div>FYSEL</div>
                  
                       {% else %}
                       {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
