@@ -75,6 +75,12 @@
         </div>
         <div class="tag-container"> TEST </div>
 
+        {% if product.title contains "FYSEL®"%}
+        <div class="tag-container"> Recycled Bottles </div>
+        {% else %}
+        <div class="tag-container"> Plant Based </div>
+        {% endif %}
+
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
 
