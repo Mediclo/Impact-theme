@@ -162,11 +162,14 @@
 
                     {%- case block.settings.color_mode -%}
                       {%- when 'color' -%}
-                      {% if product_variation.url contains == "https://mediclo.com/products/fysel-capri-collared-scrub-top-burgundy"  %}
+                      {% if product_variation.url contains "https://mediclo.com/products/fysel-capri-collared-scrub-top-burgundy"  %}
                         <div>TEST</div>
-                        {% else %}
-                        {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
-                        {% endif %}
+                        
+                      {% else %}
+                        
+                      {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
+                        
+                      {% endif %}
                       
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
