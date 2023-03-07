@@ -272,6 +272,11 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   letter-spacing: 1.8px;
 }
 
+.open_modal_popup:hover {
+  color: rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+}
+
 
 .open_modal_popup .fa-plus {
 	font-size: 12px;
