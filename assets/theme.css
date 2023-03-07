@@ -8547,8 +8547,16 @@ split-lines {
 }
 
 .tag-container {
-  border: 1px solid #ccc;
-  padding: 8px 15px;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid rgb(229, 229, 229);
+    box-sizing: border-box;
+    display: flex;
+    height: 24px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 4px 8px;
 }
 
 .product-info__price .product-info__badge-list {
