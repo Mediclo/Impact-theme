@@ -167,11 +167,11 @@
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
 
-{% comment %}                       {%- when 'block' -%}
-                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%} {% endcomment %}
+                      {%- when 'block' -%}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
 
-{% comment %}                       {%- when 'block_swatch' -%}
-                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%} {% endcomment %}
+                      {%- when 'block_swatch' -%}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
                     {%- endcase -%}
                   {%- endfor -%}
                 </div>
