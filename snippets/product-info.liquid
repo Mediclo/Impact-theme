@@ -73,12 +73,16 @@
             </p>
           {%- endif -%}
         </div>
+      
         <div class="tag-container"> TEST </div>
-
         {% if product.title contains "FYSEL®"%}
-        <div class="tag-container"> Recycled Bottles </div>
+        <div class="tag-container">
+        <div class="tag"> Recycled Bottles </div>
+        </div>
         {% else %}
-        <div class="tag-container"> Plant Based </div>
+        <div class="tag-container">
+        <div class="tag"> plant Based </div>
+        </div>
         {% endif %}
 
       {%- when 'rating' -%}
