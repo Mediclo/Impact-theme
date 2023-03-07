@@ -44,6 +44,12 @@ LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
+{% if block.settings.link_url == "https://mediclo.com/collections/women-sale-collection" %}
+  
+<div> 
+  {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
+</div>
+  
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>  
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
@@ -174,6 +180,7 @@ LIQUID
     {%- endfor -%}
   </media-grid>
 </div>
+{% endif %}
 
 {% schema %}
 {
