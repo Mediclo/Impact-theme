@@ -75,23 +75,20 @@
 
         </div>
       
-        <div class="tag-container">
-          <div class="tag"><p class="tag-text">TEST</p></div>
-        </div>
       
         <div class="tag-container">
-          <script>  
-          const tagJson = {{ product.tags|json }};
-
-            for(var i = 0; i < tagJson.length; i++){
-                if (tagJson[i].indexOf("Tree Edition") !== -1) {
-                $('.tag-container').html('<div class="tag"> <p class="tag-text">Plant Based</p></div>');
-              } else if (tagJson[i].indexOf("bottle edition") !== -1) {
-                $('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles</p></div>');
-              } 
-          }
-          </script>      
-        <div class="tag"><p class="tag-text">TEST</p></div>
+            <script>  
+            const tagJson = {{ product.tags|json }};
+  
+              for(var i = 0; i < tagJson.length; i++){
+                  if (tagJson[i].indexOf("Tree Edition") !== -1) {
+                  $('.tag-container').html('<div class="tag"> <p class="tag-text">Plant Based</p></div>');
+                } else if (tagJson[i].indexOf("bottle edition") !== -1) {
+                  $('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles</p></div>');
+                } 
+            }
+            </script>      
+          <div class="tag"><p class="tag-text">TEST</p></div>    
         </div> 
 
 
