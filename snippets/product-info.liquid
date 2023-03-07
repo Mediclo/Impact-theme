@@ -168,7 +168,9 @@
                       <div class="fysel-swatches">FYSEL</div>
                  
                       {% else %}
+                      <div style="display: block;">
                       {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
+                      </div>
                       {% endif %}
                         
                  
