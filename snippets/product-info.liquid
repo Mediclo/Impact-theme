@@ -150,7 +150,7 @@
                   </div>
                 {%- endif -%}
 
-                <div class="variant-picker__option-values wrap gap-2">
+                <div class="variant-picker__option-value wrap gap-2">
                   {%- for product_variation in block.settings.products -%}
                     {%- assign value = product_variation.metafields[metafield_namespace][metafield_key].value -%}
 
@@ -166,9 +166,9 @@
        
                       {% if product_variation.title contains "FYSEL®"  %}
 
-                      <div class="swatch-container">
+                 
                       <span class="fysel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
-                      </div>
+             
                       
                 
                  
