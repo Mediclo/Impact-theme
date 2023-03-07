@@ -10202,7 +10202,8 @@ split-lines {
 } */
 
 .rounded-full {
-  border-radius: var(--rounded-full);
+/*   border-radius: var(--rounded-full); */
+  border-radius: 5px;
 }
 
 .text-custom {
