@@ -79,7 +79,7 @@
         <script>
       
         const tagJson = {{ product.tags|json }};
-        console.log(tagJson)
+{% comment %}         console.log(tagJson) {% endcomment %}
 
         for(var i = 0; i < tagJson.length; i++){
           if (tagJson[i].indexOf("Tree Edition") == -1) {
