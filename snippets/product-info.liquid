@@ -77,7 +77,6 @@
       
       
         <div class="tag-container">
-        
             <script>  
             const tagJson = {{ product.tags|json }};
   
@@ -88,8 +87,17 @@
                   $('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles</p></div>');
                 } 
             }
-            </script>      
-          <div class="tag"><p class="tag-text">TEST</p></div>    
+            </script>
+      
+            <script>  
+            const tagJson = {{ product.tags|json }};
+  
+              for(var i = 0; i < tagJson.length; i++){
+                  if (tagJson[i].indexOf("New Color") !== -1) {
+                  $('.tag-container').html('<div class="tag"> <p class="tag-text">New Color</p></div>');
+                }
+            }
+            </script>    
         </div> 
 
 
