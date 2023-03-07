@@ -82,7 +82,7 @@
         console.log(tagJson)
 
         for(var i = 0; i < tagJson.length; i++){
-          if (tagJson[i].indexOf("Tree Edition") !== -1) {
+          if (tagJson[i].indexOf("Tree Edition") == -1) {
         	$('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles </p></div>');
         }}
       
