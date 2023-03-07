@@ -10152,7 +10152,7 @@ split-lines {
 }
 
 .rounded {
-  border-radius: var(--rounded);
+/*   border-radius: var(--rounded); */
 }
 
 /* .rounded-lg {
