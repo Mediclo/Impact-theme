@@ -142,7 +142,8 @@
                 {%- assign metafield_key = metafield_parts | last -%}
 
                 {%- if block.settings.option_name != blank -%}
-                  <div class="variant-picker__option-info">
+                  
+                    <div class="variant-picker__option-info">
                       <div class="h-stack gap-2">
                         <legend class="text-subdued">{{ block.settings.option_name | escape }}:</legend>
                         <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
@@ -172,8 +173,7 @@
                       </div>
                       {% endif %}
                         
-                 
-                      
+                     
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
 
