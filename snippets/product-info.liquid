@@ -156,10 +156,65 @@
                         <legend class="text-subdued">Tencel Color</legend> 
                       </div>
                     </div>
+
+                   <div class="variant-picker__option-value wrap gap-2">
+                      {%- for product_variation in block.settings.products -%}
+                        {%- assign value = product_variation.metafields[metafield_namespace][metafield_key].value -%}
+    
+                        {%- if product_variation == product -%}
+                          {%- assign selected = true -%}
+                        {%- else -%}
+                          {%- assign selected = false -%}
+                        {%- endif -%}
+    
+                        {%- case block.settings.color_mode -%}
+                          {%- when 'color' -%}
+                          <span class="tencel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>                  
+                          {%- when 'variant' -%}
+                            {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
+    
+                          {%- when 'block' -%}
+                            {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
+    
+                          {%- when 'block_swatch' -%}
+                            {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
+                        {%- endcase -%}
+                      {%- endfor -%}
+                    </div>
+                    
                     <div class="variant-picker__option-info"> 
                       <div class="h-stack gap-2">
                         <legend class="text-subdued">FYSEL Color</legend> 
                       </div>
+                    </div>
+
+                    <div class="variant-picker__option-value wrap gap-2">
+                      {%- for product_variation in block.settings.products -%}
+                        {%- assign value = product_variation.metafields[metafield_namespace][metafield_key].value -%}
+    
+                        {%- if product_variation == product -%}
+                          {%- assign selected = true -%}
+                        {%- else -%}
+                          {%- assign selected = false -%}
+                        {%- endif -%}
+    
+                        {%- case block.settings.color_mode -%}
+                          {%- when 'color' -%}
+
+                          {% if product_variation.title contains "FYSEL®" %}
+                          <span class="fysel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>                  
+                          {% endif %}
+                          
+                          {%- when 'variant' -%}
+                            {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
+    
+                          {%- when 'block' -%}
+                            {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
+    
+                          {%- when 'block_swatch' -%}
+                            {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
+                        {%- endcase -%}
+                      {%- endfor -%}
                     </div>
                    
                     
@@ -186,15 +241,11 @@
                     {%- case block.settings.color_mode -%}
                       {%- when 'color' -%}
 
-                      {% if product_variation.title contains "FYSEL®" %}
+{% comment %}                       {% if product_variation.title contains "FYSEL®" %}
                       <span class="fysel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
-                 
-                
                       {% else %}
                       <span class="tencel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
-                      {% endif %}
-
-                     
+                      {% endif %}                   {% endcomment %}
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
 
