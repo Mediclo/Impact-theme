@@ -8546,6 +8546,11 @@ split-lines {
   display: flex;
 }
 
+.tag-container {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
 .product-info__price .product-info__badge-list {
   align-self: center;
   margin-inline-start: var(--spacing-1);
