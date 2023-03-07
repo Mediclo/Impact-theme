@@ -555,7 +555,9 @@ Color swatch specific parameters:
       if (mediaJson[0].alt == "Mauve") {
          $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #BF697E;}</style>');
          $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
-      } 
+      } else if (mediaJson[0].alt == "Stone Blue") {
+        $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #96BABC;}</style>');
+        $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
       } else if (mediaJson[0].alt == "Coffee Brown") {
         $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #422200;}</style>');
         $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
