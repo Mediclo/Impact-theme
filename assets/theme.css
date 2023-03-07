@@ -3,7 +3,7 @@
 }
 
 .tencel-swatches {
-  display: block !important;
+  display: inline-block;
 }
 
 
