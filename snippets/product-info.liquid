@@ -74,8 +74,6 @@
           {%- endif -%}
 
         </div>
-
-        <div style="display: inline-block;">
       
         <div class="tag-container">
           <div class="tag"><p class="tag-text">TEST</p></div>
@@ -92,10 +90,10 @@
                 $('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles</p></div>');
               } 
           }
-          </script>       
+          </script>      
+        <div class="tag"><p class="tag-text">TEST</p></div>
         </div> 
-      
-      </div>
+
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
