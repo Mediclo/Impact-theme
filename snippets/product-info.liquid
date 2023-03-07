@@ -79,9 +79,9 @@
         const temp = {{ product.tags|json }};
         console.log(temp)
         </script>
-        {% if product.title contains "FYSEL®"%} 
+        {% if product.tags contains "bottle edition"%} 
         <div class="tag"> <p class="tag-text"> Recycled Bottles </p> </div>
-        {% else %}
+        {% elsif product.tags contains "Tree edition" %}
         <div class="tag"> <p class="tag-text"> Plant Based </p> </div>
         {% endif %}
         </div>
