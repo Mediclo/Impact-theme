@@ -165,16 +165,14 @@
                
        
                         
-                        <script>
-                        
-                          var temp = {{ product|json }};
-                          console.log(product_variation.url);
-                        
-                        </script>
-                        
+                      <script>
+                      console.log(product_variation);
+                      </script>
          
+                 
                         
                       {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
+              
                         
                  
                       
