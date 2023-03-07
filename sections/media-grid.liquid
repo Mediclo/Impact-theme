@@ -114,7 +114,8 @@ LIQUID
   </media-grid>
 </div>
 
-
+{% elsif block.settings.link_url == "https://mediclo.com/collections/" %}
+  
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>  
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
