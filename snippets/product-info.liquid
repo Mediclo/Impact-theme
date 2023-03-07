@@ -160,7 +160,7 @@
                       {%- assign selected = false -%}
                     {%- endif -%}
 
-                    {%- case block.settings.color_mode -%}
+{% comment %}                     {%- case block.settings.color_mode -%}
                       {%- when 'color' -%}
                         {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
 
@@ -172,7 +172,7 @@
 
                       {%- when 'block_swatch' -%}
                         {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
-                    {%- endcase -%}
+                    {%- endcase -%} {% endcomment %}
                   {%- endfor -%}
                 </div>
               </fieldset>
