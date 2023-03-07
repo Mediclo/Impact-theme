@@ -75,6 +75,10 @@
         </div>
       
         <div class="tag-container">
+        <script>
+        const temp = {{ product.json }}
+        console.log(temp)
+        </script>
         {% if product.title contains "FYSEL®"%} 
         <div class="tag"> <p class="tag-text"> Recycled Bottles </p> </div>
         {% else %}
