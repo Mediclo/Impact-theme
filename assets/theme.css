@@ -1,12 +1,3 @@
-.fysel-swatches {
-  display: inline-block;
-}
-
-.tencel-swatches {
-  display: inline-block;
-}
-
-
 *, :before, :after {
   box-sizing: border-box;
   border-style: solid;
@@ -4394,6 +4385,14 @@ tfoot td {
 
 :focus-visible + .color-swatch {
   outline-offset: calc(2px + var(--swatch-offset) * 2);
+}
+
+.fysel-swatches {
+  display: inline-block;
+}
+
+.tencel-swatches {
+  display: inline-block;
 }
 
 .color-swatch--rectangle {
