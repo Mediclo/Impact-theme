@@ -8557,6 +8557,7 @@ split-lines {
     -webkit-box-pack: center;
     justify-content: center;
     padding: 4px 8px;
+    width: 10%
 }
 
 .product-info__price .product-info__badge-list {
