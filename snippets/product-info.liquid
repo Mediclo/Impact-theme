@@ -163,13 +163,16 @@
                     {%- case block.settings.color_mode -%}
                       {%- when 'color' -%}
                
-       
-                      {% if product_variation.title contains "FYSEL®"  %}
-                      <div class="variant-picker__option-info">
+
+
+                       <div class="variant-picker__option-info">
                         <div class="h-stack gap-2">
                           <legend class="text-subdued">FYSEL Color:</legend>
                         </div>
                       </div>
+                      
+                      {% if product_variation.title contains "FYSEL®"  %}
+                     
                         
                       <span class="fysel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
                 
