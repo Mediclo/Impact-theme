@@ -263,7 +263,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 .open_modal_popup {
 /*   display: flex; */
   display: block;
-  width: 100%;
+/*   width: 100%; */
   height:48px;
   margin-bottom: 10px;
 /*   border: 1px solid #ccc; */
