@@ -551,7 +551,7 @@ Color swatch specific parameters:
 <script>
   
       var mediaJson = {{ product.media|json }};
-
+      console.log(mediaJson)
       if (mediaJson[0].alt == "Mauve") {
          $('.block-swatch').append('<style>:checked + .block-swatch {background-color: #BF697E;}</style>');
          $('.block-swatch').append('<style>:checked + .block-swatch {color: #fff;}</style>');
