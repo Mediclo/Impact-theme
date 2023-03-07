@@ -8547,6 +8547,15 @@ split-lines {
 }
 
 .tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-left: -8px;
+    margin-top: 0px;
+}
+
+.tag {
     -webkit-box-align: center;
     align-items: center;
     border-radius: 3px;
