@@ -162,15 +162,15 @@
 
                     {%- case block.settings.color_mode -%}
                       {%- when 'color' -%}
-                       <div>
+
                       {% if product_variation.title contains "FYSEL®" %}
                       <span class="fysel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
-                      </div>
+             
                 
                       {% else %}
                       <span class="tencel-swatches">{%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}</span>
                       {% endif %}
-                      </div>
+
                      
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
