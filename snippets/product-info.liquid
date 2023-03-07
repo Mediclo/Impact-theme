@@ -164,15 +164,12 @@
                       {%- when 'color' -%}
                
        
-                        
-                      <script>
-                      console.log(product_variation);
-                      </script>
-         
+                       {% if product_variation.url == "https://mediclo.com/products/fysel-capri-collared-scrub-top-burgundy" %}
+                       <div>TEST</div>
                  
-                        
+                      {% else %}
                       {%- render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected -%}
-              
+                      {% endif %}
                         
                  
                       
