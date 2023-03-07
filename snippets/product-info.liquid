@@ -75,16 +75,25 @@
         </div>
       
         <div class="tag-container">
+      
         <script>
-        const temp = {{ product.tags|json }};
-        console.log(temp)
+      
+        const tagJson = {{ product.tags|json }};
+        console.log(tagJson)
+
+        for(var i = 0; i < tagJson.length; i++){
+          if (tagJson[i].indexOf("Tree Edition") !== -1) {
+        	$('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles </p></div>');
+        }}
+      
         </script>
+{% comment %}       
         {% if product.tags contains "bottle edition"%} 
         <div class="tag"> <p class="tag-text"> Recycled Bottles </p> </div>
         {% elsif product.tags contains "Tree edition" %}
         <div class="tag"> <p class="tag-text"> Plant Based </p> </div>
         {% endif %}
-        </div>
+        </div> {% endcomment %}
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
