@@ -1,4 +1,8 @@
 
+.swatch-container {
+  display: inlin-block !important;
+}
+
 .fysel-swatches {
   display: inlin-block !important;
 }
