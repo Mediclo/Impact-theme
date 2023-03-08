@@ -187,7 +187,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 
 @media screen and (min-width: 700px) {
   img {
-    max-width: min(var(--image-max-width, 120%), 120%);
+    max-width: min(var(--image-max-width, 100%), 100%);
   }
 }
 
