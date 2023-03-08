@@ -47,9 +47,7 @@ LIQUID
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>  
 
   <div class="media-grid-title"></div>
-  {% if block.settings.title == "Women's Matching Sets"%}
-    <p>TEST</p>
-  {% endif %}
+
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
       <a {% if block.settings.link_url != blank %}href="{{ block.settings.link_url }}"{% endif %} class="media-grid__item shadow group" reveal-js style="--media-grid-column-span: {{ block.settings.desktop_column_span }}; --media-grid-row-span: {{ block.settings.desktop_row_span }}" {{ block.shopify_attributes }}>
