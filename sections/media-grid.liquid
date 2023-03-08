@@ -47,11 +47,9 @@ LIQUID
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>  
 
   <div style = "margin-bottom: 30px;">
-  {% if block.settings.title == "Women's Matching Sets" %}
+  {% if block.settings.title == "Women's Matching Sets" or block.settings.title == "Women's Scrub Tops" or block.settings.title == "Women's Scrubs Bottom" %}
   {%- render 'section-header', subheading: section.settings.subheading, heading: "Women's Scrubs", heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: section.settings.link_url -%}
-  {% endif %}  
-  </div>
-  
+
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
       <a {% if block.settings.link_url != blank %}href="{{ block.settings.link_url }}"{% endif %} class="media-grid__item shadow group" reveal-js style="--media-grid-column-span: {{ block.settings.desktop_column_span }}; --media-grid-row-span: {{ block.settings.desktop_row_span }}" {{ block.shopify_attributes }}>
@@ -113,7 +111,10 @@ LIQUID
         </div>
       </a>
     {%- endfor -%}
-  </media-grid>
+  </media-grid>  
+  {% endif %}  
+  </div>
+  
 </div>
 
 {% schema %}
