@@ -40,7 +40,7 @@
     "currency_code_enabled": false,
     "heading_apparition": "split_clip",
     "color_swatch_style": "round",
-    "color_swatch_config": "Stone Blue:#96BABC\nHunter Green:#247052\nMauve:#C6747D\nSage Green:#B6D1B1\nIndigo Navy:#4A4F69\nRose Pink:#FF99AF\nOlive Green:#7F9372\nFire Red:#FF0000\nLavender:#B27B9A\nCaribbean Blue:#21586D\nCobalt Blue:#264AB4\nCeil Blue:#9DBDED\nBurgundy:#7B2E3D\nNavy:#20294B\nBlack:#060506\nMoonlight Navy: #454E6B\nParadise Green: #B0CC6D\nSunflower: #DF9C0A\nHeather Grey: #656564\nSurgical Green: #2BB895\nCoffee Brown: #422200\nSpruce Green: #446250\nSteel Grey: #8C8C8C\nRoyal Blue: #172B8C\nLight Denim Blue: #B5D2DF",
+    "color_swatch_config": "Stone Blue:#96BABC\nHunter Green:#247052\nMauve:#C6747D\nSage Green:#B6D1B1\nIndigo Navy:#4A4F69\nRose Pink:#FF99AF\nOlive Green:#7F9372\nFire Red:#FF0000\nLavender:#B27B9A\nCaribbean Blue:#21586D\nCobalt Blue:#264AB4\nCeil Blue:#9DBDED\nBurgundy:#7B2E3D\nNavy:#20294B\nBlack:#060506\nMoonlight Navy: #363A5F\nParadise Green: #B0CC6D\nSunflower: #DF9C0A\nHeather Grey: #656564\nSurgical Green: #2BB895\nCoffee Brown: #422200\nSpruce Green: #446250\nSteel Grey: #8C8C8C\nRoyal Blue: #172B8C\nLight Denim Blue: #B5D2DF",
     "show_vendor": false,
     "show_secondary_image": false,
     "show_quick_buy": false,
