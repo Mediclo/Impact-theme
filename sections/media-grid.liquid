@@ -94,8 +94,9 @@ LIQUID
               <div class="prose">
                 {%- if block.settings.title != blank -%}
                   {% if block.settings.title == "Women's Matching Sets" %}
+                  <div><p>All Women's</p></div>
                   <p class="{{ block.settings.heading_tag }}">
-                    {% render 'styled-text', content: "TEST", gradient: block.settings.text_gradient %}
+                    {% render 'styled-text', content: "block.settings.title", gradient: block.settings.text_gradient %}
                   </p>
                   {% else %}
                   <p class="{{ block.settings.heading_tag }}">
