@@ -84,7 +84,8 @@
                   $('.tag-container').html('<div class="tag"> <p class="tag-text">Plant Based</p></div>');
                 } else if (tagJson[i].indexOf("bottle edition") !== -1) {
                   $('.tag-container').html('<div class="tag"> <p class="tag-text">Recycled Bottles</p></div>');
-                } else if (tagJson[i].indexOf("New Color") !== -1) {
+                } else if (tagJson[i].indexOf("Tree Edition") !== -1 && tagJson[i].indexOf("New Color") !== -1) {
+                  $('.tag-container').html('<div class="tag"> <p class="tag-text">Plant Based</p></div>');
                   $('.tag-container2').html('<div class="tag"> <p class="tag-text">New Color</p></div>');
                 }
             }
