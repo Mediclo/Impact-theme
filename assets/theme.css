@@ -956,6 +956,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   }
 }
 
+@media screen and (min-width: 500px) {
+  .back_btn {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .back_btn {
     font-size: 14px;
