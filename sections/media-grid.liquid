@@ -46,7 +46,9 @@ LIQUID
 
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>  
 
-  <div class="media-grid-title">All Women's</div>
+  <div class="media-grid-title">
+    <div class='prose'><p class ='h2'>All Men's</p></div>
+  </div>
 
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
