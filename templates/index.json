@@ -166,12 +166,11 @@
             "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "8d8053dd-f188-4da8-bc63-802909f68cf0": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/shop_by_color_sunflower.png",
@@ -182,7 +181,7 @@
             "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "663cedd3-e01f-4e83-af33-733980c4d5bb": {
