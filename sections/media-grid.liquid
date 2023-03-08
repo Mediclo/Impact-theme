@@ -46,7 +46,7 @@ LIQUID
 
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>  
 
-  <div class="media-grid-title">All Men's</div>
+  <div class="media-grid-title"></div>
   
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
@@ -96,7 +96,7 @@ LIQUID
               <div class="prose">
                 {%- if block.settings.title != blank -%}
                   
-                  {% if block.settings.title == "Women's Matching Sets" %}            
+                  {% if block.settings.title == "Women's Matching Sets" and block.settings.title == "Men's Matching Sets"%}            
                     <script>
                      $('.media-grid-title').append("<div class='prose'><p class ='h2'>All Women's</p></div>");                  
                     </script>
