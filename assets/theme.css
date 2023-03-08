@@ -3608,8 +3608,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 @media screen and (max-width: 500px) {
  .text-subdued {
-   color: red;
    text-align: left;
+   color: #424242;
  }
 
   .product-card__info--center {
