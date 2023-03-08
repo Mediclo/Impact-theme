@@ -956,6 +956,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   }
 }
 
+@media screen and (max-width: 500px) {
+  .back-btn {
+    margin: 10px;
+  }
+}
+
 .blog-post-card {
   --blog-post-card-badge-spacing: var(--spacing-3);
   --blog-post-card-figure-gap: var(--spacing-5);
