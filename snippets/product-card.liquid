@@ -313,7 +313,9 @@ Supported variables
         {% endif %}
 
         <!-- deleted  // text_alignment: text_alignment -->
+        <div class="product-card__price">
         {%- render 'price-list', product: product -%}
+        </div>
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
