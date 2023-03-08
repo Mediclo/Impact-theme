@@ -3536,6 +3536,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   color: #909090;
 }
 
+.product-card__price {
+  font-size: 15px;
+}
+
 @media screen and (max-width: 500px) {
   .product-card__title {
     font-size: 13px;  
