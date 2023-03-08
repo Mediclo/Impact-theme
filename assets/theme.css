@@ -3523,6 +3523,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   line-height: 1.5;
 }
 
+.product-card__color {
+  color: #ccc;
+}
+
 @media screen and (max-width: 500px) {
   .product-card__title {
     font-size: 13px;  
