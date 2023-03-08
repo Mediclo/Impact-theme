@@ -47,7 +47,9 @@ LIQUID
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>  
 
   <div style = "margin-bottom: 30px;">
+  {% if block.settings.heading_tag == "Women's Scrub Tops" %}
   {%- render 'section-header', subheading: section.settings.subheading, heading: "Women's Scrubs", heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: section.settings.link_url -%}
+  {% endif %}  
   </div>
   
   <media-grid class="media-grid">
