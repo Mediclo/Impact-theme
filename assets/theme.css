@@ -8757,8 +8757,7 @@ split-lines {
 .product-gallery__thumbnail-list {
   align-items: end;
   gap: var(--spacing-2);
-/*   grid-auto-columns: 56px; */
-  grid-auto-columns: 100px;
+  grid-auto-columns: 56px;
   grid-auto-flow: column;
   display: grid;
 }
