@@ -1,8 +1,5 @@
 {%- if section.settings.liquid != blank -%}
   {%- render 'section-spacing-collapsing' -%}
-  
-
-
   <style>
     #shopify-section-{{ section.id }} {
       {% if section.settings.remove_vertical_spacing %}--section-spacing-block: 0px;{% endif %}
