@@ -154,32 +154,16 @@
             "overlay_opacity": 0
           }
         },
-        "c7a9b5f4-f2f2-4460-8fd6-b336d545c333": {
+        "e4dff79b-f5f7-4b90-aaf8-049c7b192982": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/SUN_5756_1.jpg",
+            "image": "shopify:\/\/shop_images\/shop_by_color_hunter_green.png",
             "subheading": "",
-            "title": "Spruce Green",
+            "title": "Green",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4dff79b-f5f7-4b90-aaf8-049c7b192982": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -222,7 +206,6 @@
         "346a189f-60ed-457c-add4-bd8484b83f5c",
         "45262e37-b7aa-4e89-9807-ab8e75ba228e",
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2",
-        "c7a9b5f4-f2f2-4460-8fd6-b336d545c333",
         "e4dff79b-f5f7-4b90-aaf8-049c7b192982",
         "8d8053dd-f188-4da8-bc63-802909f68cf0",
         "663cedd3-e01f-4e83-af33-733980c4d5bb"
