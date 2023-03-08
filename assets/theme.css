@@ -3519,13 +3519,13 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   display: none;
 }
 
-.product-card__title {
-  font-size: 15px;  
+.product-card__title { 
   line-height: 1.5;
 }
 
 .product-card__color {
   font-weight: 700;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 500px) {
