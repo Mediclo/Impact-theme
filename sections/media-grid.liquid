@@ -94,7 +94,11 @@ LIQUID
               <div class="prose">
                 {%- if block.settings.title != blank -%}
                   {% if block.settings.title == "Women's Matching Sets" %}
-                  <div><p>All Women's</p></div>
+                  <script>
+                   $('.media-grid').append('<div><p>All Women's</p></div>');
+                    
+                  </script>
+                  <div ><p>All Women's</p></div>
                   <p class="{{ block.settings.heading_tag }}">
                     {% render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient %}
                   </p>
