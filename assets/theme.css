@@ -5050,6 +5050,13 @@ custom-cursor {
   }
 }
 
+@media screen and (min-width: 500px) {
+
+  .custom-image-banner-container-title{
+    display: none;
+  }
+}
+
 :has( > custom-cursor:not([hidden])) {
   cursor: none;
 }
