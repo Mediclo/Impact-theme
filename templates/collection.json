@@ -66,8 +66,8 @@
         "show_sort_by": true,
         "show_filters": true,
         "show_filter_group_name": true,
-        "show_color_swatch": true,
-        "show_empty_filter_values": true,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
         "show_filter_values_count": true,
         "open_first_filter_group": false
       }
