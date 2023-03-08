@@ -3524,7 +3524,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__color {
-  color: #ccc;
+  color: #909090;
 }
 
 @media screen and (max-width: 500px) {
