@@ -3551,8 +3551,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   }
 
   .product-card__price {
-  font-size: 13px;
-}
+  font-size: 12px;
+  }
 }
 
 .product-card__quick-buy {
