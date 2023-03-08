@@ -3521,6 +3521,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-card__title { 
   line-height: 1.5;
+  color: #424242;
 }
 
 .product-card__color {
