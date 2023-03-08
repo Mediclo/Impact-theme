@@ -299,28 +299,6 @@
     "d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3": {
       "type": "media-grid",
       "blocks": {
-        "template--14491305902126__d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3-1674858886fc579a40-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2022-02-08_MEDICLO_1006_1.jpg",
-            "title": "Women's Scrubs Top",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/women-sale-collection",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "template--14491305902126__d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3-1674858886fc579a40-1": {
           "type": "image",
           "settings": {
@@ -332,6 +310,28 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14491305902126__d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3-1674858886fc579a40-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-02-08_MEDICLO_1006_1.jpg",
+            "title": "Women's Scrubs Top",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/women-sale-collection",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
@@ -367,8 +367,8 @@
         }
       },
       "block_order": [
-        "template--14491305902126__d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3-1674858886fc579a40-0",
         "template--14491305902126__d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3-1674858886fc579a40-1",
+        "template--14491305902126__d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3-1674858886fc579a40-0",
         "template--14491305902126__d3dbe89e-a49f-4003-8aed-8ebaf03d3ac3-1674858886fc579a40-2"
       ],
       "settings": {
@@ -410,28 +410,6 @@
     "910239c9-5c40-4d45-90da-58a85c3e8bee": {
       "type": "media-grid",
       "blocks": {
-        "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2022-06-09_MEDICLO_1983_5_1_1.jpg",
-            "title": "Men's Scrub Top",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/shop-mens-top",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-1": {
           "type": "image",
           "settings": {
@@ -443,6 +421,28 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-06-09_MEDICLO_1983_5_1_1.jpg",
+            "title": "Men's Scrub Top",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/shop-mens-top",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
@@ -478,8 +478,8 @@
         }
       },
       "block_order": [
-        "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-0",
         "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-1",
+        "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-0",
         "template--14491305902126__910239c9-5c40-4d45-90da-58a85c3e8bee-167521316575fc7da9-2"
       ],
       "settings": {
