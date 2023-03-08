@@ -3324,7 +3324,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 @media screen and (max-width: 500px) {
    .product-list {
-    gap: 10px;
+    gap: 10px 5px;
   }
 }
 
