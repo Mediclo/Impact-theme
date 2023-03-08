@@ -3523,6 +3523,13 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 500px) {
+  .product-card__title {
+    font-size: 12px;  
+  }
+}
+
+
 .product-card__quick-buy {
   position: absolute;
   bottom: var(--product-card-quick-buy-inset);
