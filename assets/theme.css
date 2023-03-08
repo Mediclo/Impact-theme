@@ -3539,7 +3539,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-card__price {
   font-size: 15px;
-  color: #424242;
 }
 
 @media screen and (max-width: 500px) {
