@@ -61,7 +61,7 @@ LIQUID
           {%- case block.type -%}
             {%- when 'image' -%}
               {%- if block.settings.image -%}
-                {% if block.settings.image.src == "//cdn.shopify.com/s/files/1/2490/1254/files/2022-08-02_mediclo_6665_4.jpg?v=1676934077&width=1600" %}
+                {% if block.settings.image_url == "//cdn.shopify.com/s/files/1/2490/1254/files/2022-08-02_mediclo_6665_4.jpg?v=1676934077&width=1600" %}
                 {%- capture sizes -%}(max-width: 699px) 100vw, min({{ 390 | times: block.settings.desktop_column_span }}px, {{ 25 | times: block.settings.desktop_column_span }}vw){%- endcapture -%}
                 <div>TEST</div>
                 {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400', class: 'content-over-media__media zoom-image' -}}
