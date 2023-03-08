@@ -7894,6 +7894,10 @@ split-lines {
   display: grid;
 }
 
+.media-grid-title {
+  margin-bottom: 30px;
+}
+
 .media-grid__item {
   grid-area: span min(2, var(--media-grid-row-span)) / span min(2, var(--media-grid-column-span));
   height: 100%;
