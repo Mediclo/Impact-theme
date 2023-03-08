@@ -98,7 +98,7 @@ LIQUID
                   
                   {% if block.settings.title == "Women's Matching Sets" %}            
                     <script>
-                     $('.media-grid-title').append("<div class='prose'><p class ='h2'>All Women's</p></div>");                  
+                     $('.media-grid-title').html("<div class='prose'><p class ='h2'>All Women's</p></div>");                  
                     </script>
                   <p class="{{ block.settings.heading_tag }}">
                     {% render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient %}
@@ -106,7 +106,7 @@ LIQUID
 
                   {% elsif block.settings.title == "Men's Matching Sets" %}            
                     <script>
-                     $('.media-grid-title').html("<div class='prose'><p class ='h2'>All Men's</p></div>");                  
+                     $('.media-grid-title').append("<div class='prose'><p class ='h2'>All Men's</p></div>");                  
                     </script>
                   <p class="{{ block.settings.heading_tag }}">
                     {% render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient %}
