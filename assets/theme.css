@@ -8974,7 +8974,7 @@ split-lines {
 
   .product-gallery--desktop-thumbnails-left .product-gallery__thumbnail-list {
     gap: var(--spacing-2-5);
-/*     max-height: 600px; */
+    max-height: 700px;
     grid-auto-flow: row;
     overflow: auto;
   }
