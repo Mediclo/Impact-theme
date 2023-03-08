@@ -3550,6 +3550,14 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
     font-size: 13px;  
   }
 
+  .product-card__color {
+  font-size: 12px;
+}
+
+  .product-card__color-available {
+  font-size: 12px;
+}
+
   .product-card__price {
   font-size: 13px;
   }
