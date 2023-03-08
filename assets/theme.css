@@ -3530,6 +3530,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-card__color-available {
   font-size: 13px;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 500px) {
