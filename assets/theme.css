@@ -3528,13 +3528,13 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 .product-card__color {
   font-weight: 700;
   font-size: 13px;
-  color: #909090;
+  color: #8A8A8A;
 }
 
 .product-card__color-available {
   font-size: 13px;
   margin-left: 5px;
-  color: #909090;
+  color: #8A8A8A;
 }
 
 .product-card__price {
