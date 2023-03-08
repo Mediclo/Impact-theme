@@ -8829,7 +8829,7 @@ split-lines {
 
 @media screen and (min-width: 700px) {
   .product-gallery__thumbnail-list {
-    grid-auto-columns: 100px;
+    grid-auto-columns: 120px;
   }
 }
 
