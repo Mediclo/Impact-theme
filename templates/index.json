@@ -768,7 +768,7 @@
       "type": "newsletter",
       "settings": {
         "full_width": true,
-        "show_icon": true,
+        "show_icon": false,
         "title": "TAKE 15% OFF",
         "content": "<p>Subscribe to take 15% OFF your first purchase and be in the know.<\/p>",
         "button_text": "Subscribe",
