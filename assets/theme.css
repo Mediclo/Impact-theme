@@ -2484,7 +2484,7 @@ scroll-carousel {
 
 @media screen and (max-width: 500px) {
   .container {
-    margin: 20px;
+    margin: 10px;
   }
 }
 
