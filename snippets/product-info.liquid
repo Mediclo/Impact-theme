@@ -80,7 +80,7 @@
             const tagJson = {{ product.tags|json }};
   
               for(var i = 0; i < tagJson.length; i++){
-              console.log(tagJson[i];
+              console.log(tagJson[i]);
                   if (tagJson[i].indexOf("Tree Edition") !== -1 ) {
                   $('.tag-container').html('<div class="tag"> <p class="tag-text">Plant Based</p></div>');
                 } else if (tagJson[i].indexOf("bottle edition") !== -1) {
