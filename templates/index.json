@@ -773,7 +773,7 @@
         "content": "<p>Subscribe to take 15% OFF your first purchase and be in the know.<\/p>",
         "button_text": "Subscribe",
         "subtext": "By clicking \"Subscribe\", you agree to receive emails from Mediclo and accept our Terms Of Use and our Privacy Policy.",
-        "background": "",
+        "background": "#f0f0f0",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
