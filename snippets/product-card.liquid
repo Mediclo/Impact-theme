@@ -154,7 +154,7 @@ Supported variables
     {%- endif -%}
 
     <!--   deleted // {% if text_alignment == 'center' %}justify-items-center{% endif %} -->
-    <div class="v-stack gap-0.5 w-full">
+    <div class="v-stack gap-1 w-full">
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
           
@@ -317,7 +317,7 @@ Supported variables
         {%- render 'price-list', product: product -%}
         </div>
     </div>
-
+f
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
       {%- capture rating_class -%}{% unless text_alignment == 'center' %}sm:hidden{% endunless %}{%- endcapture -%}
       {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
