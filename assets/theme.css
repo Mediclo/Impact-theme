@@ -958,8 +958,9 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 
 @media screen and (max-width: 500px) {
   .back_btn {
-    font-size: 12px;
+    font-size: 14px;
     margin: 10px;
+    text-decoration: underline;
   }
 }
 
