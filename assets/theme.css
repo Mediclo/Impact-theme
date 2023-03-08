@@ -3534,7 +3534,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   }
 }
 
-
 .product-card__quick-buy {
   position: absolute;
   bottom: var(--product-card-quick-buy-inset);
