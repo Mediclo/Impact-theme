@@ -92,14 +92,11 @@ LIQUID
           {%- if block.settings.title != blank or block.settings.link_text != blank -%}
             <div class="{{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}">
               <div class="prose">
-    
-                  {% if block.setting.title == "Women's Matching Sets" %}
-                   <p class="{{ block.settings.heading_tag }}">
-                    {% render 'styled-text', content: "TEST", gradient: block.settings.text_gradient %}
+                {%- if block.settings.title != blank -%}
+                  <p class="{{ block.settings.heading_tag }}">
+                    {% render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient %}
                   </p>
-        
-                  {% endif %}
-   
+                {%- endif -%}
 
                 {%- if block.settings.link_text != blank -%}
                   {%- render 'button', size: 'lg', content: block.settings.link_text, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
