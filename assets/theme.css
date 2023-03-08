@@ -3605,6 +3605,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   display: none;
 }
 
+ .text-subdued {
+   color: #424242 !important;
+ }
+
 
 @media screen and (max-width: 500px) {
  .text-subdued {
