@@ -3537,6 +3537,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__price {
+  font-weight: 700;
   font-size: 15px;
   color: #424242;
 }
