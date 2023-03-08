@@ -317,7 +317,7 @@ Supported variables
         {%- render 'price-list', product: product -%}
         </div>
     </div>
-f
+
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
       {%- capture rating_class -%}{% unless text_alignment == 'center' %}sm:hidden{% endunless %}{%- endcapture -%}
       {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
