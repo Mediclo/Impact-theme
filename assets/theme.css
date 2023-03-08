@@ -3520,6 +3520,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__title { 
+  font-weight: 700;
   line-height: 1.5;
   color: #424242;
 }
