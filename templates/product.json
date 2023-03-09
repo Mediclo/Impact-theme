@@ -232,52 +232,6 @@
         "text_color": ""
       }
     },
-    "9230a5c3-4959-430a-ae85-5adbbb8c4aea": {
-      "type": "tabs",
-      "blocks": {
-        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-0": {
-          "type": "tab",
-          "settings": {
-            "title": "Fabric Content",
-            "content": "<ul><li>Tencel™ 67%‎ ‎<\/li><li>Recycled Polyester 30%‎ ‎<\/li><li>Spandex 3%<\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-1": {
-          "type": "tab",
-          "settings": {
-            "title": "Tencel™ Care",
-            "content": "<ul><li>Machine wash cold inside out<\/li><li>Gentle cycle with like colors<\/li><li>Non-chlorine bleach when needed<\/li><li>Tumble dry low<\/li><li>Air fluff setting or simply hang dry to help prevent wrinkles<\/li><li>Iron when needed<\/li><li><strong>Overloading washer or dryer could damage your clothes and decrease your washer and dryer's efficiency<\/strong><\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-2": {
-          "type": "tab",
-          "settings": {
-            "title": "Sustainability",
-            "content": "<p>Tencel™ is a fiber made from the wood chips of responsibly harvested trees. The wood chips go through a closed-loop process, in which 99% of the solvent is recovered, purified, and reused. This cycle uses less water and energy than most other conventional fibers.<\/p><p><a href=\"https:\/\/www.tencel.com\" title=\"https:\/\/www.tencel.com\">Learn more<\/a><\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-0",
-        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-1",
-        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "Plant Based",
-        "title": "Our Plant Based Scrubs",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1": {
       "type": "accordion-content",
       "blocks": {
@@ -327,6 +281,53 @@
         "accordion_text_color": ""
       }
     },
+    "9230a5c3-4959-430a-ae85-5adbbb8c4aea": {
+      "type": "tabs",
+      "disabled": true,
+      "blocks": {
+        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Fabric Content",
+            "content": "<ul><li>Tencel™ 67%‎ ‎<\/li><li>Recycled Polyester 30%‎ ‎<\/li><li>Spandex 3%<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Tencel™ Care",
+            "content": "<ul><li>Machine wash cold inside out<\/li><li>Gentle cycle with like colors<\/li><li>Non-chlorine bleach when needed<\/li><li>Tumble dry low<\/li><li>Air fluff setting or simply hang dry to help prevent wrinkles<\/li><li>Iron when needed<\/li><li><strong>Overloading washer or dryer could damage your clothes and decrease your washer and dryer's efficiency<\/strong><\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Sustainability",
+            "content": "<p>Tencel™ is a fiber made from the wood chips of responsibly harvested trees. The wood chips go through a closed-loop process, in which 99% of the solvent is recovered, purified, and reused. This cycle uses less water and energy than most other conventional fibers.<\/p><p><a href=\"https:\/\/www.tencel.com\" title=\"https:\/\/www.tencel.com\">Learn more<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-0",
+        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-1",
+        "template--14500855152686__9230a5c3-4959-430a-ae85-5adbbb8c4aea-1678322498794f62a2-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "Plant Based",
+        "title": "Our Plant Based Scrubs",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -355,8 +356,8 @@
   "order": [
     "main",
     "7737632d-8033-4dee-9373-b1099250e307",
-    "9230a5c3-4959-430a-ae85-5adbbb8c4aea",
     "bd3e2ee1-6735-42bb-b175-bf0ce3e7bfb1",
+    "9230a5c3-4959-430a-ae85-5adbbb8c4aea",
     "product-recommendations"
   ]
 }
