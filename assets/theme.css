@@ -362,6 +362,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 	left: 78.5%;
 	transform: translate(-50%, -50%) scale(0.9);
 }
+
+.image-with-text-overlay-btn {
+  background: rgba(255,255,255,.8);
+}
+
+
 .popup_labels {
   font-size: 14px;
   font-weight: 600;
