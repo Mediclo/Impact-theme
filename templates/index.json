@@ -538,12 +538,24 @@
           "settings": {
             "content": "<p>Show that you care for the team and the Earth by dressing the part. Be united in comfort, style, and sustainability <\/p>"
           }
+        },
+        "b2872883-ccc2-4806-ae67-9f718cfea841": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "sm",
+            "text": "LEARN MORE",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-0",
         "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-1",
-        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-2"
+        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-2",
+        "b2872883-ccc2-4806-ae67-9f718cfea841"
       ],
       "settings": {
         "full_width": true,
