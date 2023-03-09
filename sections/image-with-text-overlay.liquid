@@ -69,7 +69,7 @@
               {%- when 'button' -%}
                 {%- if block.settings.text != blank -%}
                   <div class="image-with-text-overlay-btn">
-                  {% render 'button', content: block.settings.text, href: block.settings.url, size: block.settings.size, style: block.settings.style, background: rgba(255, 255, 255, 0.8);, text_color: block.settings.text_color, block: block %}
+                  {% render 'button', content: block.settings.text, href: block.settings.url, size: block.settings.size, style: block.settings.style, background: block.settings.background, text_color: block.settings.text_color, block: block %}
                   </div>  
                 {%- endif -%}
             {%- endcase -%}
