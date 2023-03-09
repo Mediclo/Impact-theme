@@ -543,9 +543,9 @@
           "type": "button",
           "settings": {
             "style": "fill",
-            "size": "sm",
+            "size": "base",
             "text": "LEARN MORE",
-            "url": "",
+            "url": "https:\/\/onetreeplanted.org",
             "background": "",
             "text_color": ""
           }
