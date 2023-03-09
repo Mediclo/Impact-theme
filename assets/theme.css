@@ -4002,9 +4002,9 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   font-size: 25px;
 }
 
-/* .prose p {
+.prose p {
   font-size: 15px;
-} */
+}
 
 .prose .h2 {
   font-size: 30px;
