@@ -517,95 +517,44 @@
         "product_card_text_color": ""
       }
     },
-    "4874b797-4917-4b28-9020-5c68ba6e7cc6": {
-      "type": "hot-spots",
-      "disabled": true,
+    "85e2ff8d-068e-43c5-a808-cd222e39a2d1": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "template--14491305902126__4874b797-4917-4b28-9020-5c68ba6e7cc6-1675379925a72b9751-0": {
-          "type": "item",
+        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-0": {
+          "type": "subheading",
           "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "text": "Subheading"
           }
         },
-        "template--14491305902126__4874b797-4917-4b28-9020-5c68ba6e7cc6-1675379925a72b9751-1": {
-          "type": "item",
+        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-1": {
+          "type": "heading",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "text": "Your Order Plants A Tree",
+            "heading_tag": "h1"
           }
         },
-        "template--14491305902126__4874b797-4917-4b28-9020-5c68ba6e7cc6-1675379925a72b9751-2": {
-          "type": "item",
+        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-2": {
+          "type": "richtext",
           "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14491305902126__4874b797-4917-4b28-9020-5c68ba6e7cc6-1675379925a72b9751-0",
-        "template--14491305902126__4874b797-4917-4b28-9020-5c68ba6e7cc6-1675379925a72b9751-1",
-        "template--14491305902126__4874b797-4917-4b28-9020-5c68ba6e7cc6-1675379925a72b9751-2"
+        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-0",
+        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-1",
+        "template--14500855611438__85e2ff8d-068e-43c5-a808-cd222e39a2d1-1678405329bdc0cc18-2"
       ],
       "settings": {
         "full_width": true,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
-    "fc25c2d5-ab85-49ce-bf3f-f8fc5269fa3e": {
-      "type": "before-after-image",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify:\/\/shop_images\/Tencel_111d2761-9c1e-40f2-bdb6-15205007a252.jpg",
-        "after_image": "shopify:\/\/shop_images\/Fysel_afbf685b-8b82-4a16-b5ed-8bbac71a2e7e.jpg",
-        "expand_image": true,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "Tencel™",
-        "after_text": "FYSEL®",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff"
+        "overlay_opacity": 30
       }
     },
     "588819be-1d46-487c-8ed2-f4f3e99969d2": {
@@ -776,8 +725,7 @@
     "910239c9-5c40-4d45-90da-58a85c3e8bee",
     "542e6185-1347-48b2-bf15-082b4c075615",
     "5fcb9f07-a7d4-4014-b55e-f4526441c581",
-    "4874b797-4917-4b28-9020-5c68ba6e7cc6",
-    "fc25c2d5-ab85-49ce-bf3f-f8fc5269fa3e",
+    "85e2ff8d-068e-43c5-a808-cd222e39a2d1",
     "588819be-1d46-487c-8ed2-f4f3e99969d2",
     "a11f96fb-ccd6-4621-b769-3ea34ad13d1e",
     "aaf4d661-37d6-4088-a191-db3974e4d92a"
