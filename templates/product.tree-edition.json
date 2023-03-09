@@ -135,6 +135,83 @@
         "input_text_color": ""
       }
     },
+    "9aa69197-f718-4903-9b5e-207180c40279": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14500855513134__9aa69197-f718-4903-9b5e-207180c40279-1678321083b8e831dc-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Icon-Tencel_Fyseleach_page_13_0e562280-9574-4946-b92c-27db0f17c0eb.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "template--14500855513134__9aa69197-f718-4903-9b5e-207180c40279-1678321083b8e831dc-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Icon-Tencel_Fyseleach_page_12_88bf3236-3474-48e3-8c75-1132db3e7444.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "template--14500855513134__9aa69197-f718-4903-9b5e-207180c40279-1678321083b8e831dc-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Icon-Tencel_Fyseleach_page_11_90e56d12-25e3-4d91-a7bb-b03dbfc5480c.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        },
+        "8fc4c3f9-8d57-4829-845a-79e929332b6e": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Icon-Tencel_Fyseleach_page_10_6cd2ea75-14a3-44d7-8ef2-2eeed59c81be.png",
+            "mobile_icon_width": 24,
+            "icon_width": 60,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Heading",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14500855513134__9aa69197-f718-4903-9b5e-207180c40279-1678321083b8e831dc-0",
+        "template--14500855513134__9aa69197-f718-4903-9b5e-207180c40279-1678321083b8e831dc-1",
+        "template--14500855513134__9aa69197-f718-4903-9b5e-207180c40279-1678321083b8e831dc-2",
+        "8fc4c3f9-8d57-4829-845a-79e929332b6e"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "1c93e364-f767-479f-9ea8-ed97b7a463ab": {
       "type": "accordion-content",
       "blocks": {
@@ -211,6 +288,7 @@
   },
   "order": [
     "main",
+    "9aa69197-f718-4903-9b5e-207180c40279",
     "1c93e364-f767-479f-9ea8-ed97b7a463ab",
     "product-recommendations"
   ]
