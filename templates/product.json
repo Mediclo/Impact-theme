@@ -163,7 +163,7 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/Icon-Tencel_Fyseleach_page_13_0e562280-9574-4946-b92c-27db0f17c0eb.png",
-            "mobile_icon_width": 24,
+            "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "none",
             "icon_background": "",
@@ -177,7 +177,7 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/Icon-Tencel_Fyseleach_page_12_88bf3236-3474-48e3-8c75-1132db3e7444.png",
-            "mobile_icon_width": 24,
+            "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "none",
             "icon_background": "",
