@@ -222,7 +222,7 @@
         "9360eae2-5ede-4390-9e67-b2667ba8fb04"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "title": "",
         "heading_tag": "h5",
         "text_alignment": "center",
