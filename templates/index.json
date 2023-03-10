@@ -141,12 +141,11 @@
         },
         "template--14491305902126__637b96c0-f2b3-4dd0-b53a-8acad09f35b1-1674605565edbfeffc-2": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/shop_by_color-coffee_brown_49b64eac-4458-4bf5-bdcb-4ee229d4331b.png",
             "subheading": "",
-            "title": "Coffee Brown",
+            "title": "",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-end-center text-center",
