@@ -81,7 +81,7 @@
 <!--   </a> -->
 </div>
 
-{% elsif page.url contains "/pages/home" %}
+{% else %}
 
   <div {% render 'section-properties' %} {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
   {%- capture class -%}content-over-media content-over-media--{{ section.settings.image_size }} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
