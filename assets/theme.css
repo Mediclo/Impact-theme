@@ -6426,11 +6426,11 @@ split-lines {
 
 .collection-list-color-container {
   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .collection-list-color {
-  grid-template-columns: 1fr 1fr 1fr;
+  
 }
 
 @media screen and (max-width: 500px) {
