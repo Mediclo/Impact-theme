@@ -368,7 +368,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   color: #000;
   margin-top: 30px;
   font-size: 14px;
-  font-style: uppercase;
+  text-transform: uppercase;
   text-decoration: none !important;
   padding: 10px 24px;
 }
