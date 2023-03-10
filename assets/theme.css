@@ -6426,7 +6426,7 @@ split-lines {
 
 .collection-list-color-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 3fr 3fr;
 }
 
 .collection-list-color {
