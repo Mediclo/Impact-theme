@@ -7664,6 +7664,10 @@ split-lines {
   font-size: 14px;
 }
 
+#main-page-image_rich-text {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 500px) {
   #image_subheading {
     font-size: 16px;
