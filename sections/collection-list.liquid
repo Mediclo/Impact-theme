@@ -58,7 +58,7 @@ LIQUID
 
                   {%- if image != blank -%}
                     {%- capture sizes -%}(max-width: 699px) 73vw, {{ settings.page_width | divided_by: section.settings.collections_per_row }}px{%- endcapture -%}
-                    {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,800,1000,1200,1400,1600', class: 'zoom-image' -}}
+<!--                     {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,800,1000,1200,1400,1600', class: 'zoom-image' -}} -->
                   {%- endif -%}
 
                   <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
