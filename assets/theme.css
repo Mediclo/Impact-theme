@@ -364,11 +364,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .image-with-text-overlay-btn {
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
   margin-top: 30px;
   font-size: 14px;
   text-decoration: none !important;
-  padding: 8px 16px;
+  padding: 8px 20px;
 }
 
 .popup_labels {
