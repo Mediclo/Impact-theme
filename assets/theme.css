@@ -373,6 +373,13 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   padding: 10px 24px;
 }
 
+@media only screen and (max-width: 600px) {
+   .image-with-text-overlay-btn {
+    font-size: 12px;   
+    padding: 8px 20px;
+  }
+}
+
 .popup_labels {
   font-size: 14px;
   font-weight: 600;
