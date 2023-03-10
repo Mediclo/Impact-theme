@@ -60,11 +60,11 @@ LIQUID
                     {%- capture sizes -%}(max-width: 699px) 73vw, {{ settings.page_width | divided_by: section.settings.collections_per_row }}px{%- endcapture -%}
 <!--                     <div class="collection-list-image-container"> -->
                       {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,800,1000,1200,1400,1600', class: 'zoom-image' -}}
-<!--                       <div class="collection-list-color-container">
+                      <div class="collection-list-color-container">
                       <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
                       <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
                       <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
-                      </div> -->
+                      </div>
 <!--                     </div> -->
                   {%- endif -%}
 
