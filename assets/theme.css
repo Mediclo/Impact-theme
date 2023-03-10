@@ -6428,6 +6428,10 @@ split-lines {
   display: grid;
 }
 
+.collection-list-color {
+  grid-column-start: 1;
+}
+
 @media screen and (max-width: 500px) {
   .collection-card {
     width: 150px;
