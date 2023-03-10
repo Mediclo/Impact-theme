@@ -6439,6 +6439,11 @@ split-lines {
 }
 
 .collection-list-color {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collection-list-color {
   
 }
 
