@@ -6424,6 +6424,10 @@ split-lines {
   overflow: hidden;
 }
 
+.collection-list-color-container {
+  display: grid;
+}
+
 @media screen and (max-width: 500px) {
   .collection-card {
     width: 150px;
