@@ -6426,10 +6426,9 @@ split-lines {
 
 @media screen and (max-width: 500px) {
 
-  .collection-card {
+  .collection-list {
     width: 50%;
   }
-  
   .collection-card {
     width: 50%;
   }
