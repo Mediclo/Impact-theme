@@ -6422,6 +6422,7 @@ split-lines {
   scroll-snap-align: center;
   scroll-snap-stop: always;
   overflow: hidden;
+  width: 50%;
 }
 
 .collection-card--reverse-transition {
