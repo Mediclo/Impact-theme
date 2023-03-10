@@ -6429,8 +6429,8 @@ split-lines {
 }
 
 .collection-list-color {
-  width: 100px;
-  height: 200px;
+  width: 30px;
+  height: 100px;
   grid-column-start: 1;
 }
 
