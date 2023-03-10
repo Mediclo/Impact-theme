@@ -56,20 +56,19 @@ LIQUID
                 {%- if collection != blank or block.settings.image != blank -%}
                   {%- assign image = block.settings.image | default: collection.featured_image -%}
 
-                  {%- if image != blank -%}
+<!--                   {%- if image != blank -%}
                     {%- capture sizes -%}(max-width: 699px) 73vw, {{ settings.page_width | divided_by: section.settings.collections_per_row }}px{%- endcapture -%}
-<!--                     {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,800,1000,1200,1400,1600', class: 'zoom-image' -}} -->
-                
+                    {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,800,1000,1200,1400,1600', class: 'zoom-image' -}}
+                  {%- endif -%} -->
+
                   <div>
                     <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/sapan-patel-i9Q9bc-WgfE-unsplash.jpg?v=1678483261"/>     
                        <div class="collection-list-color-container">
-              
                         <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
                         <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
                         <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
                        </div>
                    </div>
-                  {%- endif -%}
                   
          
                   <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
