@@ -6424,11 +6424,11 @@ split-lines {
   overflow: hidden;
 }
 
-/* .collection-list-color-container {
+.collection-list-color-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
- */
+
 .collection-list-color {
   
 }
