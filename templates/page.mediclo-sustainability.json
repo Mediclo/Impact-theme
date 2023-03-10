@@ -97,6 +97,7 @@
     },
     "16a35af2-ebeb-4a8c-bd6e-089da2537ffc": {
       "type": "blog-posts",
+      "disabled": true,
       "blocks": {
         "template--14502977077294__16a35af2-ebeb-4a8c-bd6e-089da2537ffc-1677189189f5fa4ce3-0": {
           "type": "blog",
