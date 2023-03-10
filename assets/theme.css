@@ -7678,6 +7678,10 @@ split-lines {
   #image_rich-text {
     font-size: 10px;
   }
+
+  #main-page-image_subheading {
+    font-size: 24px;
+  }
 }
 
 .image-link-blocks {
