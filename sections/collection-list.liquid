@@ -71,7 +71,7 @@ LIQUID
                   {%- endif -%}
                   
          
-                  <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
+<!--                   <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
                     {%- if block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endif -%}
@@ -87,7 +87,8 @@ LIQUID
                     {%- unless block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endunless -%}
-                  </div>
+                  </div> -->
+                
                 {%- else -%}
                   {%- capture collection_placeholder -%}{% cycle 'collection-1', 'collection-2', 'collection-3' %}{%- endcapture -%}
                   {{- collection_placeholder | placeholder_svg_tag: 'placeholder zoom-image' -}}
