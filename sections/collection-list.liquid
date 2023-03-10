@@ -60,18 +60,8 @@ LIQUID
                     {%- capture sizes -%}(max-width: 699px) 73vw, {{ settings.page_width | divided_by: section.settings.collections_per_row }}px{%- endcapture -%}
                       {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,800,1000,1200,1400,1600', class: 'zoom-image' -}}
                   {%- endif -%}
-
-                 <div class="collection-list-color-container">
-<!--                       <a href="https://mediclo.com/collections/shop-women?filter.v.option.color=Spruce+Green&sort_by=manual"> -->
-                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
-<!--                       </a> -->
-                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
-                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
-                  </div>
                   
          
-               
-
                   <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
                     {%- if block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
@@ -112,6 +102,14 @@ LIQUID
           {%- endfor -%}
         </collection-list>
       </scroll-carousel>
+
+                                 <div class="collection-list-color-container">
+<!--                       <a href="https://mediclo.com/collections/shop-women?filter.v.option.color=Spruce+Green&sort_by=manual"> -->
+                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
+<!--                       </a> -->
+                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
+                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
+                  </div>
 
       {%- if section.settings.stack_collections == false -%}
         {%- if section.settings.show_progress_bar -%}
