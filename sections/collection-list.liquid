@@ -45,7 +45,7 @@ LIQUID
       {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
 
       <scroll-carousel selector=".collection-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.blocks.size > section.settings.collections_per_row %}is-scrollable{% endif %}">
-        <collection-list class="collection-list">
+<!--         <collection-list class="collection-list">
           {%- for block in section.blocks -%}
             {%- assign collection = block.settings.collection -%}
             {%- assign collection_url = block.settings.url | default: collection.url -%}
@@ -78,8 +78,6 @@ LIQUID
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endunless -%}    
                   </div>
-
-
                 
                 {%- else -%}
                   {%- capture collection_placeholder -%}{% cycle 'collection-1', 'collection-2', 'collection-3' %}{%- endcapture -%}
@@ -102,7 +100,7 @@ LIQUID
               </div>
             </a>
           {%- endfor -%}
-        </collection-list>
+        </collection-list> -->
                 
       </scroll-carousel>
 
