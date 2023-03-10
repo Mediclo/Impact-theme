@@ -563,6 +563,7 @@
         "enable_parallax": false,
         "image_size": "md",
         "image": "shopify:\/\/shop_images\/5961bc35ff24cc38aa415512b56f0a24_0a740566-d7ce-42af-b37c-15f1bc608339.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/5961bc35ff24cc38aa415512b56f0a24_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
