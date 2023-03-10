@@ -27,7 +27,13 @@ CSS
     #shopify-section-{{ section.id }} .collection-list {
       --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat({{ section.settings.collections_per_row }}, minmax(0, 1fr)){% else %}auto / auto-flow calc(var(--container-inner-width) / {{ section.settings.collections_per_row }} - (var(--grid-gutter) / {{ section.settings.collections_per_row }} * {{ section.settings.collections_per_row | minus: 1 }})){% endif %};
     }
+
+  @media screen and (max-width: 500px) {
+   #shopify-section-{{ section.id }} .collection-list {
+    --collection-list-grid: {% if section.settings.stack_collections %}none{% else %}auto / auto-flow 40vw{% endif %};
   }
+}
+}
 </style>
 
 {%- comment -%}
