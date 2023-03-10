@@ -52,18 +52,7 @@ LIQUID
 
             <!--rounded-sm -->
             <a {% if collection_url != blank %}href="{{ collection_url }}"{% endif %} class="collection-card {% if block.settings.text_position contains 'place-self-end' %}collection-card--reverse-transition{% endif %} shadow" reveal-js>
-              <div class="content-over-media group" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
-
-                  <div>
-                    <img src="https://cdn.shopify.com/s/files/1/2490/1254/files/sapan-patel-i9Q9bc-WgfE-unsplash.jpg?v=1678483261"/>     
-                       <div class="collection-list-color-container">
-                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
-                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
-                        <img class="collection-list-color" src="https://cdn.shopify.com/s/files/1/2490/1254/files/spruce-green2.png?v=1678482144"/>
-                       </div>
-                   </div>
-
-                
+              <div class="content-over-media group" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">          
                 {%- if collection != blank or block.settings.image != blank -%}
                   {%- assign image = block.settings.image | default: collection.featured_image -%}
 
@@ -73,9 +62,9 @@ LIQUID
                   {%- endif -%}
 
                   <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
-<!--                     {%- if block.settings.text_position contains 'place-self-end' -%}
+                    {%- if block.settings.text_position contains 'place-self-end' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
-                    {%- endif -%} -->
+                    {%- endif -%}
 
                     <div class="collection-card__content prose">
                       {%- if block.settings.subheading != blank -%}
