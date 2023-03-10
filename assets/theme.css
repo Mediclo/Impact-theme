@@ -6424,7 +6424,7 @@ split-lines {
   overflow: hidden;
 }
 
-.collection-list-color-container {
+.collection-list-image-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
