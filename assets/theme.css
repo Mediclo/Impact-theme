@@ -6429,6 +6429,10 @@ split-lines {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.collection-list-image {
+  height: 600px;
+}
+
 .collection-list-colors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
