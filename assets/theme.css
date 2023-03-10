@@ -6424,14 +6424,14 @@ split-lines {
   overflow: hidden;
 }
 
-.collection-list-image-container {
+/* .collection-list-image-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+} */
 
-.collection-list-color-container {
+.collection-list-colors {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .collection-list-color {
