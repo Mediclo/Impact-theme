@@ -6445,12 +6445,7 @@ split-lines {
   height: 50px;
 }
 
-.collection-list-color:hover {
-  transition: 0.3s;
-  opacity: 0.5;
-}
-
-.img__wrap {
+/* .img__wrap {
   position: relative;
 }
 
@@ -6473,7 +6468,7 @@ split-lines {
   visibility: visible;
   opacity: 1;
 }
-
+ */
 
 @media screen and (max-width: 500px) {
   .collection-card {
