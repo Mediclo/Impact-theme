@@ -6453,6 +6453,10 @@ split-lines {
     width: 230px;
     height: 300px;
   }
+  .collection-list-colors {
+    margin-left: -3px;
+    margin-right: -3px;
+  }
 }
 
 .collection-card--reverse-transition {
