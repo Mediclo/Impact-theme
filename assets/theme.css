@@ -6432,7 +6432,6 @@ split-lines {
 
 .collection-list-colors {
   display: grid;
-  position: relative;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: -4px;
   margin-right: -4px;
@@ -6446,25 +6445,9 @@ split-lines {
   height: 50px;
 }
 
-.temp {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
 .collection-list-color:hover {
   transition: 0.3s;
   opacity: 0.5;
-}
-
-.collection-list-text {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  left: 150px;
-  top: 350px;
 }
 
 
