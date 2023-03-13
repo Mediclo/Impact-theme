@@ -96,7 +96,7 @@ LIQUID
       </scroll-carousel>
 
 
-      {%- if section.settings.stack_collections == false -%}
+<!--       {%- if section.settings.stack_collections == false -%}
         {%- if section.settings.show_progress_bar -%}
           {%- assign default_progress = section.settings.collections_per_row | times: 1.0 | divided_by: section.blocks.size -%}
           {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
@@ -111,7 +111,7 @@ LIQUID
             <span class="animated-arrow"></span>
           </button>
         {%- endif -%}
-      {%- endif -%}
+      {%- endif -%} -->
     </div>
   </div>
 </div>
