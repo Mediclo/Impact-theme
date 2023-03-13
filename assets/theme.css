@@ -6428,8 +6428,6 @@ split-lines {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
-  overflow: scroll;
-  white-space: nowrap;
 }
 
 .collection-list-colors {
@@ -6449,6 +6447,12 @@ split-lines {
 @media screen and (max-width: 500px) {
   .collection-card {
     width: 150px;
+  }
+
+  .collection-list-image-container {
+  display: inline-block;
+/*   grid-template-columns: 1fr 1fr 1fr 1fr; */
+/*   grid-gap: 20px; */
   }
 }
 
