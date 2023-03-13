@@ -6430,10 +6430,6 @@ split-lines {
   grid-gap: 20px;
 }
 
-.collection-list-image {
-
-}
-
 .collection-list-colors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
