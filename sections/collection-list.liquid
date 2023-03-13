@@ -44,9 +44,7 @@ LIQUID
     <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
       {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
 
-      <scroll-carousel selector=".collection-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.blocks.size > section.settings.collections_per_row %}is-scrollable{% endif %}">
-
-  
+      <scroll-carousel selector=".collection-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.blocks.size > section.settings.collections_per_row %}is-scrollable{% endif %}"> 
         <div class="collection-list-container">
           <div class="collection-list-image-container">
             <img class="collection-list-image" src="https://cdn.shopify.com/s/files/1/2490/1254/files/shop_by_color-1.jpg?v=1678486488"/> 
@@ -95,8 +93,6 @@ LIQUID
             </div>
          </div>       
        </div>
-            
-    
       </scroll-carousel>
 
 
