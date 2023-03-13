@@ -6428,6 +6428,8 @@ split-lines {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
+  overflow: scroll;
+  white-space: nowrap;
 }
 
 .collection-list-colors {
