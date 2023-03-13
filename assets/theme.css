@@ -6445,7 +6445,7 @@ split-lines {
   height: 50px;
 }
 
-/* .img__wrap {
+.img__wrap {
   position: relative;
 }
 
@@ -6468,7 +6468,7 @@ split-lines {
   visibility: visible;
   opacity: 1;
 }
- */
+
 
 @media screen and (max-width: 500px) {
   .collection-card {
