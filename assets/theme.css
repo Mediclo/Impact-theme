@@ -6444,6 +6444,9 @@ split-lines {
   margin-right: auto;
   width: 100px;
   height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .collection-list-color:hover {
