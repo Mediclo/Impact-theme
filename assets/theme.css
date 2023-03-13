@@ -6433,6 +6433,8 @@ split-lines {
 .collection-list-colors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: -3px;
+  margin-right: -3px;
 }
 
 .collection-list-color {
