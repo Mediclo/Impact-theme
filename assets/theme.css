@@ -6450,9 +6450,8 @@ split-lines {
   }
 
   .collection-list-image-container {
-  display: inline-block;
-/*   grid-template-columns: 1fr 1fr 1fr 1fr; */
-/*   grid-gap: 20px; */
+    display: inline-block;
+
   }
 }
 
