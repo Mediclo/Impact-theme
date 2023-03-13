@@ -6442,6 +6442,10 @@ split-lines {
   margin-right: auto;
 }
 
+.collection-list-color:hover {
+  opacity: 0.1;
+}
+
 
 @media screen and (max-width: 500px) {
   .collection-card {
