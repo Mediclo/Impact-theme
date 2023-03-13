@@ -6440,8 +6440,8 @@ split-lines {
 .collection-list-color {
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 100px;
+  width: 100px;
+  height: 50px;
 }
 
 .collection-list-color:hover {
