@@ -6454,6 +6454,16 @@ split-lines {
   opacity: 0.5;
 }
 
+.collection-list-text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
+
 
 @media screen and (max-width: 500px) {
   .collection-card {
