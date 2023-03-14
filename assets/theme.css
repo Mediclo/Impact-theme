@@ -6447,17 +6447,6 @@ split-lines {
   opacity: 0.5;
 }
 
-.collection-list-text {
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
-}
-
-.img_container {
-  position: relative; 
-  width: 100%;
-}
 
 @media screen and (max-width: 500px) {
   .collection-card {
