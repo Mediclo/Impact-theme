@@ -6443,6 +6443,10 @@ split-lines {
   margin-right: auto;
 }
 
+.collection-list-text {
+  
+}
+
 .collection-list-color:hover {
   opacity: 0.5;
 }
