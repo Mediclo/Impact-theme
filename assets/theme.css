@@ -6461,6 +6461,9 @@ split-lines {
     margin-left: -3px;
     margin-right: -3px;
   }
+  .collection-list-container {
+    grid-gap: 5px;
+  }
 }
 
 .collection-card--reverse-transition {
