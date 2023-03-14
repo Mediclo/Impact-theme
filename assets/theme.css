@@ -6445,11 +6445,14 @@ split-lines {
 }
 
 .collection-list-text {
-  position: absolute; 
-  top: 0;
-  left:0;
-  right:0;
-  bottom:0;
+    posiion: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    height:100px;
 }
 
 .collection-list-color:hover {
