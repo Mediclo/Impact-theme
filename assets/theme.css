@@ -6448,7 +6448,15 @@ split-lines {
 }
 
 .collection-list-text {
-    color:#fff;
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.img_container {
+  position: relative; 
+  width: 100%;
 }
 
 @media screen and (max-width: 500px) {
