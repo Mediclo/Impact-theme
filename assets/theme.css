@@ -6443,12 +6443,12 @@ split-lines {
   margin-right: auto;
 }
 
-.collection-list-text {
-    color:#fff;
-}
-
 .collection-list-color:hover {
   opacity: 0.5;
+}
+
+.collection-list-text {
+    color:#fff;
 }
 
 @media screen and (max-width: 500px) {
