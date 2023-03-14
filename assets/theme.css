@@ -6431,6 +6431,7 @@ split-lines {
 }
 
 .collection-list-colors {
+  position: relative; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: -4px;
@@ -6444,7 +6445,7 @@ split-lines {
 }
 
 .collection-list-text {
-  
+  position: absolute; 
 }
 
 .collection-list-color:hover {
